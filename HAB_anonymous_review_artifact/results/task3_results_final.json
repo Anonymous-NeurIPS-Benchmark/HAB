@@ -1,0 +1,1016 @@
+{
+  "model": "llama3_3",
+  "total_evaluated": 10,
+  "errors": 0,
+  "task1": {
+    "avg_precision": 0.8572,
+    "avg_recall": 0.9417,
+    "avg_f1": 0.8784,
+    "avg_latency": 15.629,
+    "perfect_f1": 4,
+    "zero_f1": 0
+  },
+  "task2": {
+    "avg_precision": 0.8333,
+    "avg_recall": 0.9048,
+    "avg_f1": 0.8626,
+    "scored": 7,
+    "perfect_f1": 4,
+    "zero_f1": 0
+  },
+  "task3": {
+    "avg_completeness": 0.89,
+    "avg_accuracy": 0.951,
+    "avg_f1": 0.9191,
+    "avg_latency": 19.824,
+    "scored": 10,
+    "perfect_f1": 0,
+    "zero_f1": 0,
+    "parse_failed": 0,
+    "by_complexity": {
+      "Low": {
+        "count": 3,
+        "avg_f1": 0.9243,
+        "avg_completeness": 0.9,
+        "avg_accuracy": 0.95
+      },
+      "Medium": {
+        "count": 5,
+        "avg_f1": 0.9058,
+        "avg_completeness": 0.87,
+        "avg_accuracy": 0.946
+      },
+      "High": {
+        "count": 2,
+        "avg_f1": 0.9446,
+        "avg_completeness": 0.925,
+        "avg_accuracy": 0.965
+      },
+      "Unknown": {
+        "count": 0,
+        "avg_f1": 0.0,
+        "avg_completeness": 0.0,
+        "avg_accuracy": 0.0
+      }
+    }
+  },
+  "results": [
+    {
+      "project_id": 1,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "Ultrasonic Sensor",
+          "Servo Motor"
+        ],
+        "gt_names": [
+          "gravity urm09 analog ultrasonic sensor",
+          "servo motor",
+          "waterproof ultrasonic sensor"
+        ],
+        "matched": [
+          "servo motor",
+          "gravity urm09 analog ultrasonic sensor"
+        ],
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "latency": 2.424006938934326
+      },
+      "task2": {
+        "gt_libs": [
+          "servo"
+        ],
+        "retrieved_libs": [
+          "servo"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Ultrasonic Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.1114282608032227,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Servo Motor",
+            "library": "servo",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.1114282608032227,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "detect nearby object",
+          "open lid",
+          "close lid after delay"
+        ],
+        "conditions": [
+          "distance < 20cm triggers lid open",
+          "3 seconds elapsed triggers lid close"
+        ],
+        "thresholds": [
+          "20cm detection distance",
+          "3 second delay"
+        ],
+        "inputs": [
+          "ultrasonic echo pin"
+        ],
+        "outputs": [
+          "servo motor signal"
+        ],
+        "logic_summary": "Opens dustbin lid when object is detected within 20cm and closes it after 3 seconds",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the smart dustbin system, including the use of the ultrasonic sensor and servo motor. It also accurately identifies the thresholds and inputs/outputs. The only minor omission is not explicitly stating the Arduino board as the controller, but this does not significantly impact the overall completeness or accuracy of the predicted intent.",
+        "status": "ok",
+        "latency": 1.382908821105957,
+        "judge_latency": 1.7684340476989746
+      }
+    },
+    {
+      "project_id": 2,
+      "complexity": "Medium",
+      "board": "Arduino Uno R4 Wifi Module",
+      "task1": {
+        "predicted_names": [
+          "Soil Moisture Sensor",
+          "Relay Module",
+          "LED Matrix",
+          "Water Pump"
+        ],
+        "gt_names": [
+          "gravity digital 5a relay module",
+          "submersible water pump (mini)",
+          "led matrix",
+          "grove moisture sensor"
+        ],
+        "matched": [
+          "gravity digital 5a relay module",
+          "submersible water pump (mini)",
+          "led matrix",
+          "grove moisture sensor"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 2.204853057861328
+      },
+      "task2": {
+        "gt_libs": [
+          "arduino_led_matrix"
+        ],
+        "retrieved_libs": [
+          "arduino_led_matrix"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Soil Moisture Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 12.209297180175781,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Relay Module",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 12.209297180175781,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "LED Matrix",
+            "library": "arduino_led_matrix",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 12.209297180175781,
+            "status": "ok"
+          },
+          {
+            "component": "Water Pump",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 12.209297180175781,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "monitor soil moisture levels",
+          "control water pump remotely",
+          "provide real-time visual feedback via LED matrix"
+        ],
+        "conditions": [
+          "low soil moisture triggers pump on",
+          "sufficient soil moisture triggers pump off",
+          "remote command from Blynk app"
+        ],
+        "thresholds": [
+          "soil moisture threshold for pump activation"
+        ],
+        "inputs": [
+          "soil moisture sensor analog pin",
+          "Blynk app commands"
+        ],
+        "outputs": [
+          "relay module",
+          "water pump",
+          "LED matrix"
+        ],
+        "logic_summary": "Monitors soil moisture levels and automatically controls a water pump remotely using the Blynk cloud platform with real-time visual feedback via an LED matrix",
+        "completeness": 0.95,
+        "accuracy": 0.98,
+        "f1": 0.9648,
+        "reasoning": "The predicted intent accurately captures the main tasks, conditions, and inputs/outputs of the system. It correctly identifies the soil moisture monitoring, remote pump control, and real-time visual feedback as key tasks. The conditions for pump activation and deactivation are also correctly stated. The only minor omission is the specific details about the LED matrix feedback, such as the type of visual feedback provided, but overall the intent extraction is highly complete and accurate.",
+        "status": "ok",
+        "latency": 32.374529123306274,
+        "judge_latency": 36.067458152770996
+      }
+    },
+    {
+      "project_id": 3,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "IR Sensor",
+          "DC Motor"
+        ],
+        "gt_names": [
+          "dc motor with h-bridge driver",
+          "grove line finder"
+        ],
+        "matched": [
+          "dc motor with h-bridge driver",
+          "grove line finder"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 32.094101905822754
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "IR Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 6.268301010131836,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 6.268301010131836,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "read infrared sensor data",
+          "determine path direction",
+          "control DC motor speed",
+          "navigate along path"
+        ],
+        "conditions": [
+          "line detected triggers motor adjustment",
+          "no line detected triggers motor stop or turn"
+        ],
+        "thresholds": [
+          "infrared sensor detection threshold"
+        ],
+        "inputs": [
+          "IR sensor analog pin"
+        ],
+        "outputs": [
+          "DC motor signal"
+        ],
+        "logic_summary": "Navigates a line follower robot autonomously using infrared sensors to detect the path and control DC motors for movement",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent captures the main tasks, conditions, and inputs/outputs of the line follower robot. It correctly identifies the use of infrared sensors, DC motor control, and autonomous navigation. However, it may be missing some minor details such as specific motor speed adjustments or edge cases like intersection detection. The accuracy is high as the extracted tasks and conditions are correct and specific, with minor wording differences that do not affect the meaning.",
+        "status": "ok",
+        "latency": 9.201951026916504,
+        "judge_latency": 33.91526484489441
+      }
+    },
+    {
+      "project_id": 5,
+      "complexity": "High",
+      "board": "ESP32-S3",
+      "task1": {
+        "predicted_names": [
+          "TFT Display",
+          "RGB LED",
+          "Touch Sensor"
+        ],
+        "gt_names": [
+          "tft lcd display",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "matched": [
+          "tft lcd display",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "latency": 13.429904222488403
+      },
+      "task2": {
+        "gt_libs": [
+          "adafruit_neopixel",
+          "tft_espi"
+        ],
+        "retrieved_libs": [
+          "xt2046_touchscreen",
+          "adafruit_neopixel",
+          "tft_espi"
+        ],
+        "tp": 2,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "details": [
+          {
+            "component": "TFT Display",
+            "library": "tft_espi",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 41.875991106033325,
+            "status": "ok"
+          },
+          {
+            "component": "RGB LED",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 41.875991106033325,
+            "status": "ok"
+          },
+          {
+            "component": "Touch Sensor",
+            "library": "xt2046_touchscreen",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 41.875991106033325,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "initialize game",
+          "detect player touches",
+          "update game state",
+          "display game graphics",
+          "animate game elements",
+          "handle player turns",
+          "determine game winner"
+        ],
+        "conditions": [
+          "player touch detected triggers action",
+          "game state change triggers display update",
+          "player turn ends triggers next player turn"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "touch sensor signals"
+        ],
+        "outputs": [
+          "TFT display graphics",
+          "RGB LED colors"
+        ],
+        "logic_summary": "Implements a multiplayer digital Ludo game on an ESP32-S3 board with a touch-sensitive matrix, RGB LEDs, and a round TFT display",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent captures most tasks, conditions, and inputs/outputs correctly, but misses specific thresholds like winning conditions or game duration, and some minor details like handling player disconnections or displaying player scores.",
+        "status": "ok",
+        "latency": 2.4767768383026123,
+        "judge_latency": 3.91774320602417
+      }
+    },
+    {
+      "project_id": 6,
+      "complexity": "Medium",
+      "board": "nRF52840 Development Board, PCB",
+      "task1": {
+        "predicted_names": [
+          "Accelerometer",
+          "Bluetooth Module",
+          "LED Strip"
+        ],
+        "gt_names": [
+          "led strip (ws2812b/neopixel)",
+          "grove 6-axis accelerometer & gyroscope"
+        ],
+        "matched": [
+          "led strip (ws2812b/neopixel)",
+          "grove 6-axis accelerometer & gyroscope"
+        ],
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "latency": 5.364421844482422
+      },
+      "task2": {
+        "gt_libs": [
+          "adafruit_unified_sensor",
+          "arduinoble",
+          "mpu6050"
+        ],
+        "retrieved_libs": [
+          "arduinoble",
+          "adafruit_neopixel",
+          "mpu6050"
+        ],
+        "tp": 2,
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "f1": 0.6667,
+        "details": [
+          {
+            "component": "Accelerometer",
+            "library": "mpu6050",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 9.850225925445557,
+            "status": "ok"
+          },
+          {
+            "component": "Bluetooth Module",
+            "library": "arduinoble",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 9.850225925445557,
+            "status": "ok"
+          },
+          {
+            "component": "LED Strip",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 9.850225925445557,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "detect motion",
+          "determine orientation",
+          "calculate rolled face value",
+          "transmit rolled face value via Bluetooth"
+        ],
+        "conditions": [
+          "motion detected triggers roll calculation",
+          "orientation change triggers face value determination"
+        ],
+        "thresholds": [
+          "motion detection threshold",
+          "orientation change threshold"
+        ],
+        "inputs": [
+          "accelerometer x, y, z axis pins"
+        ],
+        "outputs": [
+          "Bluetooth transmission signal",
+          "LED strip display"
+        ],
+        "logic_summary": "Detects motion and orientation using an accelerometer, calculates the rolled face value, and wirelessly transmits it via Bluetooth",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent captures all main tasks and conditions, but misses specific details like the type of Bluetooth technology used (BLE) and the exact output of the rolled face value. The accuracy is high because the extracted tasks and conditions are correct and specific, with minor wording differences.",
+        "status": "ok",
+        "latency": 13.023993968963623,
+        "judge_latency": 1.8112270832061768
+      }
+    },
+    {
+      "project_id": 7,
+      "complexity": "Medium",
+      "board": "Arduino Pro Mini",
+      "task1": {
+        "predicted_names": [
+          "RF Transmitter Module",
+          "RF Receiver Module",
+          "DC Motor"
+        ],
+        "gt_names": [
+          "toggle switch",
+          "dc motor with h-bridge driver"
+        ],
+        "matched": [
+          "toggle switch",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "latency": 8.976743936538696
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [
+          "rh_ask"
+        ],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "RF Transmitter Module",
+            "library": "rh_ask",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 17.32083773612976,
+            "status": "ok"
+          },
+          {
+            "component": "RF Receiver Module",
+            "library": "rh_ask",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 17.32083773612976,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 17.32083773612976,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "transmit control signals",
+          "receive control signals",
+          "control motor direction",
+          "control motor speed"
+        ],
+        "conditions": [
+          "signal received triggers motor action",
+          "signal lost or invalid triggers motor stop"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "RF receiver module signal"
+        ],
+        "outputs": [
+          "DC motor signal"
+        ],
+        "logic_summary": "Wirelessly controls a boat's DC motors for forward, backward, left, and right movement using 433 MHz RF transmitter and receiver modules",
+        "completeness": 0.8,
+        "accuracy": 0.9,
+        "f1": 0.8471,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the system, but misses the specific movement directions as separate tasks or conditions. The inputs and outputs are correctly identified, and the summary accurately describes the system's purpose. The completeness score is 0.8 due to the lack of explicit movement directions, while the accuracy score is 0.9 due to the correct identification of the system's components and functionality.",
+        "status": "ok",
+        "latency": 5.445101976394653,
+        "judge_latency": 41.078263998031616
+      }
+    },
+    {
+      "project_id": 8,
+      "complexity": "Medium",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "Bluetooth Module",
+          "Servo Motor",
+          "DC Motor"
+        ],
+        "gt_names": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver",
+          "lm2596 step-down buck converter",
+          "servo motor"
+        ],
+        "matched": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver",
+          "lm2596 step-down buck converter"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "latency": 48.64585208892822
+      },
+      "task2": {
+        "gt_libs": [
+          "servo"
+        ],
+        "retrieved_libs": [
+          "servo"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Bluetooth Module",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 46.812551736831665,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Servo Motor",
+            "library": "servo",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 46.812551736831665,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 46.812551736831665,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "receive Bluetooth commands",
+          "control servo motor for arm movement",
+          "control DC motor for platform movement",
+          "perform pick-and-place operations"
+        ],
+        "conditions": [
+          "Bluetooth command received triggers action",
+          "arm position reached triggers next action"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "Bluetooth module RX pin"
+        ],
+        "outputs": [
+          "servo motor signal",
+          "DC motor signal"
+        ],
+        "logic_summary": "Controls a pick-and-place robotic arm mounted on a mobile car platform using Bluetooth commands",
+        "completeness": 0.8,
+        "accuracy": 0.95,
+        "f1": 0.8686,
+        "reasoning": "The predicted intent correctly identifies the main tasks, conditions, inputs, and outputs, but misses some details such as specific thresholds for motor speeds or arm positions, and does not explicitly mention the Arduino's role in driving the motors.",
+        "status": "ok",
+        "latency": 33.196837186813354,
+        "judge_latency": 29.96650195121765
+      }
+    },
+    {
+      "project_id": 9,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "DC Motor",
+          "Motor Driver"
+        ],
+        "gt_names": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver"
+        ],
+        "matched": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 2.0937650203704834
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 43.07124304771423,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Motor Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 43.07124304771423,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "read serial commands",
+          "control DC motor direction"
+        ],
+        "conditions": [
+          "character command 'F' triggers forward motion",
+          "character command 'B' triggers backward motion",
+          "character command 'L' triggers left turn",
+          "character command 'R' triggers right turn",
+          "character command 'S' triggers stop"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "serial commands"
+        ],
+        "outputs": [
+          "DC motor signal",
+          "motor driver signal"
+        ],
+        "logic_summary": "Controls the direction of DC motors on a rover using serial character commands through a motor driver",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the serial-controlled rover, including the character commands and their corresponding actions. However, it does not mention any specific thresholds or numeric values, which might be present in the original description, such as motor speed or timeout values. The accuracy is high because the extracted tasks and conditions are correct and specific, with minor wording differences that do not affect the meaning.",
+        "status": "ok",
+        "latency": 88.29333209991455,
+        "judge_latency": 23.87629222869873
+      }
+    },
+    {
+      "project_id": 10,
+      "complexity": "Medium",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "Bluetooth Module",
+          "NeoPixel LED",
+          "DC Motor"
+        ],
+        "gt_names": [
+          "hc-05 bluetooth module",
+          "led strip (ws2812b/neopixel)",
+          "dc motor with h-bridge driver"
+        ],
+        "matched": [
+          "hc-05 bluetooth module",
+          "led strip (ws2812b/neopixel)",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 23.01940107345581
+      },
+      "task2": {
+        "gt_libs": [
+          "adafruit_neopixel"
+        ],
+        "retrieved_libs": [
+          "adafruit_neopixel"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Bluetooth Module",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 10.599284887313843,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "NeoPixel LED",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 10.599284887313843,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 10.599284887313843,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "receive serial commands from mobile app via Bluetooth",
+          "control DC motor speed",
+          "control DC motor direction",
+          "update NeoPixel LED indicators"
+        ],
+        "conditions": [
+          "receipt of serial command triggers motor control",
+          "receipt of serial command triggers LED update"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "Bluetooth module serial receive pin"
+        ],
+        "outputs": [
+          "DC motor signal",
+          "NeoPixel LED signal"
+        ],
+        "logic_summary": "Controls robotic rover movement and NeoPixel LED indicators based on serial commands received from a mobile app via Bluetooth",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks, conditions, inputs, and outputs of the robotic rover system. However, it misses the specific mention of the mobile app as an input source and the serial commands as a threshold or trigger value. The accuracy is high because the extracted tasks and conditions are correct and specific, with minor wording differences that do not affect the meaning.",
+        "status": "ok",
+        "latency": 4.356173276901245,
+        "judge_latency": 11.86068606376648
+      }
+    },
+    {
+      "project_id": 11,
+      "complexity": "High",
+      "board": "Sipeed Maixduino",
+      "task1": {
+        "predicted_names": [
+          "TFT Display",
+          "Light Sensor",
+          "Temperature Sensor",
+          "Humidity Sensor",
+          "DC Motor",
+          "Current Sensor",
+          "Power Sensor"
+        ],
+        "gt_names": [
+          "tft lcd display",
+          "dc motor with h-bridge driver",
+          "grove temperature & humidity sensor",
+          "grove light sensor"
+        ],
+        "matched": [
+          "tft lcd display",
+          "dc motor with h-bridge driver",
+          "grove temperature & humidity sensor",
+          "grove light sensor"
+        ],
+        "precision": 0.5714,
+        "recall": 1.0,
+        "f1": 0.7273,
+        "latency": 18.033836841583252
+      },
+      "task2": {
+        "gt_libs": [
+          "ina219",
+          "bh1750",
+          "dht11"
+        ],
+        "retrieved_libs": [
+          "ina219",
+          "dht",
+          "acs712",
+          "tft_espi"
+        ],
+        "tp": 2,
+        "precision": 0.5,
+        "recall": 0.6667,
+        "f1": 0.5714,
+        "details": [
+          {
+            "component": "TFT Display",
+            "library": "tft_espi",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "ok"
+          },
+          {
+            "component": "Light Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Temperature Sensor",
+            "library": "dht",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "ok"
+          },
+          {
+            "component": "Humidity Sensor",
+            "library": "dht",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Current Sensor",
+            "library": "acs712",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "ok"
+          },
+          {
+            "component": "Power Sensor",
+            "library": "ina219",
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 3.2006278038024902,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "monitor light intensity",
+          "monitor temperature",
+          "monitor humidity",
+          "monitor DC motor speed",
+          "monitor current consumption",
+          "monitor power consumption",
+          "display data on TFT screen",
+          "send data over serial communication"
+        ],
+        "conditions": [
+          "data available triggers display update",
+          "data available triggers serial transmission"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "light sensor analog pin",
+          "temperature sensor analog pin",
+          "humidity sensor analog pin",
+          "current sensor analog pin",
+          "power sensor analog pin",
+          "DC motor speed signal"
+        ],
+        "outputs": [
+          "TFT display",
+          "serial communication",
+          "DC motor control signal"
+        ],
+        "logic_summary": "Monitors and displays light, temperature, humidity, DC motor speed, current, and power consumption on a TFT screen and sends the data over serial communication",
+        "completeness": 0.95,
+        "accuracy": 0.98,
+        "f1": 0.9648,
+        "reasoning": "The predicted intent correctly captures all tasks, conditions, inputs, and outputs, with minor omissions in thresholds, which are not explicitly mentioned in the original description. The accuracy is high due to correct and specific task extraction, correct condition statements, and correct input/output identification.",
+        "status": "ok",
+        "latency": 8.485719919204712,
+        "judge_latency": 4.06765604019165
+      }
+    }
+  ]
+}

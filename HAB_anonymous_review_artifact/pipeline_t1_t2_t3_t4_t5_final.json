@@ -1,0 +1,2947 @@
+{
+  "model": "llama3_3",
+  "total_evaluated": 10,
+  "errors": 0,
+  "task1": {
+    "avg_precision": 0.88,
+    "avg_recall": 0.8917,
+    "avg_f1": 0.8746,
+    "avg_latency": 12.138,
+    "perfect_f1": 5,
+    "zero_f1": 0
+  },
+  "task2": {
+    "avg_precision": 0.8571,
+    "avg_recall": 0.8095,
+    "avg_f1": 0.8286,
+    "scored": 7,
+    "perfect_f1": 5,
+    "zero_f1": 0
+  },
+  "task3": {
+    "avg_completeness": 0.89,
+    "avg_accuracy": 0.951,
+    "avg_f1": 0.9191,
+    "scored": 10,
+    "by_complexity": {
+      "Low": {
+        "count": 3,
+        "avg_completeness": 0.9,
+        "avg_accuracy": 0.95,
+        "avg_f1": 0.9243
+      },
+      "Medium": {
+        "count": 5,
+        "avg_completeness": 0.89,
+        "avg_accuracy": 0.946,
+        "avg_f1": 0.917
+      },
+      "High": {
+        "count": 2,
+        "avg_completeness": 0.875,
+        "avg_accuracy": 0.965,
+        "avg_f1": 0.9167
+      },
+      "Unknown": {
+        "count": 0
+      }
+    }
+  },
+  "task4": {
+    "avg_pin_validity": 0.88,
+    "avg_conflict_free": 1.0,
+    "avg_coverage": 0.9,
+    "avg_f1": 0.8923,
+    "scored": 10,
+    "total_conflicts": 0,
+    "feasibility_dist": {
+      "feasible": 9,
+      "unknown": 1
+    },
+    "by_complexity": {
+      "Low": {
+        "count": 3,
+        "avg_pin_validity": 1.0,
+        "avg_conflict_free": 1.0,
+        "avg_coverage": 1.0,
+        "avg_f1": 1.0
+      },
+      "Medium": {
+        "count": 5,
+        "avg_pin_validity": 1.0,
+        "avg_conflict_free": 1.0,
+        "avg_coverage": 1.0,
+        "avg_f1": 1.0
+      },
+      "High": {
+        "count": 2,
+        "avg_pin_validity": 0.4,
+        "avg_conflict_free": 1.0,
+        "avg_coverage": 0.5,
+        "avg_f1": 0.4616
+      },
+      "Unknown": {
+        "count": 0
+      }
+    }
+  },
+  "task5": {
+    "avg_library_coverage": 0.71,
+    "avg_setup_completeness": 0.935,
+    "avg_loop_correctness": 0.91,
+    "avg_f1": 0.8454,
+    "avg_latency": 22.817,
+    "scored": 10,
+    "parse_failed": 0,
+    "perfect_f1": 1,
+    "zero_f1": 0,
+    "by_complexity": {
+      "Low": {
+        "count": 3,
+        "avg_library_coverage": 0.3333,
+        "avg_setup_completeness": 0.9667,
+        "avg_loop_correctness": 0.9,
+        "avg_f1": 0.7333
+      },
+      "Medium": {
+        "count": 5,
+        "avg_library_coverage": 0.82,
+        "avg_setup_completeness": 0.93,
+        "avg_loop_correctness": 0.9,
+        "avg_f1": 0.8716
+      },
+      "High": {
+        "count": 2,
+        "avg_library_coverage": 1.0,
+        "avg_setup_completeness": 0.9,
+        "avg_loop_correctness": 0.95,
+        "avg_f1": 0.9482
+      },
+      "Unknown": {
+        "count": 0
+      }
+    }
+  },
+  "results": [
+    {
+      "project_id": 1,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "Ultrasonic Sensor",
+          "Servo Motor"
+        ],
+        "gt_names": [
+          "waterproof ultrasonic sensor",
+          "servo motor",
+          "gravity urm09 analog ultrasonic sensor"
+        ],
+        "matched": [
+          "waterproof ultrasonic sensor",
+          "servo motor"
+        ],
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "latency": 0.9635317325592041
+      },
+      "task2": {
+        "gt_libs": [
+          "servo"
+        ],
+        "retrieved_libs": [
+          "servo"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Ultrasonic Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 7.603710889816284,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Servo Motor",
+            "library": "servo",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 7.603710889816284,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "detect nearby object",
+          "open lid",
+          "close lid after delay"
+        ],
+        "conditions": [
+          "distance < 20cm triggers lid open",
+          "3 seconds elapsed triggers lid close"
+        ],
+        "thresholds": [
+          "20cm detection distance",
+          "3 second delay"
+        ],
+        "inputs": [
+          "ultrasonic echo pin"
+        ],
+        "outputs": [
+          "servo motor signal"
+        ],
+        "logic_summary": "Opens dustbin lid when object is detected within 20cm and closes it after 3 seconds",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the smart dustbin system, including the use of the ultrasonic sensor and servo motor. However, it does not explicitly mention the Arduino board as the controller, which is a minor omission. The conditions and thresholds are accurately stated, and the inputs and outputs are correctly identified. The only potential inaccuracy is the assumption of a fixed 3-second delay, which might not be explicitly stated in the original description.",
+        "status": "ok",
+        "latency": 1.7595808506011963,
+        "judge_latency": 7.006673812866211
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "Ultrasonic Sensor",
+            "pin_type": "Digital",
+            "pins": {
+              "TRIG": 2,
+              "ECHO": 4
+            }
+          },
+          {
+            "component": "Servo Motor",
+            "pin_type": "PWM",
+            "pins": {
+              "SIGNAL": 9
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Ultrasonic Sensor",
+            "pin_name": "TRIG",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "Ultrasonic Sensor",
+            "pin_name": "ECHO",
+            "pin_number": 4,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 4"
+          },
+          {
+            "component": "Servo Motor",
+            "pin_name": "SIGNAL",
+            "pin_number": 9,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 9"
+          }
+        ],
+        "status": "ok",
+        "latency": 39.01317811012268
+      },
+      "task5": {
+        "libraries": [
+          "Servo"
+        ],
+        "global_vars": [
+          {
+            "name": "servo",
+            "type": "Servo",
+            "value": null,
+            "description": "Servo object for lid"
+          },
+          {
+            "name": "trigPin",
+            "type": "int",
+            "value": 2,
+            "description": "Ultrasonic trigger pin"
+          },
+          {
+            "name": "echoPin",
+            "type": "int",
+            "value": 4,
+            "description": "Ultrasonic echo pin"
+          },
+          {
+            "name": "servoPin",
+            "type": "int",
+            "value": 9,
+            "description": "Servo signal pin"
+          },
+          {
+            "name": "dist",
+            "type": "long",
+            "value": null,
+            "description": "Distance in cm"
+          },
+          {
+            "name": "lidOpen",
+            "type": "bool",
+            "value": false,
+            "description": "Lid open status"
+          },
+          {
+            "name": "lastOpenTime",
+            "type": "unsigned long",
+            "value": null,
+            "description": "Last time lid was opened"
+          }
+        ],
+        "setup_logic": [
+          "Serial.begin(9600)",
+          "servo.attach(servoPin)",
+          "pinMode(trigPin, OUTPUT)",
+          "pinMode(echoPin, INPUT)",
+          "servo.write(0)"
+        ],
+        "loop_logic": [
+          "Send 10us pulse on trigPin",
+          "Read pulseIn duration on echoPin",
+          "dist = duration * 0.034 / 2",
+          "If dist < 20 and not lidOpen: servo.write(90), lidOpen = true, lastOpenTime = millis()",
+          "If lidOpen and millis() - lastOpenTime > 3000: servo.write(0), lidOpen = false"
+        ],
+        "notes": "Use pulseIn() \u2014 no external library needed",
+        "library_coverage": 1.0,
+        "setup_completeness": 1.0,
+        "loop_correctness": 1.0,
+        "f1": 1.0,
+        "reasoning": "All required libraries are present, setup initialises every component, and loop implements all tasks and conditions correctly.",
+        "status": "ok",
+        "latency": 16.287848949432373,
+        "judge_latency": 1.3826708793640137
+      }
+    },
+    {
+      "project_id": 2,
+      "complexity": "Medium",
+      "board": "Arduino Uno R4 Wifi Module",
+      "task1": {
+        "predicted_names": [
+          "Soil Moisture Sensor",
+          "Relay Module",
+          "LED Matrix",
+          "Submersible Water Pump"
+        ],
+        "gt_names": [
+          "submersible water pump (mini)",
+          "gravity digital 5a relay module",
+          "grove moisture sensor",
+          "led matrix"
+        ],
+        "matched": [
+          "submersible water pump (mini)",
+          "gravity digital 5a relay module",
+          "grove moisture sensor",
+          "led matrix"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 1.9254028797149658
+      },
+      "task2": {
+        "gt_libs": [
+          "arduino_led_matrix"
+        ],
+        "retrieved_libs": [
+          "arduino_led_matrix"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Soil Moisture Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 57.473374128341675,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Relay Module",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 57.473374128341675,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "LED Matrix",
+            "library": "arduino_led_matrix",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 57.473374128341675,
+            "status": "ok"
+          },
+          {
+            "component": "Submersible Water Pump",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 57.473374128341675,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "monitor soil moisture levels",
+          "control water pump remotely",
+          "provide real-time visual feedback via LED matrix"
+        ],
+        "conditions": [
+          "soil moisture level below threshold triggers pump on",
+          "soil moisture level above threshold triggers pump off",
+          "remote command from Blynk app triggers pump on/off"
+        ],
+        "thresholds": [
+          "soil moisture threshold level"
+        ],
+        "inputs": [
+          "soil moisture sensor analog pin",
+          "wifi signals from Blynk app"
+        ],
+        "outputs": [
+          "relay module",
+          "submersible water pump",
+          "LED matrix"
+        ],
+        "logic_summary": "Monitors soil moisture levels and automatically controls a water pump remotely using the Blynk cloud platform with real-time visual feedback via an LED matrix",
+        "completeness": 0.95,
+        "accuracy": 0.98,
+        "f1": 0.9648,
+        "reasoning": "The predicted intent accurately captures all main tasks, conditions, and inputs/outputs, with minor omission of specific details like the type of soil moisture sensor or the exact LED matrix configuration, but correctly identifies the core functionality and components of the IoT-based automatic plant watering system.",
+        "status": "ok",
+        "latency": 2.9831879138946533,
+        "judge_latency": 1.7339951992034912
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "Soil Moisture Sensor",
+            "pin_type": "Analog",
+            "pins": {
+              "AOUT": "A0"
+            }
+          },
+          {
+            "component": "Relay Module",
+            "pin_type": "Digital",
+            "pins": {
+              "IN": 2
+            }
+          },
+          {
+            "component": "LED Matrix",
+            "pin_type": "SPI/Digital",
+            "pins": {
+              "DIN": 11,
+              "CLK": 13,
+              "CS": 4
+            }
+          },
+          {
+            "component": "Submersible Water Pump",
+            "pin_type": "Digital / PWM",
+            "pins": {
+              "": 10
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Soil Moisture Sensor",
+            "pin_name": "AOUT",
+            "pin_number": "A0",
+            "pin_kind": "analog",
+            "valid": true,
+            "reason": "correct analog pin a0"
+          },
+          {
+            "component": "Relay Module",
+            "pin_name": "IN",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "LED Matrix",
+            "pin_name": "DIN",
+            "pin_number": 11,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "bus pin \u2014 assumed valid"
+          },
+          {
+            "component": "LED Matrix",
+            "pin_name": "CLK",
+            "pin_number": 13,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "bus pin \u2014 assumed valid"
+          },
+          {
+            "component": "LED Matrix",
+            "pin_name": "CS",
+            "pin_number": 4,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "SPI pin \u2014 valid"
+          },
+          {
+            "component": "Submersible Water Pump",
+            "pin_name": "",
+            "pin_number": 10,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 10"
+          }
+        ],
+        "status": "ok",
+        "latency": 2.2808837890625
+      },
+      "task5": {
+        "libraries": [
+          "WiFi",
+          "BlynkSimpleEsp8266",
+          "LEDMatrix"
+        ],
+        "global_vars": [
+          {
+            "name": "soilMoisturePin",
+            "type": "int",
+            "value": "A0",
+            "description": "Soil moisture analog pin"
+          },
+          {
+            "name": "relayPin",
+            "type": "int",
+            "value": 2,
+            "description": "Relay control pin"
+          },
+          {
+            "name": "pumpPin",
+            "type": "int",
+            "value": 10,
+            "description": "Submersible water pump control pin"
+          },
+          {
+            "name": "dinPin",
+            "type": "int",
+            "value": 11,
+            "description": "LED matrix DIN pin"
+          },
+          {
+            "name": "clkPin",
+            "type": "int",
+            "value": 13,
+            "description": "LED matrix CLK pin"
+          },
+          {
+            "name": "csPin",
+            "type": "int",
+            "value": 4,
+            "description": "LED matrix CS pin"
+          },
+          {
+            "name": "soilMoisture",
+            "type": "int",
+            "value": null,
+            "description": "Raw soil moisture reading"
+          },
+          {
+            "name": "threshold",
+            "type": "int",
+            "value": 300,
+            "description": "Soil moisture threshold level"
+          },
+          {
+            "name": "pumpState",
+            "type": "bool",
+            "value": null,
+            "description": "Pump on/off state"
+          }
+        ],
+        "setup_logic": [
+          "Serial.begin(9600)",
+          "WiFi.begin()",
+          "Blynk.begin()",
+          "pinMode(relayPin, OUTPUT)",
+          "pinMode(pumpPin, OUTPUT)",
+          "ledMatrix.begin(dinPin, clkPin, csPin)"
+        ],
+        "loop_logic": [
+          "soilMoisture = analogRead(soilMoisturePin)",
+          "If soilMoisture < threshold: pumpState = true",
+          "Else: pumpState = false",
+          "If Blynk app command == 'pump_on': pumpState = true",
+          "If Blynk app command == 'pump_off': pumpState = false",
+          "digitalWrite(relayPin, !pumpState)",
+          "analogWrite(pumpPin, pumpState * 255)",
+          "ledMatrix.display(pumpState)"
+        ],
+        "notes": "Configure WiFi and Blynk credentials, adjust threshold value as needed",
+        "library_coverage": 0.8,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.95,
+        "f1": 0.8788,
+        "reasoning": "missing arduino_led_matrix library, incomplete WiFi and Blynk setup, correct implementation of tasks and conditions in loop logic",
+        "status": "ok",
+        "latency": 7.456073045730591,
+        "judge_latency": 19.35544204711914
+      }
+    },
+    {
+      "project_id": 3,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "IR Sensor",
+          "L293D Motor Driver"
+        ],
+        "gt_names": [
+          "grove line finder",
+          "dc motor with h-bridge driver"
+        ],
+        "matched": [
+          "grove line finder",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 17.297245979309082
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "IR Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 0.9294099807739258,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 0.9294099807739258,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "read infrared sensor data",
+          "determine path direction",
+          "control DC motor speed",
+          "navigate along path"
+        ],
+        "conditions": [
+          "line detected triggers motor adjustment",
+          "no line detected triggers motor stop or turn"
+        ],
+        "thresholds": [
+          "infrared sensor detection threshold"
+        ],
+        "inputs": [
+          "IR sensor analog pin"
+        ],
+        "outputs": [
+          "L293D motor driver signal",
+          "DC motor"
+        ],
+        "logic_summary": "Navigates a line follower robot autonomously using infrared sensors to detect the path and control DC motors",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent captures the main tasks, conditions, and inputs/outputs of the line follower robot, but may be missing some specific details such as motor direction control or edge cases like sensor noise, and the threshold description is somewhat vague.",
+        "status": "ok",
+        "latency": 8.95195484161377,
+        "judge_latency": 2.0705862045288086
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "IR Sensor",
+            "pin_type": "Digital",
+            "pins": {
+              "OUT": 2
+            }
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "IN1": 4,
+              "IN2": 7,
+              "ENA": 9,
+              "IN3": 8,
+              "IN4": 12,
+              "ENB": 10
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "IR Sensor",
+            "pin_name": "OUT",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "IN1",
+            "pin_number": 4,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 4"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "IN2",
+            "pin_number": 7,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 7"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "ENA",
+            "pin_number": 9,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 9"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "IN3",
+            "pin_number": 8,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 8"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "IN4",
+            "pin_number": 12,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 12"
+          },
+          {
+            "component": "L293D Motor Driver",
+            "pin_name": "ENB",
+            "pin_number": 10,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 10"
+          }
+        ],
+        "status": "ok",
+        "latency": 43.18268609046936
+      },
+      "task5": {
+        "libraries": [],
+        "global_vars": [
+          {
+            "name": "irSensorPin",
+            "type": "int",
+            "value": 2,
+            "description": "IR sensor digital pin"
+          },
+          {
+            "name": "in1Pin",
+            "type": "int",
+            "value": 4,
+            "description": "L293D IN1 pin"
+          },
+          {
+            "name": "in2Pin",
+            "type": "int",
+            "value": 7,
+            "description": "L293D IN2 pin"
+          },
+          {
+            "name": "enaPin",
+            "type": "int",
+            "value": 9,
+            "description": "L293D ENA pin"
+          },
+          {
+            "name": "in3Pin",
+            "type": "int",
+            "value": 8,
+            "description": "L293D IN3 pin"
+          },
+          {
+            "name": "in4Pin",
+            "type": "int",
+            "value": 12,
+            "description": "L293D IN4 pin"
+          },
+          {
+            "name": "enbPin",
+            "type": "int",
+            "value": 10,
+            "description": "L293D ENB pin"
+          },
+          {
+            "name": "irSensorValue",
+            "type": "int",
+            "value": null,
+            "description": "IR sensor reading"
+          },
+          {
+            "name": "motorSpeed",
+            "type": "int",
+            "value": null,
+            "description": "DC motor speed"
+          }
+        ],
+        "setup_logic": [
+          "pinMode(irSensorPin, INPUT)",
+          "pinMode(in1Pin, OUTPUT)",
+          "pinMode(in2Pin, OUTPUT)",
+          "pinMode(enaPin, OUTPUT)",
+          "pinMode(in3Pin, OUTPUT)",
+          "pinMode(in4Pin, OUTPUT)",
+          "pinMode(enbPin, OUTPUT)"
+        ],
+        "loop_logic": [
+          "irSensorValue = digitalRead(irSensorPin)",
+          "If irSensorValue == HIGH: motorSpeed = 255",
+          "Else: motorSpeed = 0",
+          "analogWrite(enaPin, motorSpeed)",
+          "analogWrite(enbPin, motorSpeed)",
+          "If irSensorValue == LOW: {turn or stop}"
+        ],
+        "notes": "Use native Arduino functions for digitalRead, pinMode, and analogWrite. Implement turning or stopping logic when no line is detected.",
+        "library_coverage": 0.0,
+        "setup_completeness": 1.0,
+        "loop_correctness": 0.8,
+        "f1": 0.6,
+        "reasoning": "missing required libraries, complete setup initialization, partially correct loop logic with missing turning or stopping implementation",
+        "status": "ok",
+        "latency": 55.62424087524414,
+        "judge_latency": 12.061540842056274
+      }
+    },
+    {
+      "project_id": 5,
+      "complexity": "High",
+      "board": "ESP32-S3",
+      "task1": {
+        "predicted_names": [
+          "TFT Display",
+          "RGB LED",
+          "Touch Sensor Matrix"
+        ],
+        "gt_names": [
+          "tft lcd display",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "matched": [
+          "led strip (ws2812b/neopixel)",
+          "tft lcd display"
+        ],
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "latency": 3.334479808807373
+      },
+      "task2": {
+        "gt_libs": [
+          "tft_espi",
+          "adafruit_neopixel"
+        ],
+        "retrieved_libs": [
+          "tft_espi",
+          "adafruit_neopixel"
+        ],
+        "tp": 2,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "TFT Display",
+            "library": "tft_espi",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 4.861019849777222,
+            "status": "ok"
+          },
+          {
+            "component": "RGB LED",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 4.861019849777222,
+            "status": "ok"
+          },
+          {
+            "component": "Touch Sensor Matrix",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 4.861019849777222,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "initialize game",
+          "detect player touches",
+          "update game state",
+          "display game graphics",
+          "animate game elements",
+          "handle multiplayer interactions"
+        ],
+        "conditions": [
+          "player touch detected triggers game action",
+          "game state change triggers display update"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "touch sensor matrix"
+        ],
+        "outputs": [
+          "TFT display",
+          "RGB LED"
+        ],
+        "logic_summary": "Implements a multiplayer digital Ludo game on an ESP32-S3 board with a touch-sensitive matrix, RGB LEDs, and a round TFT display",
+        "completeness": 0.8,
+        "accuracy": 0.95,
+        "f1": 0.8686,
+        "reasoning": "The predicted intent captures most tasks and conditions, but misses specific thresholds and some potential conditions like game win/loss triggers. The tasks and conditions identified are accurate and specific, with correct inputs and outputs.",
+        "status": "ok",
+        "latency": 1.7107751369476318,
+        "judge_latency": 3.8855812549591064
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "TFT Display",
+            "pin_type": "SPI",
+            "pins": {
+              "SCK": 18,
+              "MOSI": 23,
+              "MISO": 19,
+              "CS": 22,
+              "DC": 21,
+              "RST": 20
+            }
+          },
+          {
+            "component": "RGB LED",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "R": 3,
+              "G": 5,
+              "B": 6
+            }
+          },
+          {
+            "component": "Touch Sensor Matrix",
+            "pin_type": "Digital",
+            "pins": {
+              "OUT": 4
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 0.8,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 0.9231,
+        "details": [
+          {
+            "component": "TFT Display",
+            "pin_name": "SCK",
+            "pin_number": 18,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "SPI pin \u2014 valid"
+          },
+          {
+            "component": "TFT Display",
+            "pin_name": "MOSI",
+            "pin_number": 23,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "SPI pin \u2014 valid"
+          },
+          {
+            "component": "TFT Display",
+            "pin_name": "MISO",
+            "pin_number": 19,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "SPI pin \u2014 valid"
+          },
+          {
+            "component": "TFT Display",
+            "pin_name": "CS",
+            "pin_number": 22,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "SPI pin \u2014 valid"
+          },
+          {
+            "component": "TFT Display",
+            "pin_name": "DC",
+            "pin_number": 21,
+            "pin_kind": "digital",
+            "valid": false,
+            "reason": "invalid digital pin 21"
+          },
+          {
+            "component": "TFT Display",
+            "pin_name": "RST",
+            "pin_number": 20,
+            "pin_kind": "digital",
+            "valid": false,
+            "reason": "invalid digital pin 20"
+          },
+          {
+            "component": "RGB LED",
+            "pin_name": "R",
+            "pin_number": 3,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 3"
+          },
+          {
+            "component": "RGB LED",
+            "pin_name": "G",
+            "pin_number": 5,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 5"
+          },
+          {
+            "component": "RGB LED",
+            "pin_name": "B",
+            "pin_number": 6,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 6"
+          },
+          {
+            "component": "Touch Sensor Matrix",
+            "pin_name": "OUT",
+            "pin_number": 4,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 4"
+          }
+        ],
+        "status": "ok",
+        "latency": 3.151313304901123
+      },
+      "task5": {
+        "libraries": [
+          "tft_espi",
+          "Adafruit_NeoPixel"
+        ],
+        "global_vars": [
+          {
+            "name": "tft",
+            "type": "TFT_eSPI",
+            "value": null,
+            "description": "TFT display object"
+          },
+          {
+            "name": "rgbLed",
+            "type": "Adafruit_NeoPixel",
+            "value": null,
+            "description": "RGB LED object"
+          },
+          {
+            "name": "touchPin",
+            "type": "int",
+            "value": 4,
+            "description": "Touch sensor matrix output pin"
+          },
+          {
+            "name": "sckPin",
+            "type": "int",
+            "value": 18,
+            "description": "TFT display SCK pin"
+          },
+          {
+            "name": "mosiPin",
+            "type": "int",
+            "value": 23,
+            "description": "TFT display MOSI pin"
+          },
+          {
+            "name": "misoPin",
+            "type": "int",
+            "value": 19,
+            "description": "TFT display MISO pin"
+          },
+          {
+            "name": "csPin",
+            "type": "int",
+            "value": 22,
+            "description": "TFT display CS pin"
+          },
+          {
+            "name": "dcPin",
+            "type": "int",
+            "value": 21,
+            "description": "TFT display DC pin"
+          },
+          {
+            "name": "rstPin",
+            "type": "int",
+            "value": 20,
+            "description": "TFT display RST pin"
+          },
+          {
+            "name": "rLedPin",
+            "type": "int",
+            "value": 3,
+            "description": "RGB LED red pin"
+          },
+          {
+            "name": "gLedPin",
+            "type": "int",
+            "value": 5,
+            "description": "RGB LED green pin"
+          },
+          {
+            "name": "bLedPin",
+            "type": "int",
+            "value": 6,
+            "description": "RGB LED blue pin"
+          },
+          {
+            "name": "gameState",
+            "type": "int",
+            "value": null,
+            "description": "Current game state"
+          },
+          {
+            "name": "playerTurn",
+            "type": "int",
+            "value": null,
+            "description": "Current player turn"
+          }
+        ],
+        "setup_logic": [
+          "tft.begin()",
+          "tft.setRotation(1)",
+          "rgbLed.begin()",
+          "rgbLed.show()",
+          "pinMode(touchPin, INPUT)",
+          "Serial.begin(115200)"
+        ],
+        "loop_logic": [
+          "Read touch sensor matrix",
+          "Detect player touches",
+          "Update game state",
+          "Display game graphics",
+          "Animate game elements",
+          "Handle multiplayer interactions",
+          "Update RGB LED colors based on game state"
+        ],
+        "notes": "Implement game logic and graphics rendering in the loop logic section",
+        "library_coverage": 1.0,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.95,
+        "f1": 0.9482,
+        "reasoning": "All required libraries are present, setup logic initializes most components, and loop logic implements all tasks and conditions from the intent, with minor details like specific game logic and graphics rendering left to implementation",
+        "status": "ok",
+        "latency": 58.88429880142212,
+        "judge_latency": 2.867771863937378
+      }
+    },
+    {
+      "project_id": 6,
+      "complexity": "Medium",
+      "board": "nRF52840 Development Board, PCB",
+      "task1": {
+        "predicted_names": [
+          "Accelerometer",
+          "LED Strip"
+        ],
+        "gt_names": [
+          "grove 6-axis accelerometer & gyroscope",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "matched": [
+          "led strip (ws2812b/neopixel)",
+          "grove 6-axis accelerometer & gyroscope"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 1.0824620723724365
+      },
+      "task2": {
+        "gt_libs": [
+          "arduinoble",
+          "adafruit_unified_sensor",
+          "mpu6050"
+        ],
+        "retrieved_libs": [
+          "adafruit_neopixel",
+          "mpu6050"
+        ],
+        "tp": 1,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "f1": 0.4,
+        "details": [
+          {
+            "component": "Accelerometer",
+            "library": "mpu6050",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 13.840758085250854,
+            "status": "ok"
+          },
+          {
+            "component": "LED Strip",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 13.840758085250854,
+            "status": "ok"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "detect motion",
+          "determine orientation",
+          "calculate rolled face value",
+          "transmit rolled face value via Bluetooth Low Energy"
+        ],
+        "conditions": [
+          "motion detected triggers roll calculation",
+          "orientation change triggers face value determination"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "accelerometer x-axis",
+          "accelerometer y-axis",
+          "accelerometer z-axis"
+        ],
+        "outputs": [
+          "LED strip display",
+          "Bluetooth Low Energy transmission"
+        ],
+        "logic_summary": "Detects motion and orientation using an accelerometer, calculates the rolled face value, and wirelessly transmits it via Bluetooth Low Energy",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks, conditions, inputs, and outputs, but misses a threshold for motion detection sensitivity, and assumes an LED strip display as an output without it being mentioned in the original description.",
+        "status": "ok",
+        "latency": 2.270270824432373,
+        "judge_latency": 4.7366979122161865
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "Accelerometer",
+            "pin_type": "I2C",
+            "pins": {
+              "SDA": "A4",
+              "SCL": "A5",
+              "AD0": 2,
+              "INT": 7
+            }
+          },
+          {
+            "component": "LED Strip",
+            "pin_type": "Digital",
+            "pins": {
+              "DIN": 4
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Accelerometer",
+            "pin_name": "SDA",
+            "pin_number": "A4",
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "correct SDA pin"
+          },
+          {
+            "component": "Accelerometer",
+            "pin_name": "SCL",
+            "pin_number": "A5",
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "correct SCL pin"
+          },
+          {
+            "component": "Accelerometer",
+            "pin_name": "AD0",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "Accelerometer",
+            "pin_name": "INT",
+            "pin_number": 7,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 7"
+          },
+          {
+            "component": "LED Strip",
+            "pin_name": "DIN",
+            "pin_number": 4,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 4"
+          }
+        ],
+        "status": "ok",
+        "latency": 2.96065092086792
+      },
+      "task5": {
+        "libraries": [
+          "mpu6050",
+          "adafruit_neopixel"
+        ],
+        "global_vars": [
+          {
+            "name": "accel",
+            "type": "MPU6050",
+            "value": null,
+            "description": "Accelerometer object"
+          },
+          {
+            "name": "ledStrip",
+            "type": "Adafruit_NeoPixel",
+            "value": null,
+            "description": "LED strip object"
+          },
+          {
+            "name": "motionDetected",
+            "type": "bool",
+            "value": false,
+            "description": "Motion detection flag"
+          },
+          {
+            "name": "orientation",
+            "type": "int",
+            "value": 0,
+            "description": "Current orientation"
+          },
+          {
+            "name": "rolledFaceValue",
+            "type": "int",
+            "value": 0,
+            "description": "Calculated rolled face value"
+          },
+          {
+            "name": "sdaPin",
+            "type": "int",
+            "value": 4,
+            "description": "I2C SDA pin"
+          },
+          {
+            "name": "sclPin",
+            "type": "int",
+            "value": 5,
+            "description": "I2C SCL pin"
+          },
+          {
+            "name": "ad0Pin",
+            "type": "int",
+            "value": 2,
+            "description": "Accelerometer AD0 pin"
+          },
+          {
+            "name": "intPin",
+            "type": "int",
+            "value": 7,
+            "description": "Accelerometer interrupt pin"
+          },
+          {
+            "name": "dinPin",
+            "type": "int",
+            "value": 4,
+            "description": "LED strip DIN pin"
+          }
+        ],
+        "setup_logic": [
+          "Wire.begin(sdaPin, sclPin)",
+          "accel.begin(ad0Pin, intPin)",
+          "ledStrip = Adafruit_NeoPixel(1, dinPin, NEO_GRB + NEO_KHZ800)",
+          "ledStrip.begin()",
+          "Serial.begin(9600)",
+          "BLE.begin()"
+        ],
+        "loop_logic": [
+          "Read accelerometer data",
+          "Detect motion and update motionDetected flag",
+          "If motionDetected: calculate rolledFaceValue based on orientation",
+          "Update LED strip display with rolledFaceValue",
+          "Transmit rolledFaceValue via Bluetooth Low Energy",
+          "delay(100)"
+        ],
+        "notes": "Use I2C for accelerometer communication, and BLE for wireless transmission",
+        "library_coverage": 0.8,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.95,
+        "f1": 0.8788,
+        "reasoning": "missing bluetooth low energy library",
+        "status": "ok",
+        "latency": 11.902064800262451,
+        "judge_latency": 13.798915147781372
+      }
+    },
+    {
+      "project_id": 7,
+      "complexity": "Medium",
+      "board": "Arduino Pro Mini",
+      "task1": {
+        "predicted_names": [
+          "RF Transmitter Module",
+          "RF Receiver Module",
+          "L298N Motor Driver"
+        ],
+        "gt_names": [
+          "dc motor with h-bridge driver",
+          "toggle switch"
+        ],
+        "matched": [
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 0.3333,
+        "recall": 0.5,
+        "f1": 0.4,
+        "latency": 22.483833074569702
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [
+          "rh_ask"
+        ],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "RF Transmitter Module",
+            "library": "rh_ask",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.247187852859497,
+            "status": "ok"
+          },
+          {
+            "component": "RF Receiver Module",
+            "library": "rh_ask",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.247187852859497,
+            "status": "ok"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.247187852859497,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "transmit control signals",
+          "receive control signals",
+          "control motor direction",
+          "control motor speed"
+        ],
+        "conditions": [
+          "signal received triggers motor action",
+          "signal lost or invalid triggers motor stop"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "RF receiver module signal"
+        ],
+        "outputs": [
+          "L298N motor driver signals",
+          "boat motors"
+        ],
+        "logic_summary": "Wirelessly controls the direction and speed of a remote-controlled boat\u2019s motors using 433 MHz RF transmitter and receiver modules",
+        "completeness": 0.8,
+        "accuracy": 0.9,
+        "f1": 0.8471,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the system, but misses specific thresholds for signal strength or speed control. The inputs and outputs are accurately identified, and the tasks are correctly described, although 'control motor speed' is implied but not explicitly mentioned in the original description.",
+        "status": "ok",
+        "latency": 15.484478235244751,
+        "judge_latency": 46.81835389137268
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "RF Transmitter Module",
+            "pin_type": "Digital",
+            "pins": {
+              "DATA": 2,
+              "ANT": 4
+            }
+          },
+          {
+            "component": "RF Receiver Module",
+            "pin_type": "Digital",
+            "pins": {
+              "DATA": 7,
+              "ANT": 8
+            }
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "IN1": 3,
+              "IN2": 5,
+              "ENA": 6,
+              "IN3": 9,
+              "IN4": 10,
+              "ENB": 11
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "RF Transmitter Module",
+            "pin_name": "DATA",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "RF Transmitter Module",
+            "pin_name": "ANT",
+            "pin_number": 4,
+            "pin_kind": "signal",
+            "valid": true,
+            "reason": "unknown pin kind \u2014 assumed valid"
+          },
+          {
+            "component": "RF Receiver Module",
+            "pin_name": "DATA",
+            "pin_number": 7,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 7"
+          },
+          {
+            "component": "RF Receiver Module",
+            "pin_name": "ANT",
+            "pin_number": 8,
+            "pin_kind": "signal",
+            "valid": true,
+            "reason": "unknown pin kind \u2014 assumed valid"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN1",
+            "pin_number": 3,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 3"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN2",
+            "pin_number": 5,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 5"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "ENA",
+            "pin_number": 6,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 6"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN3",
+            "pin_number": 9,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 9"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN4",
+            "pin_number": 10,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 10"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "ENB",
+            "pin_number": 11,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 11"
+          }
+        ],
+        "status": "ok",
+        "latency": 6.510972261428833
+      },
+      "task5": {
+        "libraries": [
+          "RH_ASK"
+        ],
+        "global_vars": [
+          {
+            "name": "rfReceiver",
+            "type": "RH_ASK",
+            "value": null,
+            "description": "RF receiver object"
+          },
+          {
+            "name": "rfTransmitter",
+            "type": "RH_ASK",
+            "value": null,
+            "description": "RF transmitter object"
+          },
+          {
+            "name": "motorDriverIN1",
+            "type": "int",
+            "value": 3,
+            "description": "L298N motor driver IN1 pin"
+          },
+          {
+            "name": "motorDriverIN2",
+            "type": "int",
+            "value": 5,
+            "description": "L298N motor driver IN2 pin"
+          },
+          {
+            "name": "motorDriverENA",
+            "type": "int",
+            "value": 6,
+            "description": "L298N motor driver ENA pin"
+          },
+          {
+            "name": "motorDriverIN3",
+            "type": "int",
+            "value": 9,
+            "description": "L298N motor driver IN3 pin"
+          },
+          {
+            "name": "motorDriverIN4",
+            "type": "int",
+            "value": 10,
+            "description": "L298N motor driver IN4 pin"
+          },
+          {
+            "name": "motorDriverENB",
+            "type": "int",
+            "value": 11,
+            "description": "L298N motor driver ENB pin"
+          },
+          {
+            "name": "rfReceiverPin",
+            "type": "int",
+            "value": 7,
+            "description": "RF receiver module data pin"
+          },
+          {
+            "name": "rfTransmitterPin",
+            "type": "int",
+            "value": 2,
+            "description": "RF transmitter module data pin"
+          },
+          {
+            "name": "motorSpeed",
+            "type": "int",
+            "value": 0,
+            "description": "Motor speed (0-255)"
+          }
+        ],
+        "setup_logic": [
+          "rfReceiver.init()",
+          "rfTransmitter.init()",
+          "pinMode(motorDriverIN1, OUTPUT)",
+          "pinMode(motorDriverIN2, OUTPUT)",
+          "pinMode(motorDriverENA, OUTPUT)",
+          "pinMode(motorDriverIN3, OUTPUT)",
+          "pinMode(motorDriverIN4, OUTPUT)",
+          "pinMode(motorDriverENB, OUTPUT)"
+        ],
+        "loop_logic": [
+          "if (rfReceiver.available()) then { uint8_t buf[RH_ASK_MAX_MESSAGE_LEN]; uint8_t len = sizeof(buf); rfReceiver.recv(buf, &len); if (buf[0] == 'F') then { motorForward(); } else if (buf[0] == 'B') then { motorBackward(); } else if (buf[0] == 'L') then { motorLeft(); } else if (buf[0] == 'R') then { motorRight(); } } else { motorStop(); }"
+        ],
+        "notes": "Implement motorForward(), motorBackward(), motorLeft(), motorRight(), and motorStop() functions to control motor direction and speed",
+        "library_coverage": 0.5,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.8,
+        "f1": 0.6879,
+        "reasoning": "library coverage is partial because only one of the required libraries is included, setup completeness is high because all pin modes are set, loop correctness is high because the main logic for receiving and acting on signals is implemented, but the motor control functions are not defined",
+        "status": "ok",
+        "latency": 11.007675886154175,
+        "judge_latency": 9.789760828018188
+      }
+    },
+    {
+      "project_id": 8,
+      "complexity": "Medium",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "HC-05 Bluetooth Module",
+          "Servo Motor",
+          "L298N Motor Driver"
+        ],
+        "gt_names": [
+          "servo motor",
+          "dc motor with h-bridge driver",
+          "hc-05 bluetooth module",
+          "lm2596 step-down buck converter"
+        ],
+        "matched": [
+          "servo motor",
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571,
+        "latency": 31.63447403907776
+      },
+      "task2": {
+        "gt_libs": [
+          "servo"
+        ],
+        "retrieved_libs": [
+          "servo"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "HC-05 Bluetooth Module",
+            "library": null,
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 2.3370487689971924,
+            "status": "platform_only"
+          },
+          {
+            "component": "Servo Motor",
+            "library": "servo",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 2.3370487689971924,
+            "status": "ok"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 2.3370487689971924,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "receive Bluetooth commands",
+          "control servo motor for arm movement",
+          "drive DC motors for platform movement",
+          "perform pick-and-place operations"
+        ],
+        "conditions": [
+          "Bluetooth command received triggers action",
+          "arm position limits reached triggers stop"
+        ],
+        "thresholds": [
+          "servo motor position limits",
+          "DC motor speed limits"
+        ],
+        "inputs": [
+          "HC-05 Bluetooth module RX/TX pins"
+        ],
+        "outputs": [
+          "servo motor signal",
+          "L298N motor driver signals"
+        ],
+        "logic_summary": "Controls a pick-and-place robotic arm mounted on a mobile car platform using Bluetooth commands received by an Arduino Uno",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent captures most tasks, conditions, and thresholds, but may have missed specific details like obstacle avoidance or battery level monitoring. The accuracy is high due to correct identification of tasks, conditions, and inputs/outputs, with minor potential for improvement in threshold values.",
+        "status": "ok",
+        "latency": 4.457772731781006,
+        "judge_latency": 15.176116943359375
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_type": "UART",
+            "pins": {
+              "TXD": 2,
+              "RXD": 3,
+              "STATE": 4,
+              "EN": 7
+            }
+          },
+          {
+            "component": "Servo Motor",
+            "pin_type": "PWM",
+            "pins": {
+              "SIGNAL": 9
+            }
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "IN1": 5,
+              "IN2": 6,
+              "ENA": 10,
+              "IN3": 11,
+              "IN4": 12,
+              "ENB": 13
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_name": "TXD",
+            "pin_number": 2,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          },
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_name": "RXD",
+            "pin_number": 3,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          },
+          {
+            "component": "Servo Motor",
+            "pin_name": "SIGNAL",
+            "pin_number": 9,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 9"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN1",
+            "pin_number": 5,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 5"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN2",
+            "pin_number": 6,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 6"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "ENA",
+            "pin_number": 10,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 10"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN3",
+            "pin_number": 11,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 11"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "IN4",
+            "pin_number": 12,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 12"
+          },
+          {
+            "component": "L298N Motor Driver",
+            "pin_name": "ENB",
+            "pin_number": 13,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "digital pin 13 acceptable for direction"
+          }
+        ],
+        "status": "ok",
+        "latency": 9.106043815612793
+      },
+      "task5": {
+        "libraries": [
+          "Servo"
+        ],
+        "global_vars": [
+          {
+            "name": "btRx",
+            "type": "int",
+            "value": 2,
+            "description": "Bluetooth RX pin"
+          },
+          {
+            "name": "btTx",
+            "type": "int",
+            "value": 3,
+            "description": "Bluetooth TX pin"
+          },
+          {
+            "name": "btState",
+            "type": "int",
+            "value": 4,
+            "description": "Bluetooth state pin"
+          },
+          {
+            "name": "btEn",
+            "type": "int",
+            "value": 7,
+            "description": "Bluetooth enable pin"
+          },
+          {
+            "name": "servoPin",
+            "type": "int",
+            "value": 9,
+            "description": "Servo signal pin"
+          },
+          {
+            "name": "servo",
+            "type": "Servo",
+            "value": null,
+            "description": "Servo object"
+          },
+          {
+            "name": "in1",
+            "type": "int",
+            "value": 5,
+            "description": "L298N IN1 pin"
+          },
+          {
+            "name": "in2",
+            "type": "int",
+            "value": 6,
+            "description": "L298N IN2 pin"
+          },
+          {
+            "name": "ena",
+            "type": "int",
+            "value": 10,
+            "description": "L298N ENA pin"
+          },
+          {
+            "name": "in3",
+            "type": "int",
+            "value": 11,
+            "description": "L298N IN3 pin"
+          },
+          {
+            "name": "in4",
+            "type": "int",
+            "value": 12,
+            "description": "L298N IN4 pin"
+          },
+          {
+            "name": "enb",
+            "type": "int",
+            "value": 13,
+            "description": "L298N ENB pin"
+          },
+          {
+            "name": "armPosition",
+            "type": "int",
+            "value": 0,
+            "description": "Current arm position"
+          },
+          {
+            "name": "motorSpeed",
+            "type": "int",
+            "value": 0,
+            "description": "Current motor speed"
+          }
+        ],
+        "setup_logic": [
+          "Serial.begin(9600)",
+          "servo.attach(servoPin)",
+          "pinMode(btRx, INPUT)",
+          "pinMode(btTx, OUTPUT)",
+          "pinMode(btState, INPUT)",
+          "pinMode(btEn, OUTPUT)",
+          "pinMode(in1, OUTPUT)",
+          "pinMode(in2, OUTPUT)",
+          "pinMode(ena, OUTPUT)",
+          "pinMode(in3, OUTPUT)",
+          "pinMode(in4, OUTPUT)",
+          "pinMode(enb, OUTPUT)"
+        ],
+        "loop_logic": [
+          "Read Bluetooth commands",
+          "Parse command and perform action",
+          "If command is 'move arm': update armPosition and servo.write(armPosition)",
+          "If command is 'move platform': update motorSpeed and set L298N motor driver signals",
+          "If arm position limits reached: stop servo motor",
+          "If DC motor speed limits reached: limit motor speed"
+        ],
+        "notes": "Implement Bluetooth command parsing and validation, and add safety features such as emergency stop and arm position limits",
+        "library_coverage": 1.0,
+        "setup_completeness": 0.95,
+        "loop_correctness": 0.9,
+        "f1": 0.9482,
+        "reasoning": "The generated plan includes the required Servo library, and the setup logic initializes all necessary pins and attaches the servo motor. The loop logic implements the required tasks, conditions, and thresholds, but may require additional implementation details for Bluetooth command parsing and validation, as well as safety features.",
+        "status": "ok",
+        "latency": 19.468061923980713,
+        "judge_latency": 5.687027931213379
+      }
+    },
+    {
+      "project_id": 9,
+      "complexity": "Low",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "DC Motor with H-Bridge Driver",
+          "HC-05 Bluetooth Module"
+        ],
+        "gt_names": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver"
+        ],
+        "matched": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 2.1113569736480713
+      },
+      "task2": {
+        "gt_libs": [],
+        "retrieved_libs": [],
+        "tp": null,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "details": [
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 14.248921155929565,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "HC-05 Bluetooth Module",
+            "library": null,
+            "confidence": "medium",
+            "reasoning": "",
+            "latency": 14.248921155929565,
+            "status": "platform_only"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "read serial commands",
+          "control DC motor direction"
+        ],
+        "conditions": [
+          "character command 'F' triggers forward motion",
+          "character command 'B' triggers backward motion",
+          "character command 'L' triggers left turn",
+          "character command 'R' triggers right turn",
+          "character command 'S' triggers stop"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "serial input from HC-05 Bluetooth Module"
+        ],
+        "outputs": [
+          "DC Motor with H-Bridge Driver"
+        ],
+        "logic_summary": "Controls the direction of a DC motor using serial character commands received through a Bluetooth module",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks and conditions of the serial-controlled rover, including the character commands and their corresponding motor directions. However, it does not mention any specific thresholds or numeric values, which might be present in the original description, such as motor speed or timeout values. The inputs and outputs are correctly identified. The accuracy is high because the extracted tasks and conditions are correct and specific, with only minor potential omissions.",
+        "status": "ok",
+        "latency": 2.879432201385498,
+        "judge_latency": 48.550349950790405
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "IN1": 2,
+              "IN2": 4,
+              "ENA": 9,
+              "IN3": 7,
+              "IN4": 8,
+              "ENB": 10
+            }
+          },
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_type": "Serial/UART",
+            "pins": {
+              "TXD": 12,
+              "RXD": 13,
+              "EN": 3
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "IN1",
+            "pin_number": 2,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 2"
+          },
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "IN2",
+            "pin_number": 4,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 4"
+          },
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "ENA",
+            "pin_number": 9,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 9"
+          },
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "IN3",
+            "pin_number": 7,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 7"
+          },
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "IN4",
+            "pin_number": 8,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 8"
+          },
+          {
+            "component": "DC Motor with H-Bridge Driver",
+            "pin_name": "ENB",
+            "pin_number": 10,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 10"
+          },
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_name": "TXD",
+            "pin_number": 12,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          },
+          {
+            "component": "HC-05 Bluetooth Module",
+            "pin_name": "RXD",
+            "pin_number": 13,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          }
+        ],
+        "status": "ok",
+        "latency": 2.236579656600952
+      },
+      "task5": {
+        "libraries": [],
+        "global_vars": [
+          {
+            "name": "IN1",
+            "type": "int",
+            "value": 2,
+            "description": "Motor driver IN1 pin"
+          },
+          {
+            "name": "IN2",
+            "type": "int",
+            "value": 4,
+            "description": "Motor driver IN2 pin"
+          },
+          {
+            "name": "ENA",
+            "type": "int",
+            "value": 9,
+            "description": "Motor driver ENA pin"
+          },
+          {
+            "name": "IN3",
+            "type": "int",
+            "value": 7,
+            "description": "Motor driver IN3 pin"
+          },
+          {
+            "name": "IN4",
+            "type": "int",
+            "value": 8,
+            "description": "Motor driver IN4 pin"
+          },
+          {
+            "name": "ENB",
+            "type": "int",
+            "value": 10,
+            "description": "Motor driver ENB pin"
+          },
+          {
+            "name": "TXD",
+            "type": "int",
+            "value": 12,
+            "description": "Bluetooth TXD pin"
+          },
+          {
+            "name": "RXD",
+            "type": "int",
+            "value": 13,
+            "description": "Bluetooth RXD pin"
+          },
+          {
+            "name": "EN",
+            "type": "int",
+            "value": 3,
+            "description": "Bluetooth EN pin"
+          },
+          {
+            "name": "command",
+            "type": "char",
+            "value": null,
+            "description": "Received serial command"
+          }
+        ],
+        "setup_logic": [
+          "pinMode(IN1, OUTPUT)",
+          "pinMode(IN2, OUTPUT)",
+          "pinMode(ENA, OUTPUT)",
+          "pinMode(IN3, OUTPUT)",
+          "pinMode(IN4, OUTPUT)",
+          "pinMode(ENB, OUTPUT)",
+          "pinMode(EN, OUTPUT)",
+          "digitalWrite(EN, HIGH)",
+          "Serial.begin(9600)"
+        ],
+        "loop_logic": [
+          "if (Serial.available() > 0)",
+          "command = Serial.read()",
+          "if (command == 'F')",
+          "{setMotorForward()}",
+          "else if (command == 'B')",
+          "{setMotorBackward()}",
+          "else if (command == 'L')",
+          "{setMotorLeft()}",
+          "else if (command == 'R')",
+          "{setMotorRight()}",
+          "else if (command == 'S')",
+          "{setMotorStop()}"
+        ],
+        "notes": "Define setMotorForward(), setMotorBackward(), setMotorLeft(), setMotorRight(), setMotorStop() functions to control motor direction",
+        "library_coverage": 0.0,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.9,
+        "f1": 0.6,
+        "reasoning": "Missing required libraries, setup is mostly complete but does not include initialization for the Bluetooth module as a serial device, and loop logic is mostly correct but relies on undefined functions for motor control",
+        "status": "ok",
+        "latency": 13.127007961273193,
+        "judge_latency": 6.419872045516968
+      }
+    },
+    {
+      "project_id": 10,
+      "complexity": "Medium",
+      "board": "Arduino Uno",
+      "task1": {
+        "predicted_names": [
+          "Bluetooth Module",
+          "NeoPixel LED",
+          "DC Motor with Driver"
+        ],
+        "gt_names": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "matched": [
+          "hc-05 bluetooth module",
+          "dc motor with h-bridge driver",
+          "led strip (ws2812b/neopixel)"
+        ],
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "latency": 8.499402046203613
+      },
+      "task2": {
+        "gt_libs": [
+          "adafruit_neopixel"
+        ],
+        "retrieved_libs": [
+          "adafruit_neopixel"
+        ],
+        "tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Bluetooth Module",
+            "library": null,
+            "confidence": "low",
+            "reasoning": "",
+            "latency": 1.1296882629394531,
+            "status": "platform_only"
+          },
+          {
+            "component": "NeoPixel LED",
+            "library": "adafruit_neopixel",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.1296882629394531,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 1.1296882629394531,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "receive serial commands from mobile app via Bluetooth",
+          "control DC motor speed",
+          "control DC motor direction",
+          "update NeoPixel LED indicators"
+        ],
+        "conditions": [
+          "receipt of serial command triggers motor control",
+          "receipt of serial command triggers LED update"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "Bluetooth module serial input"
+        ],
+        "outputs": [
+          "DC motor driver signal",
+          "NeoPixel LED signal"
+        ],
+        "logic_summary": "Controls a robotic rover's movement and NeoPixel LED indicators using serial commands from a mobile app via Bluetooth",
+        "completeness": 0.9,
+        "accuracy": 0.95,
+        "f1": 0.9243,
+        "reasoning": "The predicted intent correctly captures the main tasks, conditions, inputs, and outputs of the robotic rover system. However, it lacks specific thresholds for motor speed and LED indicators, which prevents it from being complete. The accuracy is high because the extracted tasks and conditions are correct and specific, with minor wording differences that do not affect the meaning.",
+        "status": "ok",
+        "latency": 2.035423994064331,
+        "judge_latency": 13.161832094192505
+      },
+      "task4": {
+        "assignments": [
+          {
+            "component": "Bluetooth Module",
+            "pin_type": "UART",
+            "pins": {
+              "TXD": 2,
+              "RXD": 3,
+              "STATE": 4,
+              "EN": 7
+            }
+          },
+          {
+            "component": "NeoPixel LED",
+            "pin_type": "Digital",
+            "pins": {
+              "ANODE": 8
+            }
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_type": "Digital/PWM",
+            "pins": {
+              "IN1": 5,
+              "IN2": 6,
+              "ENA": 9,
+              "IN3": 10,
+              "IN4": 11,
+              "ENB": 12
+            }
+          }
+        ],
+        "conflicts": [],
+        "feasibility": "feasible",
+        "pin_validity": 1.0,
+        "conflict_free": 1.0,
+        "coverage": 1.0,
+        "f1": 1.0,
+        "details": [
+          {
+            "component": "Bluetooth Module",
+            "pin_name": "TXD",
+            "pin_number": 2,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          },
+          {
+            "component": "Bluetooth Module",
+            "pin_name": "RXD",
+            "pin_number": 3,
+            "pin_kind": "bus",
+            "valid": true,
+            "reason": "UART pin \u2014 valid"
+          },
+          {
+            "component": "NeoPixel LED",
+            "pin_name": "ANODE",
+            "pin_number": 8,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 8"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "IN1",
+            "pin_number": 5,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 5"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "IN2",
+            "pin_number": 6,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 6"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "ENA",
+            "pin_number": 9,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "correct PWM pin 9"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "IN3",
+            "pin_number": 10,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 10"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "IN4",
+            "pin_number": 11,
+            "pin_kind": "digital",
+            "valid": true,
+            "reason": "valid digital pin 11"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "pin_name": "ENB",
+            "pin_number": 12,
+            "pin_kind": "pwm",
+            "valid": true,
+            "reason": "digital pin 12 acceptable for direction"
+          }
+        ],
+        "status": "ok",
+        "latency": 4.068490982055664
+      },
+      "task5": {
+        "libraries": [
+          "Adafruit_NeoPixel"
+        ],
+        "global_vars": [
+          {
+            "name": "btTx",
+            "type": "int",
+            "value": 2,
+            "description": "Bluetooth TX pin"
+          },
+          {
+            "name": "btRx",
+            "type": "int",
+            "value": 3,
+            "description": "Bluetooth RX pin"
+          },
+          {
+            "name": "btState",
+            "type": "int",
+            "value": 4,
+            "description": "Bluetooth state pin"
+          },
+          {
+            "name": "btEn",
+            "type": "int",
+            "value": 7,
+            "description": "Bluetooth enable pin"
+          },
+          {
+            "name": "neoPin",
+            "type": "int",
+            "value": 8,
+            "description": "NeoPixel anode pin"
+          },
+          {
+            "name": "in1",
+            "type": "int",
+            "value": 5,
+            "description": "Motor driver IN1 pin"
+          },
+          {
+            "name": "in2",
+            "type": "int",
+            "value": 6,
+            "description": "Motor driver IN2 pin"
+          },
+          {
+            "name": "ena",
+            "type": "int",
+            "value": 9,
+            "description": "Motor driver ENA pin"
+          },
+          {
+            "name": "in3",
+            "type": "int",
+            "value": 10,
+            "description": "Motor driver IN3 pin"
+          },
+          {
+            "name": "in4",
+            "type": "int",
+            "value": 11,
+            "description": "Motor driver IN4 pin"
+          },
+          {
+            "name": "enb",
+            "type": "int",
+            "value": 12,
+            "description": "Motor driver ENB pin"
+          },
+          {
+            "name": "pixels",
+            "type": "Adafruit_NeoPixel",
+            "value": null,
+            "description": "NeoPixel object"
+          },
+          {
+            "name": "motorSpeed",
+            "type": "int",
+            "value": 0,
+            "description": "Motor speed"
+          },
+          {
+            "name": "motorDirection",
+            "type": "int",
+            "value": 0,
+            "description": "Motor direction"
+          }
+        ],
+        "setup_logic": [
+          "Serial.begin(9600)",
+          "pixels = Adafruit_NeoPixel(1, neoPin, NEO_GRB + NEO_KHZ800)",
+          "pixels.begin()",
+          "pinMode(btTx, OUTPUT)",
+          "pinMode(btRx, INPUT)",
+          "pinMode(btState, INPUT)",
+          "pinMode(btEn, OUTPUT)",
+          "pinMode(in1, OUTPUT)",
+          "pinMode(in2, OUTPUT)",
+          "pinMode(ena, OUTPUT)",
+          "pinMode(in3, OUTPUT)",
+          "pinMode(in4, OUTPUT)",
+          "pinMode(enb, OUTPUT)"
+        ],
+        "loop_logic": [
+          "Read serial input from Bluetooth module",
+          "Parse serial command",
+          "If command is 'speed': update motorSpeed",
+          "If command is 'direction': update motorDirection",
+          "If command is 'led': update NeoPixel LED indicators",
+          "Control DC motor speed and direction using motorSpeed and motorDirection",
+          "Update NeoPixel LED indicators using pixels object"
+        ],
+        "notes": "Use Serial.available() and Serial.read() to read serial input, and pixels.setPixelColor() and pixels.show() to update NeoPixel LED indicators",
+        "library_coverage": 1.0,
+        "setup_completeness": 1.0,
+        "loop_correctness": 0.9,
+        "f1": 0.9643,
+        "reasoning": "The generated plan includes all required libraries, correctly initialises every component in setup(), and implements most tasks and conditions from the intent in loop(). However, the loop logic lacks specific implementation details for controlling the DC motor speed and direction, and updating the NeoPixel LED indicators.",
+        "status": "ok",
+        "latency": 26.30368208885193,
+        "judge_latency": 2.1434288024902344
+      }
+    },
+    {
+      "project_id": 11,
+      "complexity": "High",
+      "board": "Sipeed Maixduino",
+      "task1": {
+        "predicted_names": [
+          "TFT LCD Display",
+          "Light Sensor",
+          "Temperature and Humidity Sensor",
+          "DC Motor with Driver",
+          "Current Sensor"
+        ],
+        "gt_names": [
+          "grove temperature & humidity sensor",
+          "grove light sensor",
+          "dc motor with h-bridge driver",
+          "tft lcd display"
+        ],
+        "matched": [
+          "grove temperature & humidity sensor",
+          "grove light sensor",
+          "dc motor with h-bridge driver",
+          "tft lcd display"
+        ],
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8889,
+        "latency": 32.044111013412476
+      },
+      "task2": {
+        "gt_libs": [
+          "bh1750",
+          "dht11",
+          "ina219"
+        ],
+        "retrieved_libs": [
+          "tft_espi",
+          "dht"
+        ],
+        "tp": 1,
+        "precision": 0.5,
+        "recall": 0.3333,
+        "f1": 0.4,
+        "details": [
+          {
+            "component": "TFT LCD Display",
+            "library": "tft_espi",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 5.852953195571899,
+            "status": "ok"
+          },
+          {
+            "component": "Light Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 5.852953195571899,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Temperature and Humidity Sensor",
+            "library": "dht",
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 5.852953195571899,
+            "status": "ok"
+          },
+          {
+            "component": "DC Motor with Driver",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 5.852953195571899,
+            "status": "no_library_needed"
+          },
+          {
+            "component": "Current Sensor",
+            "library": null,
+            "confidence": "high",
+            "reasoning": "",
+            "latency": 5.852953195571899,
+            "status": "no_library_needed"
+          }
+        ]
+      },
+      "task3": {
+        "tasks": [
+          "monitor light intensity",
+          "monitor temperature",
+          "monitor humidity",
+          "monitor DC motor speed",
+          "monitor current",
+          "monitor power consumption",
+          "display data on TFT screen",
+          "send data over serial communication"
+        ],
+        "conditions": [
+          "data available triggers display update",
+          "data available triggers serial transmission"
+        ],
+        "thresholds": [],
+        "inputs": [
+          "light sensor analog pin",
+          "temperature and humidity sensor digital pin",
+          "current sensor analog pin",
+          "DC motor speed signal"
+        ],
+        "outputs": [
+          "TFT LCD display",
+          "serial communication signal",
+          "DC motor driver signal"
+        ],
+        "logic_summary": "Monitors environmental and motor parameters, displays data on TFT screen, and sends it over serial communication",
+        "completeness": 0.95,
+        "accuracy": 0.98,
+        "f1": 0.9648,
+        "reasoning": "The predicted intent correctly captures all tasks, conditions, inputs, and outputs, with minor omissions in thresholds, which are not explicitly mentioned in the original description. The accuracy is high due to correct and specific task identification, correct condition statements, and correct input/output identification.",
+        "status": "ok",
+        "latency": 2.269469976425171,
+        "judge_latency": 13.021388053894043
+      },
+      "task4": {
+        "assignments": [],
+        "conflicts": [],
+        "feasibility": "unknown",
+        "pin_validity": 0.0,
+        "conflict_free": 1.0,
+        "coverage": 0.0,
+        "f1": 0.0,
+        "details": [],
+        "status": "ok",
+        "latency": 9.91444206237793
+      },
+      "task5": {
+        "libraries": [
+          "tft_espi",
+          "dht"
+        ],
+        "global_vars": [
+          {
+            "name": "tft",
+            "type": "TFT",
+            "value": null,
+            "description": "TFT display object"
+          },
+          {
+            "name": "dhtPin",
+            "type": "int",
+            "value": null,
+            "description": "DHT sensor digital pin"
+          },
+          {
+            "name": "lightPin",
+            "type": "int",
+            "value": null,
+            "description": "Light sensor analog pin"
+          },
+          {
+            "name": "currentPin",
+            "type": "int",
+            "value": null,
+            "description": "Current sensor analog pin"
+          },
+          {
+            "name": "motorSpeedPin",
+            "type": "int",
+            "value": null,
+            "description": "DC motor speed signal pin"
+          },
+          {
+            "name": "motorDriverPin",
+            "type": "int",
+            "value": null,
+            "description": "DC motor driver signal pin"
+          },
+          {
+            "name": "temperature",
+            "type": "float",
+            "value": null,
+            "description": "Current temperature"
+          },
+          {
+            "name": "humidity",
+            "type": "float",
+            "value": null,
+            "description": "Current humidity"
+          },
+          {
+            "name": "lightIntensity",
+            "type": "int",
+            "value": null,
+            "description": "Current light intensity"
+          },
+          {
+            "name": "motorSpeed",
+            "type": "int",
+            "value": null,
+            "description": "Current DC motor speed"
+          },
+          {
+            "name": "current",
+            "type": "float",
+            "value": null,
+            "description": "Current current consumption"
+          },
+          {
+            "name": "powerConsumption",
+            "type": "float",
+            "value": null,
+            "description": "Current power consumption"
+          }
+        ],
+        "setup_logic": [
+          "tft.begin()",
+          "tft.setRotation(1)",
+          "pinMode(dhtPin, INPUT)",
+          "pinMode(lightPin, INPUT)",
+          "pinMode(currentPin, INPUT)",
+          "pinMode(motorSpeedPin, INPUT)",
+          "pinMode(motorDriverPin, OUTPUT)",
+          "Serial.begin(9600)"
+        ],
+        "loop_logic": [
+          "Read temperature and humidity from DHT sensor",
+          "Read light intensity from light sensor",
+          "Read current from current sensor",
+          "Read motor speed from motor speed signal",
+          "Calculate power consumption",
+          "Update TFT display with current data",
+          "Send current data over serial communication"
+        ],
+        "notes": "Assign actual pin numbers to variables before use",
+        "library_coverage": 1.0,
+        "setup_completeness": 0.9,
+        "loop_correctness": 0.95,
+        "f1": 0.9482,
+        "reasoning": "All required libraries are present, setup logic is mostly complete but lacks initialization for some variables, and loop logic correctly implements all tasks and conditions.",
+        "status": "ok",
+        "latency": 8.110696792602539,
+        "judge_latency": 13.155282020568848
+      }
+    }
+  ]
+}

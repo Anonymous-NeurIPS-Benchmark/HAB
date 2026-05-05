@@ -1,0 +1,172 @@
+[
+  {
+    "path": "DATASET_CARD.md",
+    "bytes": 2636,
+    "sha256": "2f822c53cbcdecbd4c8daa4cf157289706458bb76151aa3566ac1fa57e0d2254"
+  },
+  {
+    "path": "LICENSE.md",
+    "bytes": 913,
+    "sha256": "71e2fcc59031d1fda10664b9d68f1bad78021a05aa77a6b6a9b15dd9ceec28ee"
+  },
+  {
+    "path": "PROVENANCE_AND_ACCESS.md",
+    "bytes": 866,
+    "sha256": "03746d17f8cfb3f75865292a561b14718ecce10d3f05baaa13e5d528480958e6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1927,
+    "sha256": "3428a6a1fd54bce65ca2b51e230f6ca38c9ad683fd237b8fe9c82f9f4d7803c0"
+  },
+  {
+    "path": "artifact_manifest.json",
+    "bytes": 5496,
+    "sha256": "fa026ad55dcef2be093ead65f08cb4a7a37ed9cdfea713c72ab8e32a6e851e90"
+  },
+  {
+    "path": "llm_outputs/model_comparison_final.json",
+    "bytes": 590223,
+    "sha256": "f807d763e4f4e7e5751d1bf2f8f39f836f1eb8f67356175d0f1f2373d77ca0d9"
+  },
+  {
+    "path": "llm_outputs/model_results_claude.json",
+    "bytes": 128515,
+    "sha256": "459a4f27f54bb2a9b8eeacd11a6e3ce6115de0ad2da0e00319e05025e0385968"
+  },
+  {
+    "path": "llm_outputs/model_results_gemini.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "llm_outputs/model_results_gemma_27b.json",
+    "bytes": 82133,
+    "sha256": "c92efc4b97659011334cc183ac2ae79dd30f4b845e5932c272fee8c872d155e8"
+  },
+  {
+    "path": "llm_outputs/model_results_gpt4o_mini.json",
+    "bytes": 96054,
+    "sha256": "3c43018a51df70b07246c8dacb4dda92a838f7f70d6bfc0cf4e8e9593b9aa2c3"
+  },
+  {
+    "path": "llm_outputs/model_results_llama3_3.json",
+    "bytes": 98824,
+    "sha256": "286eb40abf8dc1f59d142508262c444cf197a1a8d0df9093433c1cec2a38c5bb"
+  },
+  {
+    "path": "llm_outputs/model_results_mistral.json",
+    "bytes": 116140,
+    "sha256": "a94e3e53c2b8f5328ffdcd16409ae857119a744fd207b30d0d11175a5537c9ee"
+  },
+  {
+    "path": "llm_outputs/model_results_phi_medium.json",
+    "bytes": 22498,
+    "sha256": "15a9d6ba8fedc2c4246d105954d3245593e05c201afcdd06938757e29cbac523"
+  },
+  {
+    "path": "notebooks/benchmark_pipeline_experimental01.ipynb",
+    "bytes": 200366,
+    "sha256": "60b787cbdba22394fbb53bc18049530a7330682c5e1090b34f53dc39d9a15e87"
+  },
+  {
+    "path": "notebooks/experiment_failure01.ipynb",
+    "bytes": 125576,
+    "sha256": "3db3071f4d8762c79d144e808a3b8df85af483bfa12810458097b4c5f9602e9a"
+  },
+  {
+    "path": "notebooks/llm_benchmark_agents_final_experiment.ipynb",
+    "bytes": 462255,
+    "sha256": "50e454c277b4b87f782c85937121f50be41a4e11c47dcc17b13c2e3ba3d20e6c"
+  },
+  {
+    "path": "notebooks/stage0_environment.ipynb",
+    "bytes": 1123,
+    "sha256": "6d3ea78467f33fdd8c4b7af53fbae1c63f7ea7371b28a93924f93efed193d974"
+  },
+  {
+    "path": "notebooks/stage1_extraction_rag.ipynb",
+    "bytes": 42722,
+    "sha256": "499066c46620e4315d30acca0f60ab65ebf6a126fd199deec10cc067a8fb7cc7"
+  },
+  {
+    "path": "notebooks/stage1_trial.ipynb",
+    "bytes": 52912,
+    "sha256": "7169986ce24885ed95a04803d0785bcc1f043a7e92e7aea8d22b1082264ebce3"
+  },
+  {
+    "path": "notebooks/test.ipynb",
+    "bytes": 4757,
+    "sha256": "0da6bdb0fa8c8369e87d453db855f32754e8ae4f608ce910f44aaff8c154c7c3"
+  },
+  {
+    "path": "pipeline_t1_t2_t3_t4_final.json",
+    "bytes": 60623,
+    "sha256": "c618c3bf71b00d09fc1815584aebe753553b979de4cbe9e144701b33613f3daf"
+  },
+  {
+    "path": "pipeline_t1_t2_t3_t4_t5_final.json",
+    "bytes": 87706,
+    "sha256": "3adf0483163683908821f85c139a9760d4ce7ea7b135a0cd11b39ebcc1779083"
+  },
+  {
+    "path": "pipeline_t1_t2_t3_t4_t5_t6_final.json",
+    "bytes": 109052,
+    "sha256": "6142f0f7ae76499abbdecf9bec34a9040c2d0d8e352e0b0623e36d88ff23a197"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 74,
+    "sha256": "fa4badfb0f9573f69394b5b8c8b39fe565364376e7752efe692d63334adbaa9a"
+  },
+  {
+    "path": "results/agent_results_llama3_3.json",
+    "bytes": 4613,
+    "sha256": "eba908c12df37260253fd9706054aac8ac54f627f5c9a2c37cf00a692db3ee51"
+  },
+  {
+    "path": "results/embedding_hybrid_results.json",
+    "bytes": 118945,
+    "sha256": "28864cdd182cbb0f358f1a51d27f26f2a600ff3762ec4a9f94e9e2af56444bf7"
+  },
+  {
+    "path": "results/embedding_single_best_results.json",
+    "bytes": 131368,
+    "sha256": "b167e0c5a36d55818ff5c568e1de2ce897bc25c3a1f96c92f9cb74101f8286ca"
+  },
+  {
+    "path": "results/pipeline_t1_t2_t3_t4_final.json",
+    "bytes": 56954,
+    "sha256": "786c24caac643d7e68c4e2d155c884a5e942f642d3353cf75ca6afb5835b1b04"
+  },
+  {
+    "path": "results/task2_dictionary_retrieval_results.json",
+    "bytes": 94859,
+    "sha256": "7e95c9f88c19647ae8cc193085d01bfdfc2524ab801878c61ff7387f99a721df"
+  },
+  {
+    "path": "results/task3_results_final.json",
+    "bytes": 31562,
+    "sha256": "0b3cd154b9366697842a6cf31578046af9dec4a70f5a876cd63cc5ce5373fd36"
+  },
+  {
+    "path": "setup_arduino_cli.sh",
+    "bytes": 718,
+    "sha256": "03a6bbfc779722c3a6f819263328ecc144460d13c755ced366751549e84fa105"
+  },
+  {
+    "path": "task3_results_final.json",
+    "bytes": 30981,
+    "sha256": "b4f2a3ec0adfe8d2e6174c9211f4a37ab9f06f0a3fc5c7a8d00d79a9e4757e9a"
+  },
+  {
+    "path": "task7_comparison.json",
+    "bytes": 17149,
+    "sha256": "12d7732764367c35d78a1b0b06d5f405d2259bb8f0cd06882b08a19ed9229992"
+  },
+  {
+    "path": "task7_final.json",
+    "bytes": 19013,
+    "sha256": "f331e910706738e4cc65c36293d0b978d6804ce4624be2dcbde17d70aef2f816"
+  }
+]
