@@ -2,11 +2,11 @@
 
 This package is an anonymized review artifact for **HAB: Benchmarking Hardware-Grounded Arduino Code Generation from Natural Language**.
 
-# HAB: Hardware-Grounded Arduino Benchmark
+## HAB: Hardware-Grounded Arduino Benchmark
 
 HAB is a comprehensive, multi-modal benchmark designed for evaluating Large Language Models (LLMs) on their ability to generate accurate Arduino code and circuit configurations. Unlike general-purpose code benchmarks, HAB focuses on the intersection of software logic and hardware constraints.
 
-## 🌟 Overview
+#### 🌟 Overview
 
 The dataset consists of **434** real-world Arduino projects, meticulously curated to cover a wide range of hardware interactions. 
 
@@ -16,7 +16,7 @@ The dataset consists of **434** real-world Arduino projects, meticulously curate
 - **Board Families**: Supports 3 major board families (e.g., Uno, R4 Wifi, ESP32).
 - **Format**: Data is provided in developer-friendly JSONL and JSON formats.
 
-## 📊 Dataset Structure
+#### 📊 Dataset Structure
 
 The dataset is organized into several functional subdirectories:
 
@@ -30,7 +30,7 @@ HAB/
 └── provenance/            # Source URLs and licensing information
 ```
 
-## 📄 File Descriptions
+#### 📄 File Descriptions
 
 | File | Description |
 | :--- | :--- |
@@ -44,7 +44,7 @@ HAB/
 | `evaluation_subsets/validated_100.json` | High-quality validated subset of 100 (currently 66) test cases. |
 | `provenance/source_urls.jsonl` | Attribution and source links for each project. |
 
-## 🚀 How to Load
+#### 🚀 How to Load
 
 The dataset is designed to be easily loaded using Python:
 
@@ -63,18 +63,7 @@ with open('HAB/metadata/splits.json', 'r') as f:
 test_instances = [inst for inst in instances if inst['project_id'] in splits['test']]
 ```
 
-## 📜 Citation
-
-If you use HAB in your research, please cite our work:
-
-```bibtex
-@article{hab_benchmark2026,
-  title={HAB: Hardware-Grounded Arduino Benchmark},
-  author={Team text-to-arduino},
-  journal={arXiv preprint},
-  year={2026}
-}
-## Contents
+## HAB-REF pipeline and experiments
 
 - `llm_outputs/`: model outputs and stage-level diagnostics on the 10-project diagnostic slice.
 - `results/`: retrieval, extraction, and pipeline evaluation outputs, including files with 434-project retrieval-level results where available.
@@ -85,10 +74,6 @@ If you use HAB in your research, please cite our work:
 - `DATASET_CARD.md`: dataset card for review.
 - `LICENSE.md`: license and access restrictions.
 - `PROVENANCE_AND_ACCESS.md`: source and redistribution notes.
-
-## Important reviewer note
-
-The original development notebooks referenced a local `data/` directory containing raw project metadata, component dictionaries, and ground-truth files. The uploaded artifact used to build this an[...]
 
 ## Setup
 
