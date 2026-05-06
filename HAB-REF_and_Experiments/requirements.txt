@@ -1,0 +1,9 @@
+groq
+together
+mistralai
+openai
+pandas
+openpyxl
+jupyter
+tqdm
+python-dotenv
