@@ -14,7 +14,7 @@ The dataset is composed of **434** distinct Arduino projects, covering a wide ra
 - **Hardware Components**: 171 unique components in the dictionary.
 - **API Signatures**: 1247 unique pin/function signatures.
 - **Subsets**:
-    - **Test Set**: 66 projects for final evaluation.
+    - **Test Set**: 100 projects for final evaluation.
     - **Diagnostic Slice**: 10 projects for quick debugging and iteration.
 
 ## Data sources
@@ -43,5 +43,5 @@ This dataset is not intended for the direct creation of production-grade firmwar
 The project prompts and reference sketches describe standard 5V/3.3V electronics. There are no intentionally hazardous configurations included. However, physical implementation of any circuit always carries inherent risks of short circuits or component damage if wired incorrectly.
 
 ## License
-The HAB dataset structure and metadata are released under the **MIT License**.
+The HAB dataset structure and metadata are released under the **CC BY 4.0**.
 Individual project source codes and assets are subject to the licenses of their respective original authors.
