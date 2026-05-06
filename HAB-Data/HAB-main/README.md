@@ -62,4 +62,4 @@ test_instances = [inst for inst in instances if inst['project_id'] in splits['te
 
 ## ⚖️ License
 
-The HAB dataset is released under the **MIT License**. See `LICENSE.md` for full details. Individual project source codes may be subject to their original licenses as documented in `provenance/`.
+The HAB dataset is released under the **CC BY 4.0**. See `LICENSE.md` for full details. Individual project source codes may be subject to their original licenses as documented in `provenance/`.
