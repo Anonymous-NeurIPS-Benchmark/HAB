@@ -59,18 +59,6 @@ with open('HAB/metadata/splits.json', 'r') as f:
 test_instances = [inst for inst in instances if inst['project_id'] in splits['test']]
 ```
 
-## 📜 Citation
-
-If you use HAB in your research, please cite our work:
-
-```bibtex
-@article{hab_benchmark2026,
-  title={HAB: Hardware-Grounded Arduino Benchmark},
-  author={Team text-to-arduino},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
 ## ⚖️ License
 
