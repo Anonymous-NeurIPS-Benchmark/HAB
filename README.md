@@ -17,3 +17,23 @@ This package is an anonymized review artifact for **HAB: Benchmarking Hardware-G
 ## Important reviewer note
 
 The original development notebooks referenced a local `data/` directory containing raw project metadata, component dictionaries, and ground-truth files. The uploaded artifact used to build this an[...]
+
+## Setup
+
+1. **Python Environment**: Ensure you have Python installed. Create a virtual environment and install the requirements:
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+2. **Arduino CLI**: Run the setup script to download the CLI and install core libraries:
+    ```bash
+    ./setup_arduino_cli.sh
+    ```
+
+3. **Environment Variables**: Add your API keys to the `.env` file for the LLM providers (Groq, Together, Mistral, OpenAI).
+
+## Pipeline Stages
+
+The system is organized sequentially into numbered Jupyter Notebooks located in the `notebooks/` directory. Begin with `stage0_environment.ipynb` and proceed sequentially. Outputs of the final evaluation are saved in `outputs/`.
