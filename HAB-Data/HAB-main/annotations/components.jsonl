@@ -1,0 +1,434 @@
+{"project_id": "1", "components": "Ultrasonic distance sensing logic, servo motor control, distance averaging algorithm, automatic lid actuation logic."}
+{"project_id": "2", "components": "Soil moisture sensing logic, relay-based pump control, Blynk cloud communication, EEPROM state storage, LED matrix status indication, timer-based data transmission."}
+{"project_id": "3", "components": "Infrared line sensing logic, motor driver control (L293), directional movement functions (forward, left, right, stop), conditional navigation logic."}
+{"project_id": "4", "components": "WiFi connectivity management, HTTPS client communication, HTTP POST request handling, JSON payload construction, SMS notification logic."}
+{"project_id": "5", "components": "ESP32-S3 microcontroller, capacitive touch matrix, RGB LED strip (NeoPixel), round TFT display, power management (deep-sleep support), SPI interface, onboard memory (flash/RAM)"}
+{"project_id": "6", "components": "nRF52840 microcontroller, MPU6050 accelerometer/gyroscope, RGB LED, discrete LEDs (multiple faces), Bluetooth Low Energy module, GPIO pins, I\u00b2C interface"}
+{"project_id": "7", "components": "433 MHz RF transmitter and receiver modules, HT12E encoder and HT12D decoder, Arduino board (e.g., Pro Mini), push buttons (remote), motor driver (L293D), DC motors with propellers, resistors, capacitors, 7805 voltage regulators, power supply/battery."}
+{"project_id": "8", "components": "Arduino microcontroller, Bluetooth module (HC-05/HC-06), servo motors (arm joints), DC motors with motor driver (L298/L293), push buttons/joystick for movement, Bluetooth interface, GPIO/PWM pins."}
+{"project_id": "9", "components": "Arduino microcontroller, DC motors, motor driver (L298N), serial communication interface, GPIO pins"}
+{"project_id": "10", "components": "Arduino microcontroller, Bluetooth module (HC-05/HC-06), DC motors, motor driver (L298N or equivalent), NeoPixel LED strips (WS2812), battery pack, jumper wires"}
+{"project_id": "11", "components": "Sipeed Maixduino board, BH1750 light sensor, DHT11 temperature and humidity sensor, INA219 current and power sensor, DC motor, L298N motor driver module, opto-interrupter (encoder) sensor, ST7789 TFT display, jumper wires, power supply"}
+{"project_id": "12", "components": "Arduino , Bluetooth module (HC-05/HC-06), Hall effect sensors (2\u00d7), LED, USB camera/webcam, PC/Laptop, Jumper wires"}
+{"project_id": "13", "components": "Arduino Uno, 8\u00d78 LED matrix, shift registers (e.g., 74HC595), 16\u00d72 LCD, push buttons (up/down/left/right/start), resistors, jumper wires, power supply."}
+{"project_id": "14", "components": "Arduino Uno, 2.4\u2033 TFT LCD touchscreen (ILI9341/SPFD5408), resistive touch panel, jumper wires, USB power supply."}
+{"project_id": "15", "components": "Arduino Nano, MAX9814 microphone module, SD card module, microSD card, status LED, resistors, jumper wires, power supply."}
+{"project_id": "16", "components": "Arduino board, OLED display (SSD1306), DHT11 temperature & humidity sensor, TSOP IR receiver, IR LED (IR blaster), resistors, jumper wires, power supply."}
+{"project_id": "17", "components": "nan"}
+{"project_id": "18", "components": "Digispark (ATtiny85), push buttons (trigger inputs), USB interface (HID)."}
+{"project_id": "19", "components": "Arduino, LCD, buzzer, analog keypad, toggle switch."}
+{"project_id": "20", "components": "Arduino Nano, JQ6500 MP3 sound module, PAM8610 audio amplifier, thermistor, WS2812B NeoPixel LEDs, 7805 regulator, Li-Po battery, speaker, wires."}
+{"project_id": "21", "components": "Arduino, flame sensors, DC motors, motor driver, servo motor, water pump, wheels, chassis."}
+{"project_id": "22", "components": "Arduino Uno, TMC2208 stepper motor driver module, bipolar stepper motor (e.g., NEMA17), jumper wires, breadboard, power supply."}
+{"project_id": "23", "components": "ESP32-CAM, SSD1306 OLED display, I2C wires, power supply."}
+{"project_id": "24", "components": "Arduino board, MX1508 DC motor driver, DC motor, external power supply."}
+{"project_id": "25", "components": "Arduino board, stepper motor driver (TMC2208/A4988), stepper motor, external motor power supply."}
+{"project_id": "26", "components": "Arduino board, microphone or sound sensor module with preamp, connecting wires."}
+{"project_id": "27", "components": "Arduino board, PAJ7620U2 gesture sensor, 16\u00d72 I2C LCD, jumper wires."}
+{"project_id": "28", "components": "Arduino board, water level sensor, LEDs, resistors, jumper wires."}
+{"project_id": "29", "components": "Arduino IoT board, IR sensors, servo motors, LED matrix, power supply."}
+{"project_id": "30", "components": "Arduino board, XKC-Y26-V contactless liquid level sensor, jumper wires, container."}
+{"project_id": "31", "components": "Arduino board, DC motor, MOSFET, potentiometer, power supply, jumper wires."}
+{"project_id": "32", "components": "Arduino, SSD1306 OLED display, I2C interface."}
+{"project_id": "33", "components": "Arduino, SSD1306 OLED display."}
+{"project_id": "34", "components": "ESP32, Hall effect sensors (2), Shift registers (multiple), LED arrays, Rotating arm mechanism, Power supply"}
+{"project_id": "35", "components": "Arduino board, IR eye-blink sensor (or analog sensor), LED/Buzzer, Resistor, Jumper wires"}
+{"project_id": "36", "components": "Arduino Uno/Nano, turbidity sensor, 16\u00d72 I2C LCD, three LEDs, resistors, connecting wires"}
+{"project_id": "37", "components": "Arduino board, capacitive touch sensor (pins 2 & 4 with 1 M\u03a9 resistor), 3 LEDs (pins 5, 6, 7), jumper wires"}
+{"project_id": "38", "components": "Arduino board, 3\u00d7 ultrasonic sensors (HC-SR04), dual DC motors, motor driver (L298N/L293D equivalent), jumper wires, power supply"}
+{"project_id": "39", "components": "NodeMCU ESP8266, two ultrasonic sensors, servo motor, battery, jumper wires."}
+{"project_id": "40", "components": "Arduino Uno, 4 \u00d7 SG90 servo motors, 4 \u00d7 potentiometers, capacitors (1000 \u00b5F & 100 nF), power supply, jumper wires"}
+{"project_id": "41", "components": "Arduino Uno, single-digit 7-segment display, current-limiting resistors, jumper wires"}
+{"project_id": "42", "components": "Arduino Uno, 2\u00d7 LDR sensors, servo motor, resistors, jumper wires"}
+{"project_id": "43", "components": "Arduino Uno, flex sensor, 10 k\u03a9 resistor, LED, jumper wires"}
+{"project_id": "44", "components": "Arduino Uno, SD card module, SD card, push buttons, speaker, jumper wires"}
+{"project_id": "45", "components": "Arduino Uno, soil moisture sensor, LED, resistor, jumper wires"}
+{"project_id": "46", "components": "Arduino Uno, IR receiver & IR LED, Bluetooth module, 4-channel relay module, WS2812B NeoPixel LED strip, EEPROM, buzzer, jumper wires"}
+{"project_id": "47", "components": "Arduino Uno, MQ gas sensor (analog), DHT11 temperature & humidity sensor, 0.96\" OLED display (SSD1306), jumper wires"}
+{"project_id": "48", "components": "Arduino board, XKC-Y26-V contactless liquid level sensor, jumper wires, container."}
+{"project_id": "49", "components": "Arduino Uno, LM35 temperature sensor, relay module, DC fan, jumper wires"}
+{"project_id": "50", "components": "Arduino Uno, ultrasonic sensor (HC-SR04), servo motor, DC motors, motor driver (L298N/L293D), RGB LEDs, jumper wires"}
+{"project_id": "51", "components": "Arduino Nano, ultrasonic sensor (HC-SR04), IR sensor, two servo motors, LED, light module, jumper wires"}
+{"project_id": "52", "components": "Arduino Nano, PIR motion sensor, dog barking sound module, LM386 amplifier, 8 \u03a9 speaker, transistor (e.g., BC547), resistors, capacitors"}
+{"project_id": "53", "components": "Arduino board, pulse/heart rate sensor (analog), buzzer"}
+{"project_id": "54", "components": "Arduino board, WS2811 RGB LED strip, connecting wires, external power supply (for LEDs)"}
+{"project_id": "55", "components": "Arduino board, WS2812B LED strip (50 LEDs), 2 push buttons, buzzer, resistors (if needed), connecting wires, external 5V power supply for LEDs"}
+{"project_id": "56", "components": "Arduino board, Active buzzer, Passive buzzer, Jumper wires"}
+{"project_id": "57", "components": "ESP32, LED (onboard or external), current-limiting resistor (if external), jumper wires"}
+{"project_id": "58", "components": "Arduino board, MPU6050 accelerometer/gyroscope, dual 8\u00d78 LED dot matrix (MAX7219), rotary encoder with push button, buzzer, jumper wires"}
+{"project_id": "59", "components": "Arduino Pro Mini/Nano, HC-SR04 ultrasonic sensor, buzzer, haptic vibration motor, lithium-ion battery, switch, jumper wires"}
+{"project_id": "60", "components": "Arduino Uno/Nano, 128\u00d764 OLED (SSD1306), push buttons (left, right, rotate, speed), buzzer/speaker, jumper wires"}
+{"project_id": "61", "components": "Arduino microcontroller, DHT temperature & humidity sensor, SSD1306 OLED display, I\u00b2C interface"}
+{"project_id": "62", "components": "Arduino microcontroller, 4\u00d74 matrix keypad, GPIO pins, serial communication"}
+{"project_id": "63", "components": "Arduino microcontroller, relay module, GPIO pin, delay-based timing logic"}
+{"project_id": "64", "components": "Arduino microcontroller, nRF24L01 RF module, SPI interface, audio input/output circuitry"}
+{"project_id": "65", "components": "Arduino microcontroller, DC motor driver (H-bridge), two DC motors, mode selection switch, two analog input sensors (e.g., potentiometers)"}
+{"project_id": "66", "components": "Arduino microcontroller, SSD1306 OLED display, push button (mode select), buzzer/LED (continuity), resistors (voltage divider), analog input probes, jumper wires"}
+{"project_id": "67", "components": "Arduino microcontroller, SSD1306 OLED display, DRV8833 motor driver, DC motor, push buttons (4), EEPROM memory, status LED, jumper wires"}
+{"project_id": "68", "components": "Arduino microcontroller, two analog sensors (connected to A2 & A3), LEDs (or digital output devices), jumper wires"}
+{"project_id": "69", "components": "Arduino microcontroller, L293D motor driver IC, DC motor, PWM enable pin, control pins (IN1, IN2), power supply"}
+{"project_id": "70", "components": "Arduino boards (Tx & Rx), 433 MHz ASK RF transmitter module, 433 MHz ASK RF receiver module, serial monitor, jumper wires"}
+{"project_id": "71", "components": "Arduino Uno, 2\u00d7 stepper motors, stepper motor drivers, SSD1306 OLED display, rotary encoder (CLK, DT, SW), limit switch, camera slider rail, push buttons"}
+{"project_id": "72", "components": "Arduino board, servo motor"}
+{"project_id": "73", "components": "Arduino board, GPS module, GSM/GPRS module (SIM-based), SIM card"}
+{"project_id": "74", "components": "Arduino board, SSD1306 OLED display, load resistor, transistor (load switch), battery under test"}
+{"project_id": "75", "components": "Arduino board, MAX7219 LED matrix module, SPI interface"}
+{"project_id": "76", "components": "Arduino board, WS2812B RGB LED strip (8 LEDs), single data pin"}
+{"project_id": "77", "components": "Arduino-compatible board, TSL2591 high-dynamic-range light sensor"}
+{"project_id": "78", "components": "Arduino board, dual-axis joystick module (VRx, VRy, SW), jumper wires"}
+{"project_id": "79", "components": "Arduino board, RCWL-0516 microwave motion sensor, LED, resistor, jumper wires"}
+{"project_id": "80", "components": "Arduino board, rotary encoder (incremental), SSD1306 OLED display, push button (zero set), jumper wires"}
+{"project_id": "81", "components": "Feather M0 LoRa (SX1276), DHT22 temperature & humidity sensor"}
+{"project_id": "82", "components": "HC-SR04 ultrasonic sensor using median ping sampling and adaptive exponential filtering"}
+{"project_id": "83", "components": "6\u00d7 servo motors controlling eyelids (4) and eyeball pan/tilt (2) with predefined and random motion sequences"}
+{"project_id": "84", "components": "Potentiometer on A0, Bluetooth module via SoftwareSerial, counter logic with timed intervals"}
+{"project_id": "85", "components": "ESP8266, DHT11 temperature sensor, PWM fan/driver, onboard EEPROM, Wi-Fi access point with web slider UI"}
+{"project_id": "86", "components": "Rotary encoder (CLK, DT), push button switch (SW), Arduino interrupts"}
+{"project_id": "87", "components": "SD card module, SPI interface, file system handling"}
+{"project_id": "88", "components": "16\u00d72 LCD, Li-Ion battery, MOSFET, shunt resistor, load resistor, Arduino ADC inputs"}
+{"project_id": "89", "components": "DS3231 RTC module, 16\u00d72 I2C LCD, Arduino I2C interface"}
+{"project_id": "90", "components": "GP2Y1014AU0F dust sensor, IR LED control pin, Arduino ADC"}
+{"project_id": "91", "components": "MFRC522 RFID reader, RFID tag/card, LED, SPI interface"}
+{"project_id": "92", "components": "Arduino UNO, DH11 sensor"}
+{"project_id": "93", "components": "MPU6050 6-axis IMU sensor (accelerometer + gyroscope + temperature)"}
+{"project_id": "94", "components": "Arduino UNO, Flame sensor (digital output) and onboard LED"}
+{"project_id": "95", "components": "DS3231 RTC module, 16\u00d72 LCD (parallel), Arduino board"}
+{"project_id": "96", "components": "TCS3200/TCS230 color sensor, Arduino board"}
+{"project_id": "97", "components": "Arduino, Pulse Sensor (PulseSensor Playground), onboard LED"}
+{"project_id": "98", "components": "Arduino UNO, MQ-3 alcohol gas sensor, LED"}
+{"project_id": "99", "components": "Arduino + DS3232 RTC + WS2812B RGB LED strip (42 LEDs) + push buttons (DST/Hour/Minute) + light sensor (LDR)"}
+{"project_id": "100", "components": "Arduino + NTC thermistor (10k) + 10k reference resistor (voltage divider)"}
+{"project_id": "101", "components": "ESP8266-01 + WS2812B LED strip (8 LEDs) + Wi-Fi network (web server control)"}
+{"project_id": "102", "components": "LM35 temperature sensor connected to Arduino analog pin A0"}
+{"project_id": "103", "components": "Hall effect sensor on digital pin D2 and onboard LED on pin D13"}
+{"project_id": "104", "components": "16\u00d72 character LCD connected via RS, EN, D4\u2013D7 pins to Arduino"}
+{"project_id": "105", "components": "OLED SSD1306, NTC thermistor, push buttons, buzzer, PWM load (MOSFET/resistor), battery voltage sensing"}
+{"project_id": "106", "components": "Analog sensor (A0), LED with PWM control"}
+{"project_id": "107", "components": "Analog sensor (A0), PWM LED (D6)"}
+{"project_id": "108", "components": "YF-S201 water flow sensor (D2), 16\u00d72 LCD, Arduino"}
+{"project_id": "109", "components": "R sensor module (D9), onboard LED (D13), Arduino"}
+{"project_id": "110", "components": "Arduino MCU, SH1106 OLED display (I\u00b2C), push buttons, ADC input, signal generator (DDS), frequency counter, test signal output"}
+{"project_id": "111", "components": "ATtiny85 MCU, LED, buzzer, potentiometer (analog input), push button / interrupt source"}
+{"project_id": "112", "components": "MQ-2 smoke/gas sensor, red LED, green LED, buzzer"}
+{"project_id": "113", "components": "MAX30100 pulse oximeter, SSD1306 OLED (128\u00d732), Arduino, I\u00b2C wiring"}
+{"project_id": "114", "components": "Arduino, A4988 stepper driver, stepper motor, 2\u00d7 servo motors, I\u00b2C 16\u00d72 LCD, MOC7811 opto sensor, push button"}
+{"project_id": "115", "components": "ESP8266 or ESP32, IR LED (IR transmitter), TV (IR-controlled), Wi-Fi router, smartphone with Alexa/SinricPro"}
+{"project_id": "116", "components": "Arduino Uno/Nano, MAX30100 Pulse Oximeter Sensor, 0.96\" OLED SSD1306 (128\u00d732), I2C wires"}
+{"project_id": "117", "components": "ESP8266 NodeMCU, Arduino Uno, Motor Driver (L298N/L293D), DC Motors, WiFi Router, Smartphone with Blynk App"}
+{"project_id": "118", "components": "Ultrasonic sensor (HC-SR04), servo motor, DC motors, L298N motor driver, robot chassis, wheels, battery, jumper wires"}
+{"project_id": "119", "components": "UV sensor, LIS3DHTR accelerometer, ultrasonic sensor, PIR sensor, DC motors, motor driver, relay, UV lamp, TFT/OLED display, buzzer, WiFi module (Realtek RTL8720D), battery & charging circuit"}
+{"project_id": "120", "components": "WS2812B addressable LED strip/matrix (88 LEDs), microcontroller, USB/Serial interface, power supply"}
+{"project_id": "121", "components": "Ultrasonic sensor (HC-SR04), servo motor, LED, microcontroller, jumper wires, power supply"}
+{"project_id": "122", "components": "Arduino boards, DHT11 sensor, RFID (MFRC522), ultrasonic/IR sensors, LDR, rain sensor, fire sensor, multiple servo motors, LEDs, I2C (Wire), jumper wires, power supply"}
+{"project_id": "123", "components": "Arduino board, flame sensors (left/right/front), ultrasonic sensor (HC-SR04), L298N motor driver, DC motors, servo motors, water pump, SIM800L GSM module, power supply"}
+{"project_id": "124", "components": "Arduino board, ESP8266 WiFi module, ultrasonic sensors (HC-SR04), water flow sensor, solenoid valve, DC motor & pump, I2C LCD, IR sensors, TCS3200 color sensor, touch keypad, buzzer, motor driver, power supply"}
+{"project_id": "125", "components": "Raspberry Pi, Arduino Uno, Pi Camera, IR sensors, ultrasonic sensors (HC-SR04), MLX90614 IR temperature sensor, servo motor, sanitizer dispenser, buzzer, I2C LCD, GSM module, power supply"}
+{"project_id": "126", "components": "Arduino Uno, relay module (or direct load control), fan, light bulb/LED, serial input device (PC/USB)"}
+{"project_id": "127", "components": "ESP8266 (NodeMCU), DHT11 sensor, DS18B20 temperature sensor, soil moisture sensor, Wi-Fi network, Blynk app"}
+{"project_id": "128", "components": "Arduino Uno, 16\u00d72 I2C LCD, 4\u00d74 matrix keypad, jumper wires, power supply"}
+{"project_id": "129", "components": "Arduino Uno (Tx & Rx), LIS3DHTR accelerometer, RF 433 MHz transmitter & receiver, motor driver (L298N/L293D), DC motors, chassis, battery, jumper wires"}
+{"project_id": "130", "components": "Arduino Uno, ultrasonic sensor (HC-SR04), relay module/pump motor, 16\u00d72 I2C LCD, push button, toggle switch, EEPROM (internal), jumper wire"}
+{"project_id": "131", "components": "Arduino Mega, SD card module, SD card with WAV files, speaker, push buttons (A\u2013Z), resistors, jumper wires"}
+{"project_id": "132", "components": "ESP32, DHT11 sensor, Bluetooth module (ESP32 BT), analog temperature sensor, push button, ultrasonic trigger circuit, LEDs, Wi-Fi router, Firebase RTDB"}
+{"project_id": "133", "components": "Arduino board (Uno / Mega / compatible),Force Sensitive Resistor (0.5\"), Fixed resistor (typically 3.3k\u03a9), USB cable (for Serial Monitor)"}
+{"project_id": "134", "components": "Webcam + Python (OpenCV, MediaPipe) for hand tracking \u2192 Serial communication \u2192 Arduino controls Servo motor and LEDs"}
+{"project_id": "135", "components": "Capacitive touch pads + ADC touch slider + microphone input \u2192 NeoPixel LED strip & buzzer control"}
+{"project_id": "136", "components": "PIR/IR motion sensor triggers JQ6500 MP3 audio module and NeoPixel LED strip animations"}
+{"project_id": "137", "components": "Coin acceptor input triggers LED indicator and TRIAC-based load control via interrupt"}
+{"project_id": "138", "components": "BH1750 digital light sensor measuring lux and converting it to irradiance via I2C"}
+{"project_id": "139", "components": "MAX6675 thermocouple, rotary encoder, MOSFET heater control, SSD1306 OLED display"}
+{"project_id": "140", "components": "DHT humidity sensor, SH1106 OLED display, two digital output actuators (relay/LED/fan)"}
+{"project_id": "141", "components": "Soil moisture sensor (analog), water pump/relay module, serial monitor"}
+{"project_id": "142", "components": "Microphone/audio input, MAX7219 LED matrix display, potentiometer (sensitivity control)"}
+{"project_id": "143", "components": "MLX90614 IR temperature sensor, SH1106 OLED display, I2C interface"}
+{"project_id": "144", "components": "1.54-inch e-Paper display module, SPI interface, image buffer memory"}
+{"project_id": "145", "components": "Capacitive touch pads, resistors, piezo buzzer, record/play toggle button"}
+{"project_id": "146", "components": "Fire/flame sensor, GPRS module (SIM800/900), buzzer or alarm output, status LED"}
+{"project_id": "147", "components": "Ultrasonic sensor (HC-SR04), OLED display (SSD1306), ATtiny microcontroller"}
+{"project_id": "148", "components": "3\u00d7 Ultrasonic sensors (HC-SR04), IR sensor, DC motors with motor driver, Arduino"}
+{"project_id": "149", "components": "RFID reader (Serial), Fingerprint sensor, 16\u00d72 LCD, Relay/Motor output, Arduino I/O pins"}
+{"project_id": "150", "components": "Arduino Uno, nRF24L01 RF transceiver module, RF24Audio library, SPI interface, PTT talk button"}
+{"project_id": "151", "components": "Arduino Nano, MPU6050 accelerometer-gyroscope, 4\u00d7 servo motors, flex sensor, robotic arm, connecting wires"}
+{"project_id": "152", "components": "Arduino Uno, MAX30100 pulse oximeter sensor, SSD1306 OLED display, I2C wiring, jumper wires"}
+{"project_id": "153", "components": "Arduboy handheld console, buttons, sound buzzer, optional PS2 controller (ESP8266)"}
+{"project_id": "154", "components": "HX711 load cell module, strain gauge load cell, I2C LCD (16\u00d72), push buttons, buzzer/LED indicators"}
+{"project_id": "155", "components": "Ultrasonic sensor (HC-SR04), 16\u00d72 LCD, jumper wires"}
+{"project_id": "156", "components": "DHT11 sensor, LED, Wi-Fi\u2013enabled Arduino board"}
+{"project_id": "157", "components": "PIR motion sensor, transistor (relay/actuator driver), serial monitor"}
+{"project_id": "158", "components": "ECG sensor module (analog output), lead-off detection pins, serial monitor"}
+{"project_id": "159", "components": "Ethernet shield/module, LED, Ethernet cable, router/LAN connection"}
+{"project_id": "160", "components": "Stepper motor, IR sensor, relay module (solenoid), Arduino, jumper wires"}
+{"project_id": "161", "components": "3\u00d7 Ultrasonic sensors (HC-SR04), JQ6500 MP3 module, speaker, Arduino, jumper wires"}
+{"project_id": "162", "components": "E18 IR proximity sensor, LED, Arduino, jumper wires"}
+{"project_id": "163", "components": "LT8920 RF transceiver module, Arduino, SPI interface pins, jumper wires"}
+{"project_id": "164", "components": "Arduino boards (2\u00d7), nRF24L01 RF modules, push button, DSLR shutter interface, LEDs, jumper wires"}
+{"project_id": "165", "components": "NodeMCU (ESP8266), Arduino Uno, P10/DMD LED matrix display, Wi-Fi router, jumper wires"}
+{"project_id": "166", "components": "Arduino Uno, RDM6300 RFID reader module, RFID tags/cards, LED, jumper wires"}
+{"project_id": "167", "components": "Arduino Uno, DC motor with quadrature encoder, H-bridge motor driver (L298N/L293D), power supply, jumper wires"}
+{"project_id": "168", "components": "Arduino Uno, SSD1306 OLED display, LM317 regulator, resistor under test, jumper wires"}
+{"project_id": "169", "components": "Arduino Uno, AD9833 DDS module, SSD1306 OLED display, rotary encoder with push button, push buttons, jumper wires"}
+{"project_id": "170", "components": "NodeMCU ESP8266, 28BYJ-48 stepper motor, ULN2003 driver, smartphone with Blynk app, Wi-Fi network"}
+{"project_id": "171", "components": "ATtiny microcontroller, MPU6050 accelerometer, 0.96\" I2C OLED display"}
+{"project_id": "172", "components": "ATtiny85 microcontroller, USB A-type male connector, resistors (47 \u03a9 \u00d72, 1 k\u03a9 \u00d71), Zener diodes \u00d72, 1N5819 diode, 8-pin IC base, jumper wires, Arduino Uno (for initial bootloader)"}
+{"project_id": "173", "components": "Arduino + DMD LED Matrix + SPI + Timer1 + Serial Monitor"}
+{"project_id": "174", "components": "MQ-135 gas sensor, SSD1306 OLED display, Arduino Uno, jumper wires, resistor"}
+{"project_id": "175", "components": "Arduino Uno, NeoPixel LED strip (WS2812B), USB cable, jumper wires"}
+{"project_id": "177", "components": "Arduino Uno, UV-C lamp, DC motors, motor driver (L298N/L293D), robot chassis, battery, ultrasonic sensor (optional), jumper wires"}
+{"project_id": "178", "components": "Arduino , SDS011 dust sensor, 0.96\" OLED display (128\u00d764), jumper wires, power supply"}
+{"project_id": "179", "components": "Arduino Uno (2 units), 4\u00d74 matrix keypad, 16\u00d72 I2C LCD, jumper wires, resistors, power supply"}
+{"project_id": "180", "components": "Arduino Nano, BJT transistor/relay module, buzzer, LED, jumper wires, power supply"}
+{"project_id": "181", "components": "Arduino, optical dust sensor (GP2Y1010AU0F or similar), OLED display (SSD1306), resistor, capacitor, jumper wires"}
+{"project_id": "182", "components": "Arduino Nano/Uno, APDS9960 gesture sensor, OLED display (SH1106), jumper wires"}
+{"project_id": "183", "components": "Raspberry Pi, SX127x LoRa module, OLED display (SH1106), jumper wires"}
+{"project_id": "184", "components": "N76E003 MCU, Arduino SPI interface"}
+{"project_id": "185", "components": "Arduino Nano, RS-485 transceiver (DE/RE via enable pin), 16\u00d72 LCD, Serial UART"}
+{"project_id": "186", "components": "Arduino (with I2C), MLX90615 IR temperature sensor, DS3231 RTC, 16\u00d72 LCD, SD card module, buzzer, IR LED, status LEDs"}
+{"project_id": "187", "components": "Arduino, GPS module (UART), SH1106 OLED display (I2C), SoftwareSerial"}
+{"project_id": "188", "components": "ATmega328P Timer1, PWM outputs (OC1A & OC1B), sine lookup tables, interrupt service routine"}
+{"project_id": "189", "components": "Arduino, HC-05 Bluetooth module, SoftwareSerial UART bridge"}
+{"project_id": "190", "components": "ESP32 with WiFi & HTTP client, Weather API, LoRa transceivers (433 MHz), Arduino receiver, 16\u00d72 LCD, SH1106 OLED display"}
+{"project_id": "191", "components": "Arduino, MLX90615 IR temperature sensor, IR LED proximity trigger, analog noise/signal detection"}
+{"project_id": "192", "components": "Arduino Nano, MAX30205 temperature sensor (I2C), 74HC595 shift register, 3-digit 7-segment display"}
+{"project_id": "193", "components": "Arduino, IR receiver module, IRremote decoder, serial data streaming (Excel-compatible)"}
+{"project_id": "194", "components": "Arduino with PDM microphone, Edge Impulse ML model, audio inference pipeline, LED output control"}
+{"project_id": "195", "components": "Arduino with PDM microphone, Edge Impulse ML inference model, audio signal processing, LED alarm indicator"}
+{"project_id": "196", "components": "ATmega328 Timer1 (CTC mode), direct PORTC manipulation, interrupt-driven waveform generation"}
+{"project_id": "197", "components": "Arduino, GPS module (TinyGPS++), GSM module (AT commands via Serial), push button trigger"}
+{"project_id": "198", "components": "Arduino, RFID reader (UART), MLX90614 IR temperature sensor (I2C), ultrasonic distance sensor (HC-SR04), serial data logging"}
+{"project_id": "199", "components": "Arduino, PT2258 electronic volume control IC (I2C), push buttons with debounce handling"}
+{"project_id": "200", "components": "Arduino, pH sensor (analog), I2C 16\u00d72 LCD, signal averaging and calibration logic"}
+{"project_id": "201", "components": "Arduino, HC-05 Bluetooth module, SoftwareSerial UART communication"}
+{"project_id": "202", "components": "Arduino, FreeRTOS tasks, binary semaphore (interrupt synchronization), mutex (shared Serial resource protection)"}
+{"project_id": "203", "components": "Arduino, FreeRTOS tasks, queue-based data transfer, LDR sensor (analog), 16\u00d72 LCD display"}
+{"project_id": "204", "components": "Arduino, alcohol gas sensor (analog), 16\u00d72 LCD, buzzer, LED alert system"}
+{"project_id": "205", "components": "Arduino, FreeRTOS tasks, dual LED blinking, serial counter output"}
+{"project_id": "206", "components": "ESP32, WiFi HTTP request, ultrasonic sensor, water pump/relay, 16\u00d72 LCD, JSON data parsing"}
+{"project_id": "207", "components": "4\u00d73 keypad, 16\u00d72 LCD, servo motor, password authentication logic"}
+{"project_id": "208", "components": "IR/analog coin sensors, I2C 16\u00d72 LCD, coin counting logic"}
+{"project_id": "209", "components": "SPI DAC, current sense resistor + op-amp, voltage/current sensing, push buttons, 16\u00d72 LCD"}
+{"project_id": "210", "components": "TFT LCD with touchscreen, 433 MHz RF TX/RX (ASK), buzzer, 16\u00d72 I2C LCD"}
+{"project_id": "211", "components": "Push buttons (start & end), buzzer, 16\u00d72 I2C LCD"}
+{"project_id": "212", "components": "TRIAC, potentiometer, zero-cross detection input, AC load (lamp/motor"}
+{"project_id": "213", "components": "nRF24L01 RF module, joystick (X\u2013Y), BLDC/DC motor driver, motors, Arduino"}
+{"project_id": "214", "components": "MFRC522 RFID reader, RFID card/tag, hall effect sensor, solenoid/relay door lock, buzzer, Arduino"}
+{"project_id": "215", "components": "ADXL345 accelerometer, Arduino, I2C interface"}
+{"project_id": "216", "components": "ESP32, DHT11 temperature & humidity sensor, LED, FreeRTOS tasks"}
+{"project_id": "217", "components": "Arduino, RDA5807M FM radio module, potentiometer (analog tuning), serial monitor"}
+{"project_id": "218", "components": "Arduino, rain sensor (analog), buzzer, serial monitor"}
+{"project_id": "219", "components": "Arduino, 3-axis analog accelerometer (X/Y/Z), I2C LCD (16\u00d72)"}
+{"project_id": "220", "components": "Arduino, SH1106 128\u00d764 OLED display (SPI)"}
+{"project_id": "221", "components": "Arduino, BMP280 temperature & pressure sensor, 16\u00d72 LCD"}
+{"project_id": "222", "components": "Moteino/Arduino, RFM69HCW RF transceiver, push button, LEDs"}
+{"project_id": "223", "components": "Arduino-compatible board, DMD LED dot matrix module, SPI interface, timer interrupt"}
+{"project_id": "224", "components": "Arduino board, color sensor (RGB frequency output), 16\u00d72 LCD, IR/object sensor, digital I/O"}
+{"project_id": "225", "components": "Arduino Nano 33 Sense / Nano 33 BLE, onboard PDM microphone, LEDs/relay (digital outputs), audio clock (HFCLK)"}
+{"project_id": "226", "components": "9-axis IMU (accelerometer, gyroscope, magnetometer), pressure sensor, temperature sensor, humidity sensor, proximity sensor"}
+{"project_id": "227", "components": "MFRC522 RFID reader, RFID tag/card, SPI interface, Serial communication"}
+{"project_id": "228", "components": "ESP8266 WiFi module, WiFi network, virtual Alexa devices (lights, fan, socket)"}
+{"project_id": "229", "components": "HC-05 Bluetooth module, SoftwareSerial interface"}
+{"project_id": "230", "components": "Arduino, nRF24L01 (BLE mode), DHT11 temperature sensor"}
+{"project_id": "231", "components": "Arduino, DHT11 temperature & humidity sensor, onboard LED"}
+{"project_id": "232", "components": "Arduino, stepper motor, stepper motor driver, potentiometer"}
+{"project_id": "233", "components": "Arduino, LED, two push buttons, resistors"}
+{"project_id": "234", "components": "Arduino, microphone sound sensor (analog), LED"}
+{"project_id": "235", "components": "Arduino, soil moisture sensor (analog), DC water pump, red LED, green LED"}
+{"project_id": "236", "components": "Arduino, PCF8591 ADC module, 16\u00d72 LCD, I2C (Wire) interface"}
+{"project_id": "237", "components": "Arduino, 12 LEDs, 4 GPIO pins (Charlieplexing technique)"}
+{"project_id": "238", "components": "Raspberry Pi, Arduino Uno, NRF24L01 transceiver (Tx/Rx), 16\u00d72 I2C LCD, jumper wires"}
+{"project_id": "239", "components": "Arduino board, buzzer/speaker, serial input (PC), jumper wires"}
+{"project_id": "240", "components": "Arduino board, APDS9960 gesture & color sensor, 16\u00d72 LCD, push button, jumper wires"}
+{"project_id": "241", "components": "Arduino Nano, Arduino Uno, MCP2515 CAN controller, CAN transceivers, DHT11 sensor, 16\u00d72 LCD, jumper wires"}
+{"project_id": "242", "components": "Arduino board, VL6180X time-of-flight sensor, Nokia 5110 (PCD8544) LCD, jumper wires"}
+{"project_id": "243", "components": "Arduino board, MLX90614 IR temperature sensor, OLED SSD1306 display, jumper wires"}
+{"project_id": "244", "components": "Arduino board, MPU6050 accelerometer/gyroscope, servo motor, 16\u00d72 LCD, jumper wires"}
+{"project_id": "245", "components": "Arduino boards, LoRa transceivers (SX1278/1276), GPS module (NEO-6M), 16\u00d72 LCD, jumper wires"}
+{"project_id": "246", "components": "Arduino board, speaker (or audio amplifier + speaker)"}
+{"project_id": "247", "components": "Arduino board, joystick module (X\u2013Y), push buttons, Bluetooth module (HC-05/HC-06), LED"}
+{"project_id": "248", "components": "Arduino board, DHT11 temperature & humidity sensor, USB serial connection"}
+{"project_id": "249", "components": "Arduino board, microphone/sound sensor module, onboard LED"}
+{"project_id": "250", "components": "Arduino board, BH1750 light intensity sensor, 16\u00d72 LCD display"}
+{"project_id": "251", "components": "Arduino board, MAX485 RS-485 transceiver, 16\u00d72 LCD, potentiometer, push buttons"}
+{"project_id": "252", "components": "Arduino board, HM-10 BLE module, onboard LED"}
+{"project_id": "253", "components": "Joystick module (X, Y, SW), Arduino with native USB support, Serial monitor, USB HID keyboard"}
+{"project_id": "254", "components": "TCS3200 color sensor, two servo motors (pick and drop), Arduino board, Serial monitor"}
+{"project_id": "255", "components": "GT511C3 fingerprint sensor, Arduino, ESP8266 WiFi module, 16\u00d72 LCD, capacitive touch input, ThingsBoard IoT platform"}
+{"project_id": "256", "components": "Onboard LED (LED_BUILTIN), Arduino board, delay timing control"}
+{"project_id": "257", "components": "\u00a0GT511C3 fingerprint sensor, push button for enrollment, 16\u00d72 LCD, Arduino board"}
+{"project_id": "258", "components": "Two blinking LEDs with different intervals, one push-button interrupt, one toggle LED, Arduino timing via millis()"}
+{"project_id": "259", "components": "LED, Arduino, USB Serial Communication, Web Server"}
+{"project_id": "260", "components": "Arduino, Raspberry Pi, LoRa SX1278 Module, SPI Interface"}
+{"project_id": "261", "components": "Arduino, SIM800 GSM/GPRS Module, Software Serial, SMS Service"}
+{"project_id": "262", "components": "Arduino, RS-485 Module, 16\u00d72 LCD, Servo Motor, LEDs"}
+{"project_id": "263", "components": "Arduino, Vibration Sensor, LED"}
+{"project_id": "264", "components": "Raspberry Pi, Arduino, Servo Motor, 16\u00d72 LCD, Serial/RS-485 Interface"}
+{"project_id": "265", "components": "Arduino, DS3231 RTC Module, 4-Digit 7-Segment Display, Shift Register"}
+{"project_id": "266", "components": "Arduino, TTP223 Touch Sensor, LED, Relay"}
+{"project_id": "267", "components": "Arduino Uno, OV7670 Camera Module"}
+{"project_id": "268", "components": "Arduino, ESP8266 WiFi Shield, 16\u00d72 LCD, Relay/Load"}
+{"project_id": "269", "components": "Arduino, 16\u00d72 LCD, voltage divider, shunt resistor, relay/MOSFET (Charge pin), CC/CV control pin"}
+{"project_id": "270", "components": "Arduino, SX1276/SX1278 LoRa module, SPI interface"}
+{"project_id": "271", "components": "Arduino UNO, Arduino Nano, RS-485 module (MAX485), potentiometer, LED, 16\u00d72 LCD"}
+{"project_id": "272", "components": "Arduino, onboard LED (Pin 13), serial input"}
+{"project_id": "273", "components": "Arduino, 16\u00d72 LCD, push buttons, LED"}
+{"project_id": "274", "components": "Arduino, MCP4725 DAC, 16\u00d72 LCD, potentiometer"}
+{"project_id": "275", "components": "Arduino, speed sensor/encoder, DC motor, 16\u00d72 LCD, potentiometer, push button"}
+{"project_id": "276", "components": "nan"}
+{"project_id": "277", "components": "Arduino Uno, DC motors, wheel encoders, joystick module, 16\u00d72 LCD, motor driver"}
+{"project_id": "278", "components": "STM32F103C8, Arduino Uno, LEDs, push buttons, I2C bus"}
+{"project_id": "279", "components": "Two Arduino boards, LCD (16\u00d72), potentiometers, I2C bus"}
+{"project_id": "280", "components": "Two Arduino boards, push buttons, LEDs, SPI bus"}
+{"project_id": "281", "components": "Arduino board, OLED display (SSD1306), serial device/module, software serial interface"}
+{"project_id": "282", "components": "Arduino board, rotary encoder with switch, 16\u00d72 LCD, potentiometer, PWM output pin"}
+{"project_id": "283", "components": "Arduino board, HC-05 Bluetooth module, LED, MATLAB PC"}
+{"project_id": "284", "components": "Arduino Uno, thermal printer, push button, LED"}
+{"project_id": "285", "components": "Arduino Uno, QMC5883 magnetometer, LEDs, I2C interface"}
+{"project_id": "286", "components": "Arduino board, analog temperature sensor, MATLAB GUI, USB serial communication"}
+{"project_id": "287", "components": "Arduino, LED, USB serial cable, MATLAB GUI, serial communication"}
+{"project_id": "288", "components": "Arduino, stepper motor, motor driver (ULN2003/L293D), MATLAB GUI, USB cable"}
+{"project_id": "289", "components": "Arduino, DC motor, motor driver (L293D/L298N), MATLAB GUI, USB cable"}
+{"project_id": "290", "components": "Arduino Uno, HC-05 Bluetooth module, NeoPixel LEDs, DS3231 RTC module, LDR, EEPROM"}
+{"project_id": "291", "components": "Arduino Uno/Nano, NRF24L01 transceiver modules (Tx & Rx), Potentiometer, Servo motor"}
+{"project_id": "292", "components": "arduino Uno, ESP8266 Wi-Fi module, Pulse Sensor, Temperature sensor (LM35/analog), Panic button, LEDs"}
+{"project_id": "293", "components": "Arduino Uno, electret microphone/audio input, push buttons, LEDs"}
+{"project_id": "294", "components": "Arduino Uno, LCD (16\u00d72), stepper motor, IR/optical RPM sensor, indicator LED"}
+{"project_id": "295", "components": "Arduino Uno, 16\u00d72 LCD, LC tank circuit, push button, frequency input pin"}
+{"project_id": "296", "components": "Arduino Uno, 16\u00d72 LCD, voltage divider, current sensing circuit (op-amp based)"}
+{"project_id": "297", "components": "Arduino Uno, MPU6050 IMU, DC motors, motor driver (PWM), balancing robot chassis"}
+{"project_id": "298", "components": "Arduino board, LED, resistor, USB cable, computer with Python"}
+{"project_id": "299", "components": "Arduino board, analog sensor (or potentiometer), USB cable, PC with Python"}
+{"project_id": "300", "components": "Arduino, HC-SR04 ultrasonic sensor, LED, MOSFET, external load, resistors"}
+{"project_id": "301", "components": "Arduino, 5\u00d7 servo motors, 5\u00d7 potentiometers, serial monitor (PC)"}
+{"project_id": "302", "components": "Arduino, 4\u00d7 DC motors (via motor driver/shift register), 1\u00d7 servo motor, shift-register control pins, serial monitor"}
+{"project_id": "303", "components": "Arduino, flame sensor (digital), buzzer, LED"}
+{"project_id": "304", "components": "Arduino, reed switch, LED"}
+{"project_id": "305", "components": "Arduino, rotary encoder (A, B, switch), 16\u00d72 LCD"}
+{"project_id": "306", "components": "Arduino, ESC, DC motor/BLDC motor, potentiometer"}
+{"project_id": "307", "components": "Arduino, ACS712 current sensor, NodeMCU (ESP8266), Wi-Fi, MQTT (Adafruit IO)"}
+{"project_id": "308", "components": "Arduino, 3-channel relay module"}
+{"project_id": "309", "components": "Arduino, MAX7219 8\u00d78 LED matrix, Bluetooth module (HC-05/HC-06)"}
+{"project_id": "310", "components": "Arduino, RFID reader (EM-18 type), LEDs/relay/buzzer (output indicators)"}
+{"project_id": "311", "components": "Arduino, potentiometer, digital output pin (PWM via software delay), Serial Monitor"}
+{"project_id": "312", "components": "Arduino, Bluetooth module (HC-05/HC-06), LEDs, resistors, SoftwareSerial"}
+{"project_id": "313", "components": "Arduino, RGB color sensor (analog outputs), RGB LED, resistors"}
+{"project_id": "314", "components": "Arduino, Nokia 5110 LCD, joystick module, push-free graphics (bitmaps), SPI interface"}
+{"project_id": "315", "components": "Arduino, push button (digital input), two LEDs, current-limiting resistors"}
+{"project_id": "316", "components": "Arduino, Bluetooth module (HC-05/HC-06), servo motor, jumper wires"}
+{"project_id": "317", "components": "ESP8266 WiFi module, Arduino Uno, 16\u00d72 LCD, Wi-Fi network, jumper wires"}
+{"project_id": "318", "components": "Arduino Uno, 4\u00d7 Servo motors, external power supply (recommended), jumper wires"}
+{"project_id": "319", "components": "Arduino board, LED, current-limiting resistor, jumper wires, PC with MATLAB"}
+{"project_id": "320", "components": "Arduino board, CCS811 air quality sensor (CO\u2082 & TVOC), 16\u00d72 LCD, jumper wires, power supply"}
+{"project_id": "321", "components": "Arduino board, 4\u00d74 keypad, 16\u00d72 LCD, push button, buzzer, jumper wires, power supply"}
+{"project_id": "322", "components": "Arduino board, 128\u00d764 ST7920 graphical LCD, connecting wires, power supply"}
+{"project_id": "323", "components": "Arduino board, DS3231 RTC module, servo motor, 16\u00d72 LCD, 4\u00d74 keypad, push button, connecting wires, power supply"}
+{"project_id": "324", "components": "Arduino board, MPU6050 accelerometer\u2013gyroscope module, Bluetooth module (HC-05/HC-06), jumper wires, power supply"}
+{"project_id": "325", "components": "Arduino board, analog joystick module (X\u2013Y), push button, LEDs (or output devices), resistors, jumper wires"}
+{"project_id": "326", "components": "Arduino board, LDR (light sensor), relay module, LED, resistor(s), jumper wires"}
+{"project_id": "327", "components": "Arduino board, 16\u00d72 LCD, known resistor (3.3 k\u03a9), unknown resistor, jumper wires"}
+{"project_id": "328", "components": "Arduino Uno, MPU6050 sensor, 16\u00d72 LCD, jumper wires"}
+{"project_id": "329", "components": "Arduino Uno, 16\u00d72 LCD, 10 LEDs, voltage input source, resistors, jumper wires"}
+{"project_id": "330", "components": "Arduino Uno, DS1307 RTC module, 6-digit 7-segment display, resistors, jumper wires"}
+{"project_id": "331", "components": "Arduino Uno, MQ-series gas sensor (NH\u2083), 16\u00d72 LCD, 47 k\u03a9 load resistor, jumper wires"}
+{"project_id": "332", "components": "Ultrasonic sensor (HC-SR04), Buzzer, IR Remote input, LDR (light sensor), Arduino pins"}
+{"project_id": "333", "components": "Arduino, search coil (LC circuit), capacitor, buzzer, LED"}
+{"project_id": "334", "components": "Arduino, relay module"}
+{"project_id": "335", "components": "Arduino, thermistor (NTC), relay module, 16\u00d72 LCD"}
+{"project_id": "336", "components": "Arduino, NTC thermistor, 16\u00d72 LCD"}
+{"project_id": "337", "components": "Arduino (Tx & Rx), Ultrasonic Sensor (HC-SR04), Serial Monitor"}
+{"project_id": "338", "components": "Arduino, Nokia 5110 LCD (PCD8544), SPI interface"}
+{"project_id": "339", "components": "Arduino, IR LED, TSOP IR receiver, HC-05 Bluetooth module"}
+{"project_id": "340", "components": "Arduino, LED, push button / external interrupt source"}
+{"project_id": "341", "components": "Arduino, potentiometer, LED / DC load, PWM pin"}
+{"project_id": "342", "components": "Arduino, 2\u00d7 ultrasonic sensors, USB serial communication, PC"}
+{"project_id": "343", "components": "Arduino, SIM900 GSM module, relay/voice playback trigger, serial communication"}
+{"project_id": "344", "components": "Arduino, ultrasonic sensor (HC-SR04), serial communication, Python 3D box visualization"}
+{"project_id": "345", "components": "Arduino, ultrasonic sensor (HC-SR04), DC motors, motor driver shield, PWM motor control"}
+{"project_id": "346", "components": "Arduino, LCD 16\u00d72, analog current sensing via voltage drop, serial monitoring"}
+{"project_id": "347", "components": "Arduino, built-in LED, serial communication, Python input control"}
+{"project_id": "348", "components": "Arduino timer register (TCCR0B), PWM output, potentiometer (analog input), serial monitor"}
+{"project_id": "349", "components": "Voltage divider (R1, R2), LCD display, analog input (A0), serial monitor"}
+{"project_id": "350", "components": "Stepper motors (X, Y), servo motor (pen up/down), motor driver (L293D via AFMotor), serial G-code parser"}
+{"project_id": "351", "components": "Stepper motor, potentiometer (analog input), serial monitor"}
+{"project_id": "352", "components": "Analog voltage sensor (capacitor-based input), serial monitor"}
+{"project_id": "353", "components": "Stepper motor, serial input (PC/Serial Monitor)"}
+{"project_id": "354", "components": "Push button (digital input), LED or buzzer (digital output)"}
+{"project_id": "355", "components": "Fingerprint sensor, RTC (DS1307), LCD 16\u00d72, EEPROM, push buttons, buzzer"}
+{"project_id": "356", "components": "LEDs (Red/Yellow/Green), resistors, Arduino digital output pins"}
+{"project_id": "357", "components": "Potentiometer, Flex Sensor, Serial Communication"}
+{"project_id": "358", "components": "Fingerprint Sensor, LCD Display, Push Buttons, Buzzer, EEPROM Memory"}
+{"project_id": "359", "components": "Fingerprint Sensor, Servo Motor, LCD Display, Push Buttons, Indicator LEDs"}
+{"project_id": "360", "components": "Piezo/Knock Sensor (Analog), Servo Motor, Push Button, EEPROM"}
+{"project_id": "361", "components": "Flex Sensors (2), Push Buttons / Darlington Switches, Speaker/Buzzer"}
+{"project_id": "362", "components": "DS3231 RTC, DHT11 Temperature & Humidity Sensor, SD Card Module"}
+{"project_id": "363", "components": "Push Buttons, Piezo Buzzer / Speaker"}
+{"project_id": "364", "components": "GSM Module, 16\u00d72 LCD, 4\u00d74 Keypad"}
+{"project_id": "365", "components": "Bluetooth Module, 2\u00d7 Servo Motors"}
+{"project_id": "366", "components": "3-Axis Accelerometer, LCD (16\u00d72), Buzzer, LED"}
+{"project_id": "367", "components": "LCD (16\u00d72), LED, Push Buttons, Timer1 (internal)"}
+{"project_id": "368", "components": "Bluetooth Module, Servo Motors (4), Hall Sensor (optional), Serial Control"}
+{"project_id": "369", "components": "GSM Module, GPS Module, Accelerometer, LCD Display"}
+{"project_id": "370", "components": "Hall Effect Sensor, Bluetooth Module, LED"}
+{"project_id": "371", "components": "Ultrasonic Sensor (HC-SR04), Servo Motor, Bluetooth Module (HC-05)"}
+{"project_id": "372", "components": "Load Cell Sensor (HX711-type interface), 16\u00d72 LCD, Push Button"}
+{"project_id": "373", "components": "2 \u00d7 LDR Sensors, Servo Motor (SG90)"}
+{"project_id": "374", "components": "Smoke/Gas Sensor (MQ-type), 16\u00d72 LCD, Buzzer"}
+{"project_id": "375", "components": "Arduino Bluetooth Robot Control Using RemoteXY Joystick"}
+{"project_id": "376", "components": "ESP8266 Wi-Fi Module, Servo Motor"}
+{"project_id": "377", "components": "ESP8266 WiFi Module, Pulse Sensor, 16\u00d72 LCD"}
+{"project_id": "378", "components": "GSM Module, Soil Moisture Sensor (Digital), Relay/Motor, 16\u00d72 LCD, LED"}
+{"project_id": "379", "components": "MQ135 Gas Sensor, ESP8266 WiFi Module, 16\u00d72 LCD, LED"}
+{"project_id": "380", "components": "8\u00d78 LED Matrix, Arduino Digital Pins, PORTD Register"}
+{"project_id": "381", "components": "Ultrasonic Sensor (HC-SR04), ESP8266, Arduino Digital Pins"}
+{"project_id": "382", "components": "16\u00d72 LCD, Voltage Sensor (A0), Current Sensor (A1), Arduino Analog Pins"}
+{"project_id": "383", "components": "8\u00d78 LED Matrix, Arduino Digital Port D (PORTD), Character Bitmap Table"}
+{"project_id": "384", "components": "Arduino, 16\u00d72 LCD, Serial Monitor, Two Relays/Bulbs, Digital Output Pins"}
+{"project_id": "385", "components": "Arduino microcontroller, 8 LEDs (pins 3-10), analog sensor (A5), resistors"}
+{"project_id": "386", "components": "Arduino, 16\u00d72 LCD, Analog Voltage Sensor/Potentiometer, Serial Monitor"}
+{"project_id": "387", "components": "Arduino, Ultrasonic Sensor (HC-SR04), LED/Buzzer"}
+{"project_id": "388", "components": "Arduino, Ultrasonic Sensor (HC-SR04), IR Sensors (2), DC Motors, Motor Driver"}
+{"project_id": "389", "components": "Arduino, Bluetooth Module (HC-05/HC-06), PWM Outputs, External Device Interface"}
+{"project_id": "390", "components": "Arduino, TFT Touchscreen (SPFD5408), WS2812 NeoPixel LED Strip, Touch Panel"}
+{"project_id": "391", "components": "Arduino, Analog Accelerometer (X-axis)"}
+{"project_id": "392", "components": "Arduino, GSM Module (SIM800/SIM900), 16\u00d72 LCD, 4\u00d74 Keypad"}
+{"project_id": "393", "components": "Arduino Mega, Arduino Nano, NRF24L01 RF Modules"}
+{"project_id": "394", "components": "Arduino board, TFT LCD (SPFD5408), TouchScreen module, Buzzer/LED (pin 22)"}
+{"project_id": "395", "components": "Arduino board, IR LED (IR transmitter), Bluetooth/Serial module"}
+{"project_id": "396", "components": "Arduino board, 10 LEDs, 4 push buttons (analog inputs)"}
+{"project_id": "397", "components": "Arduino board, DS1307 RTC module, 16\u00d72 LCD, buzzer, push buttons, EEPROM"}
+{"project_id": "398", "components": "Arduino board, DHT11 sensor, ESP8266 Wi-Fi module, 16\u00d72 LCD, LED, resistors"}
+{"project_id": "399", "components": "Arduino board, GPS module, ESP8266 Wi-Fi module, 16\u00d72 LCD, connecting wires"}
+{"project_id": "400", "components": "Arduino board, 16\u00d72 LCD, signal source, connecting wires"}
+{"project_id": "401", "components": "Arduino Uno, Raspberry Pi, push button, LED, USB cable"}
+{"project_id": "402", "components": "Arduino board, 16\u00d72 LCD display"}
+{"project_id": "403", "components": "Arduino board, ESP8266 Wi-Fi module"}
+{"project_id": "404", "components": "Arduino board, Servo motor"}
+{"project_id": "405", "components": "LED,2push buttons"}
+{"project_id": "406", "components": "LED"}
+{"project_id": "407", "components": "RGB LED, ESP8266 Wifi module"}
+{"project_id": "408", "components": "ESP8266 WiFi module, DC motors with motor driver (L298N/L293D equivalent)"}
+{"project_id": "409", "components": "LCD (16\u00d72), timing-based RC/555 signal input, Arduino pulse measurement"}
+{"project_id": "410", "components": "ESP8266 WiFi module (AT commands), 16\u00d72 LCD, SoftwareSerial communication, SMTP server"}
+{"project_id": "411", "components": "MATLAB GUIDE GUI, Arduino digital I/O control via serial (lights, fan, TV)"}
+{"project_id": "412", "components": "GPS module (NMEA $GPRMC), 16\u00d72 LCD, SoftwareSerial communication"}
+{"project_id": "413", "components": "Vehicle Tracking System Using Arduino, GPS, and GSM"}
+{"project_id": "414", "components": "Vehicle Tracking System Using Arduino, GPS, and GSM"}
+{"project_id": "415", "components": "GSM module (SMS), EEPROM (balance storage), pulse sensor (energy meter output), relay (load control), 16\u00d72 LCD"}
+{"project_id": "416", "components": "Vehicle Tracking System Using Arduino, GPS, and GSM"}
+{"project_id": "417", "components": "16\u00d72 LCD, GSM module (SMS), status LED, serial communication"}
+{"project_id": "418", "components": "3\u00d73\u00d73 LED cube (27 LEDs), layer control pins (A0\u2013A2), column pins (D2\u2013D10)"}
+{"project_id": "419", "components": "IR receiver (TSOP), 16\u00d72 LCD, fan/relay, light/relay, TV/relay"}
+{"project_id": "420", "components": "DC motors, motor driver (L293D/L298), serial control (Bluetooth/USB), Arduino GPIO pins"}
+{"project_id": "421", "components": "Force Sensitive Resistor (FSR), servo motor, analog input (A0), PWM output pin"}
+{"project_id": "422", "components": "AVR microcontroller (UART), push button, Arduino board, LED, serial communication pins"}
+{"project_id": "423", "components": "Push buttons (digital inputs), buzzer (PWM output), Arduino GPIO pins"}
+{"project_id": "424", "components": "16\u00d72 LCD display, 2 push buttons (increment/decrement), PWM output pin, analog voltage sensor (A0)"}
+{"project_id": "425", "components": "Multiple LEDs (RGB sets), Arduino digital I/O pins, delay-based sequencing"}
+{"project_id": "426", "components": "8\u00d78 LED matrix (MAX7219), Arduino digital pins (DIN, CLK, LOAD)"}
+{"project_id": "427", "components": "Analog sensor/potentiometer on A0, PWM output on pin 3"}
+{"project_id": "428", "components": "Ultrasonic sensor (HC-SR04), DC motor/relay, buzzer, 16\u00d72 LCD"}
+{"project_id": "429", "components": "IR sensor (digital input), 16\u00d72 LCD display, push button (start trigger), LED indicator"}
+{"project_id": "430", "components": "2\u00d7 IR sensors (entry/exit detection), 16\u00d72 LCD display, relay module (light control)"}
+{"project_id": "431", "components": "Vehicle Tracking System Using Arduino, GPS, and GSM"}
+{"project_id": "432", "components": "Analog Hall effect sensor (linear output), 16\u00d72 LCD display"}
+{"project_id": "433", "components": "Shift register (74HC595 or similar), clock pin, data pin, latch pin, 8 LEDs/output devices"}
+{"project_id": "434", "components": "PIR motion sensor, DC motor (gate motor with H-bridge control), 16\u00d72 LCD display"}
+{"project_id": "435", "components": "Single-digit 7-segment display, 2 push buttons (dice roll trigger, reset), random number generator"}

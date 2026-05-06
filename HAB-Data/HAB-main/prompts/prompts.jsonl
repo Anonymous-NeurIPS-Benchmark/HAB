@@ -1,0 +1,434 @@
+{"project_id": "1", "prompt": "Arduino-based smart dustbin that uses an ultrasonic sensor to detect nearby objects and automatically opens and closes the lid using a servo motor."}
+{"project_id": "2", "prompt": "IoT-based automatic plant watering system that monitors soil moisture levels and controls a water pump remotely using the Blynk cloud platform, with real-time visual feedback via an LED matrix."}
+{"project_id": "3", "prompt": "Arduino-based line follower robot that uses infrared sensors to detect a path and control DC motors for autonomous navigation."}
+{"project_id": "4", "prompt": "ESP8266-based system that sends SMS notifications with GPS tracker identification and parameter values using the CircuitDigest Cloud API."}
+{"project_id": "5", "prompt": "ESP32-S3\u2013based digital Ludo board that implements a complete multiplayer game using a touch-sensitive matrix, RGB LEDs, and a round TFT display with animated graphics."}
+{"project_id": "6", "prompt": "Bluetooth Low Energy\u2013based electronic dice that detects motion and orientation using an accelerometer and wirelessly transmits the rolled face value."}
+{"project_id": "7", "prompt": "Arduino-based remote-controlled boat that uses 433 MHz RF transmitter and receiver modules to wirelessly control the boat\u2019s motors for forward, backward, left, and right movement"}
+{"project_id": "8", "prompt": "Bluetooth-controlled pick-and-place robotic arm mounted on a mobile car platform that uses an Arduino to drive servos and DC motors for movement and manipulation."}
+{"project_id": "9", "prompt": "Serial-controlled rover that uses character commands to control the direction of DC motors through a motor driver."}
+{"project_id": "10", "prompt": "Bluetooth-controlled robotic rover that uses a mobile app to control movement speed, direction, and NeoPixel LED indicators via serial commands."}
+{"project_id": "11", "prompt": "An IIoT test bed built on the Sipeed Maixduino that monitors light intensity, temperature, humidity, DC motor speed, current, and power consumption, displaying the data on a TFT screen and sending it over serial communication."}
+{"project_id": "12", "prompt": "A vision-based Bluetooth human\u2013computer interaction system where an Arduino with hall sensors and Bluetooth communicates with a Processing application to track hand movement via a camera, enabling virtual painting and LED control through gestures and magnetic switches."}
+{"project_id": "13", "prompt": "Snake game implemented on an LED matrix with button controls and score display on an LCD."}
+{"project_id": "14", "prompt": "Touchscreen-based calculator implemented on Arduino with a TFT LCD, allowing numeric and arithmetic input via on-screen buttons."}
+{"project_id": "15", "prompt": "A compact Arduino-based spy voice recorder that captures audio from a microphone and saves it as WAV files on an SD card."}
+{"project_id": "16", "prompt": "An Arduino-based automatic AC temperature controller that monitors room temperature and humidity and controls an air conditioner via IR signals while displaying data on an OLED."}
+{"project_id": "17", "prompt": "Wireless doorbell that triggers a melody on the receiver when the transmitter button is pressed."}
+{"project_id": "18", "prompt": "A password typer project that uses a Digispark/ATtiny85 to act as a USB keyboard and automatically type predefined passwords or login details on a computer when a button is pressed."}
+{"project_id": "19", "prompt": "Arduino piano that plays, records, and replays musical notes with timing."}
+{"project_id": "20", "prompt": "A digital firecracker that detects heat via a thermistor and triggers sound effects and LED animations using an MP3 module and NeoPixels"}
+{"project_id": "21", "prompt": "Autonomous Fire-Fighting Robot"}
+{"project_id": "22", "prompt": "Arduino-based stepper motor control using a TMC2208 driver for silent and smooth bidirectional rotation."}
+{"project_id": "23", "prompt": "ESP32-CAM performs real-time face/object recognition and displays detected identities with confidence on an OLED screen."}
+{"project_id": "24", "prompt": "Bidirectional speed and direction control of a DC motor using the MX1508 motor driver and Arduino via PWM."}
+{"project_id": "25", "prompt": "Controls a stepper motor\u2019s direction and movement by generating STEP and DIR pulses from Arduino using a stepper motor driver."}
+{"project_id": "26", "prompt": "Measures ambient sound level by calculating peak-to-peak audio amplitude from an analog microphone signal."}
+{"project_id": "27", "prompt": "Hand-gesture recognition system that detects swipe, wave, and rotation gestures using a PAJ7620U2 sensor and displays results on an I2C LCD."}
+{"project_id": "28", "prompt": "Arduino-based water level indicator that senses water depth and drives LEDs to show level intensity or stages."}
+{"project_id": "29", "prompt": "IoT-enabled people counter that automatically opens entry/exit gates, counts people, and displays live occupancy on an LED matrix and cloud."}
+{"project_id": "30", "prompt": "Arduino project that reads a capacitive contactless liquid level sensor and reports whether liquid is present without the sensor touching the liquid."}
+{"project_id": "31", "prompt": "Potentiometer-Controlled DC Motor Speed Using Arduino"}
+{"project_id": "32", "prompt": "Arduino OLED Graphics and Text Demonstration Using SSD1306 Display"}
+{"project_id": "33", "prompt": "Robotic Eye Animation Using Arduino UNO"}
+{"project_id": "34", "prompt": "A high-speed rotating LED display system using ESP32 that renders images and animations in mid-air by synchronizing LED output with real-time rotational position feedback from Hall sensors."}
+{"project_id": "35", "prompt": "Driver Drowsiness Detection"}
+{"project_id": "36", "prompt": "Water Turbidity Monitoring System Using Arduino"}
+{"project_id": "37", "prompt": "Capacitive Touch\u2013Based LED Sequencer"}
+{"project_id": "38", "prompt": "Human following Robo with Triple Ultrasonic Sensor"}
+{"project_id": "39", "prompt": "IoT-Based Smart Dustbin Management System"}
+{"project_id": "40", "prompt": "Arduino Robotic Arm : Build and Control a 4-Servo Robot Arm Manually with Potentiometers"}
+{"project_id": "41", "prompt": "Single-Digit 7-Segment Display Counter using Arduino"}
+{"project_id": "42", "prompt": "Arduino Solar Tracker using LDR Sensors and Servo Motor"}
+{"project_id": "43", "prompt": "Arduino Flex Sensor Controlled PWM Output (LED Brightness Control)"}
+{"project_id": "44", "prompt": "Arduino SD Card\u2013Based Music Player with Push Button Control"}
+{"project_id": "45", "prompt": "Arduino Soil Moisture Level Indicator with LED Output"}
+{"project_id": "46", "prompt": "Voice Controlled Arduino Smart Home Automation with IR Remote Learning, Bluetooth Voice Control, RGB LEDs, and Relays"}
+{"project_id": "47", "prompt": "Air Quality Monitoring System"}
+{"project_id": "48", "prompt": "Arduino Servo Motor Control Using Potentiometer"}
+{"project_id": "49", "prompt": "Temperature Controlled Fan Using Arduino and LM35"}
+{"project_id": "50", "prompt": "Arduino Obstacle Avoiding Car Using Ultrasonic Sensor and Servo"}
+{"project_id": "51", "prompt": "Smart Dustbin Using Arduino Nano with Ultrasonic and IR Sensors"}
+{"project_id": "52", "prompt": "Dog Barking Security Alarm using Arduino and PIR Sensor"}
+{"project_id": "53", "prompt": "Arduino Heart Rate (BPM) Monitoring System"}
+{"project_id": "54", "prompt": "Arduino WS2811 LED Strip Lighting Effects using FastLED"}
+{"project_id": "55", "prompt": "Arduino Two-Button LED Battle Game with Buzzer using FastLED"}
+{"project_id": "56", "prompt": "Active and Passive Buzzer Control Using Arduino"}
+{"project_id": "57", "prompt": "LED Blinking Using MicroPython"}
+{"project_id": "58", "prompt": "Digital Hourglass Timer Using Arduino, MPU6050, and LED Matrix"}
+{"project_id": "59", "prompt": "Smart Blind Stick Using Arduino and Ultrasonic Sensor"}
+{"project_id": "60", "prompt": "Arduino Based Tetris Game"}
+{"project_id": "61", "prompt": "Arduino-Based Temperature and Humidity Monitoring System Using DHT Sensor and OLED Display"}
+{"project_id": "62", "prompt": "Arduino 4\u00d74 Matrix Keypad Key Detection and Serial Output"}
+{"project_id": "63", "prompt": "Arduino Relay ON/OFF Control with Timed Delay"}
+{"project_id": "64", "prompt": "Wireless Audio Transmission Using nRF24L01 (Transmitter & Receiver)"}
+{"project_id": "65", "prompt": "Dual DC Motor Speed and Direction Control Using Analog Inputs and Mode Switch"}
+{"project_id": "66", "prompt": "Arduino-Based Digital Multimeter (Voltmeter, Ohmmeter, Diode & Continuity Tester) Using OLED"}
+{"project_id": "67", "prompt": "Arduino-Based OLED Menu-Driven Motorized Dispenser with EEPROM Settings"}
+{"project_id": "68", "prompt": "Moving Flame Candle by Sensor-Triggered LED Control Using Dual Analog Inputs"}
+{"project_id": "69", "prompt": "Bidirectional DC Motor Speed and Direction Control Using L293D and Arduino"}
+{"project_id": "70", "prompt": "433 MHz ASK Wireless Communication Using Arduino (RadioHead Library)"}
+{"project_id": "71", "prompt": "Motorized Camera Slider"}
+{"project_id": "72", "prompt": "Servo Motor Sweep Control (0\u00b0\u2013180\u00b0)"}
+{"project_id": "73", "prompt": "GPS Location Tracking and SMS Google Maps Link Sender"}
+{"project_id": "74", "prompt": "Battery Internal Resistance Measurement Using OLED"}
+{"project_id": "75", "prompt": "LED Matrix Text Display Using MAX7219 (MD_Parola)"}
+{"project_id": "76", "prompt": "WS2812B RGB LED Palette Animation Using FastLED"}
+{"project_id": "77", "prompt": "TSL2591 Digital Light Sensor (Lux Meter)"}
+{"project_id": "78", "prompt": "Dual-Axis Joystick Reading with Push Button"}
+{"project_id": "79", "prompt": "RCWL-0516 Microwave Motion Sensor with LED Indicator"}
+{"project_id": "80", "prompt": "Rotary Encoder\u2013Based Digital Length Measurement System with OLED Display"}
+{"project_id": "81", "prompt": "LoRaWAN Temperature & Humidity Monitoring Using DHT22 (TTN)"}
+{"project_id": "82", "prompt": "Ultrasonic Distance Measurement with Median Sampling and Noise Filtering"}
+{"project_id": "83", "prompt": "Servo-Controlled Robotic Eye and Eyelid Animation System"}
+{"project_id": "84", "prompt": "Bluetooth-Based Analog Sensor Event Counter"}
+{"project_id": "85", "prompt": "ESP8266 Wi-Fi Based Smart Fan Speed Controller (Manual & Automatic Mode)"}
+{"project_id": "86", "prompt": "Rotary Encoder with Push Button Using Pin Change Interrupts"}
+{"project_id": "87", "prompt": "SD Card File Create, Write, and Read Example"}
+{"project_id": "88", "prompt": "Li-Ion Battery Capacity Tester with LCD Display"}
+{"project_id": "89", "prompt": "RTC Based Digital Clock with I2C LCD (DS3231)"}
+{"project_id": "90", "prompt": "Sharp GP2Y1014AU0F Optical Dust Sensor Interfacing with Arduino"}
+{"project_id": "91", "prompt": "RFID (MFRC522) Based LED Control and MIFARE Card Read/Write System"}
+{"project_id": "92", "prompt": "DHT11 Temperature and Humidity Monitoring (Unified Sensor Library)"}
+{"project_id": "93", "prompt": "MPU6050 Accelerometer, Gyroscope & Temperature Monitoring"}
+{"project_id": "94", "prompt": "Flame Sensor Fire Detection System"}
+{"project_id": "95", "prompt": "Real-Time Clock (DS3231) with 16\u00d72 LCD Display (Parallel Interface)"}
+{"project_id": "96", "prompt": "Color Detection Using TCS3200 Color Sensor"}
+{"project_id": "97", "prompt": "Heart Rate Monitoring Using Pulse Sensor (BPM Measurement)"}
+{"project_id": "98", "prompt": "Alcohol Detection System Using MQ-3 Sensor"}
+{"project_id": "99", "prompt": "RGB LED Digital Clock with DS3232 RTC, Temperature Display & DST Using WS2812B (FastLED)"}
+{"project_id": "100", "prompt": "NTC Thermistor Temperature Measurement using Beta Equation"}
+{"project_id": "101", "prompt": "ESP8266 Wi-Fi Controlled POV LED Display with OTA & FastLED Animations"}
+{"project_id": "102", "prompt": "LM35 Analog Temperature Sensor Interface with Arduino"}
+{"project_id": "103", "prompt": "Hall Effect Sensor Based LED Control Using Arduino"}
+{"project_id": "104", "prompt": "6\u00d72 LCD Display with Scrolling Text and Counter Using Arduino"}
+{"project_id": "105", "prompt": "Battery Capacity Tester with OLED Display"}
+{"project_id": "106", "prompt": "Analog Sensor Controlled LED Brightness"}
+{"project_id": "107", "prompt": "Analog Sensor\u2013Based LED Brightness Control (Inverted Output)"}
+{"project_id": "108", "prompt": "Water Flow Meter Using YF-S201 with LCD Display"}
+{"project_id": "109", "prompt": "IR Obstacle / Motion Detection with LED and Serial Monitor"}
+{"project_id": "110", "prompt": "Arduino Oscilloscope with SH1106 OLED, Signal Generator & Frequency Counter"}
+{"project_id": "111", "prompt": "ATtiny85 Pin-Change Interrupt LED & Buzzer Timer"}
+{"project_id": "112", "prompt": "MQ-2 Smoke/Gas Detector with LED & Buzzer Alert"}
+{"project_id": "113", "prompt": "Pulse Oximeter & Heart Rate Monitor using MAX30100 and OLED"}
+{"project_id": "114", "prompt": "Automatic Resistor Cutting CNC Machine"}
+{"project_id": "115", "prompt": "Alexa / SinricPro Based Smart TV IR Controller (ESP8266 / ESP32)"}
+{"project_id": "116", "prompt": "Pulse Oximeter & Heart Rate Monitor Using MAX30100 with OLED Display"}
+{"project_id": "117", "prompt": "Blynk-Based WiFi Controlled Robot Car (ESP8266 + Arduino)"}
+{"project_id": "118", "prompt": "Ultrasonic Obstacle Avoiding Robot Car"}
+{"project_id": "119", "prompt": "ROS-Enabled Autonomous UV Disinfection Robot with Sensor Monitoring & WiFi Control"}
+{"project_id": "120", "prompt": "Serial-Controlled WS2812B LED Matrix Animation System"}
+{"project_id": "121", "prompt": "Ultrasonic Sensor\u2013Based Automatic Servo Actuation System"}
+{"project_id": "122", "prompt": "IoT-Based Smart City and Smart Home Automation System"}
+{"project_id": "123", "prompt": "Fire Fighting Rover with Obstacle Avoidance and GSM Alert System"}
+{"project_id": "124", "prompt": "Smart Water Management System with Autonomous Line-Following Robot & Cloud Integration"}
+{"project_id": "125", "prompt": "AI-Based Contactless Attendance, Temperature Screening & Sanitization System (COVID-Safe Entry System)"}
+{"project_id": "126", "prompt": "Serial-Based Home Automation (Fan & Light Control Using Arduino)"}
+{"project_id": "127", "prompt": "IoT Temperature & Moisture Monitoring System using ESP8266 and Blynk"}
+{"project_id": "128", "prompt": "Keypad-Based Digital Clock with LCD Display"}
+{"project_id": "129", "prompt": "Gesture-Controlled Wireless Robot using Accelerometer and RF Communication"}
+{"project_id": "130", "prompt": "Automatic & Manual Water Level Controller with Ultrasonic Sensor"}
+{"project_id": "131", "prompt": "Alphabet Sound Board Using Arduino and SD Card"}
+{"project_id": "132", "prompt": "ORCH \u2013 IoT-Based Smart Monitoring & Communication System (Bluetooth, Sensors, Firebase)"}
+{"project_id": "133", "prompt": "Force Sensitive Resistor (FSR) Force Measurement Using Arduino"}
+{"project_id": "134", "prompt": "Hand Gesture\u2013Controlled Servo Motor & LED System Using Python, OpenCV, and Arduino"}
+{"project_id": "135", "prompt": "Capacitive Touch\u2013Controlled NeoPixel RGB & Music Reactive Lighting System"}
+{"project_id": "136", "prompt": "Motion-Activated MP3 Audio Playback with NeoPixel Rainbow Lighting"}
+{"project_id": "137", "prompt": "Coin Acceptor Controlled Power Switching System"}
+{"project_id": "138", "prompt": "Light Intensity & Irradiance Measurement Using BH1750 Sensor"}
+{"project_id": "139", "prompt": "PID Based Temperature Control System Using MAX6675 and OLED"}
+{"project_id": "140", "prompt": "Humidity Monitoring and Control System Using DHT Sensor and OLED"}
+{"project_id": "141", "prompt": "Automatic Soil Moisture\u2013Based Pump Control System"}
+{"project_id": "142", "prompt": "Audio Spectrum Analyzer Using FFT and LED Matrix"}
+{"project_id": "143", "prompt": "Edge Impulse\u2013Based Non-Contact Body Temperature Classification System"}
+{"project_id": "144", "prompt": "E-Paper Display Image and Text Rendering System"}
+{"project_id": "145", "prompt": "Capacitive Touch Piano with Recording and Playback"}
+{"project_id": "146", "prompt": "Fire Detection and IoT Alert System Using GPRS (ThingSpeak)"}
+{"project_id": "147", "prompt": "Ultrasonic Distance Measurement with OLED Display (ATtiny)"}
+{"project_id": "148", "prompt": "Obstacle Avoiding Robot Using Three Ultrasonic Sensors and IR Sensor"}
+{"project_id": "149", "prompt": "Smart Vehicle Ignition System Using RFID License and Fingerprint Authentication"}
+{"project_id": "150", "prompt": "Long-Range Arduino Based Walkie Talkie Using nRF24L01"}
+{"project_id": "151", "prompt": "Gesture Controlled Robotic Arm using Arduino Nano & MPU6050"}
+{"project_id": "152", "prompt": "Pulse Oximeter using MAX30100 and OLED Display"}
+{"project_id": "153", "prompt": "MicroTank \u2013 Arduboy Tank Battle Game"}
+{"project_id": "154", "prompt": "Arduino Digital Weighing Scale with Set-Weight Alert"}
+{"project_id": "155", "prompt": "Ultrasonic Water Level Monitoring System using Arduino"}
+{"project_id": "156", "prompt": "IoT-Based Temperature & Humidity Monitoring with LED Control (Arduino IoT Cloud)"}
+{"project_id": "157", "prompt": "Motion-activated control"}
+{"project_id": "158", "prompt": "ECG-Based Heart Rate and Heart Rate Variability Monitor"}
+{"project_id": "159", "prompt": "Arduino Ethernet Web Server LED Control"}
+{"project_id": "160", "prompt": "IR Sensor\u2013Based Stepper Motor Control with Solenoid (Relay)"}
+{"project_id": "161", "prompt": "Ultrasonic Obstacle Detection with Voice Alerts (Left\u2013Center\u2013Right)"}
+{"project_id": "162", "prompt": "E18 Infrared Proximity Sensor Object Detection"}
+{"project_id": "163", "prompt": "LT8920 Wireless Transceiver Communication (Send & Receive)"}
+{"project_id": "164", "prompt": "nRF24L01 Wireless DSLR Shutter Remote (JSON-Based Transmitter & Receiver)"}
+{"project_id": "165", "prompt": "Wi-Fi Based Live Cricket Score Display on LED Matrix (NodeMCU + Arduino)"}
+{"project_id": "166", "prompt": "RFID Tag Reader Using RDM6300 Module"}
+{"project_id": "167", "prompt": "PID-Based DC Motor Position Control Using Encoder"}
+{"project_id": "168", "prompt": "OLED-Based Digital Resistance Meter Using LM317"}
+{"project_id": "169", "prompt": "AD9833 DDS Function Generator with OLED Display and Rotary Encoder"}
+{"project_id": "170", "prompt": "IoT Smart Blinds Control Using ESP8266, Blynk, and Stepper Motor"}
+{"project_id": "171", "prompt": "Accelerometer-Based Step Counter Using MPU6050 and OLED Display"}
+{"project_id": "172", "prompt": "Programming ATtiny85 IC Directly through USB Using Digispark Bootloader"}
+{"project_id": "173", "prompt": "Serial-Controlled LED Matrix Scoreboard (Home vs Away)"}
+{"project_id": "174", "prompt": "Air Quality Monitoring System using MQ-135 and OLED Display"}
+{"project_id": "175", "prompt": "Blynk Controlled NeoPixel LED Strip Using Arduino"}
+{"project_id": "177", "prompt": "UV Sanitization Robot"}
+{"project_id": "178", "prompt": "Particulate Matter (PM2.5 & PM10) Air Quality Monitoring using SDS011 and OLED"}
+{"project_id": "179", "prompt": "Wireless Keypad Data Transmission using Pulse Width Encoding"}
+{"project_id": "180", "prompt": "Serial Controlled Door Lock System with Buzzer Alert"}
+{"project_id": "181", "prompt": "Dust Density Monitoring System using Optical Dust Sensor and OLED Display"}
+{"project_id": "182", "prompt": "Gesture Controlled Elevator Simulation using APDS9960 and OLED Display"}
+{"project_id": "183", "prompt": "LoRa Receiver with OLED Display using SX127x"}
+{"project_id": "184", "prompt": "SPI Communication Between N76E003 & Arduino"}
+{"project_id": "185", "prompt": "RS-485 Communication Using Arduino Nano with LCD Display (Transmitter & Receiver)"}
+{"project_id": "186", "prompt": "Wall Mounted Temperature Scanner with SD Card Data Logging"}
+{"project_id": "187", "prompt": "GPS-Based Digital Speedometer Using Arduino and OLED Display"}
+{"project_id": "188", "prompt": "Sinusoidal PWM (SPWM) Generation Using ATmega328 Timer1"}
+{"project_id": "189", "prompt": "HC-05 Bluetooth AT Command Mode Interface Using Arduino"}
+{"project_id": "190", "prompt": "IoT Weather Data Transmission Using ESP32, LoRa, and Arduino with LCD/OLED Display"}
+{"project_id": "191", "prompt": "Non-Contact IR Temperature Measurement Using MLX90615"}
+{"project_id": "192", "prompt": "Digital Thermometer Using MAX30205 and 3-Digit 7-Segment Display"}
+{"project_id": "193", "prompt": "IR Remote Signal Logger Using Arduino"}
+{"project_id": "194", "prompt": "Sound-Based Light Control Using Edge Impulse and PDM Microphone"}
+{"project_id": "195", "prompt": "Cough Detection System Using Edge Impulse and PDM Microphone"}
+{"project_id": "196", "prompt": "High-Frequency Square Wave Generation Using Timer1 and Direct Port Contro"}
+{"project_id": "197", "prompt": "Emergency Alert System Using GPS and GSM with Arduino"}
+{"project_id": "198", "prompt": "RFID-Based Temperature Logging System with Proximity Detection"}
+{"project_id": "199", "prompt": "Digital Volume Control Using PT2258 Audio Processor and Arduino"}
+{"project_id": "200", "prompt": "Digital pH Meter Using Arduino and I2C LCD"}
+{"project_id": "201", "prompt": "Bluetooth Serial Communication Using HC-05 (Configuration, Sender & Receiver)"}
+{"project_id": "202", "prompt": "FreeRTOS Semaphore and Mutex Demonstration on Arduino"}
+{"project_id": "203", "prompt": "Inter-Task Communication Using FreeRTOS Queue on Arduino"}
+{"project_id": "204", "prompt": "Alcohol Detection System with LCD, Buzzer, and LED"}
+{"project_id": "205", "prompt": "FreeRTOS Multitasking on Arduino with Dual LED Blink and Serial Counter"}
+{"project_id": "206", "prompt": "IoT COVID-19 Tracker with Automatic Hand Sanitizer using ESP32"}
+{"project_id": "207", "prompt": "Keypad-Based Password Door Lock System Using Servo Motor"}
+{"project_id": "208", "prompt": "Arduino-Based Coin Sorting and Counting System"}
+{"project_id": "209", "prompt": "Arduino-Based Programmable Digital Electronic Load (SPI DAC Controlled)"}
+{"project_id": "210", "prompt": "Wireless Restaurant Ordering System using TFT Touchscreen (ASK RF)"}
+{"project_id": "211", "prompt": "Start\u2013End Logic Game with Buzzer and I2C LCD"}
+{"project_id": "212", "prompt": "AC Load / Motor Speed Control Using TRIAC and Zero-Cross Detection"}
+{"project_id": "213", "prompt": "RF Joystick Controlled BLDC Motor / Robot Car Using nRF24L01"}
+{"project_id": "214", "prompt": "RFID Based Door Lock System with Hall Sensor Feedback"}
+{"project_id": "215", "prompt": "ADXL345 Accelerometer Axis Measurement and Serial Monitoring"}
+{"project_id": "216", "prompt": "ESP32 Dual-Core Multitasking with DHT11 Sensor and LED Blinking"}
+{"project_id": "217", "prompt": "RDA5807M FM Radio Receiver with Analog Frequency Tuning"}
+{"project_id": "218", "prompt": "Rainfall Detection and Alert System using Buzzer"}
+{"project_id": "219", "prompt": "Pedometer (Step Counter) Using Analog Accelerometer and I2C LCD"}
+{"project_id": "220", "prompt": "OLED Bitmap Display Using SH1106 and U8glib"}
+{"project_id": "221", "prompt": "BMP280 Temperature and Pressure Monitoring with LCD Display"}
+{"project_id": "222", "prompt": "RFM69HCW Wireless Communication with ACK, Encryption, and Low-Power Mode"}
+{"project_id": "223", "prompt": "LED Dot Matrix Scrolling Text Display using DMD"}
+{"project_id": "224", "prompt": "Smart Wallet using Color Sensor and LCD Display"}
+{"project_id": "225", "prompt": "Audio-Based Data Reception using Chirp SDK on Arduino Nano 33 Sense"}
+{"project_id": "226", "prompt": "Multi-Sensor Data Acquisition using Arduino Nano 33 Sense (IMU, Environmental & Proximity Sensors)"}
+{"project_id": "227", "prompt": "RFID UID Reader using MFRC522 and Arduino"}
+{"project_id": "228", "prompt": "ESP8266 Alexa-Based Home Automation using FauxmoESP"}
+{"project_id": "229", "prompt": "Bluetooth HC-05 AT Command Mode Interface"}
+{"project_id": "230", "prompt": "BLE Temperature Broadcasting Using nRF24L01 and DHT11"}
+{"project_id": "231", "prompt": "Arduino Weather Station Using DHT11 (With and Without Low-Power Sleep Mode)"}
+{"project_id": "232", "prompt": "Potentiometer-Based Stepper Motor Control Using Arduino"}
+{"project_id": "233", "prompt": "LED Control Using Two Push Buttons (ON/OFF Control)"}
+{"project_id": "234", "prompt": "Sound Level (dB) Monitoring Using Microphone Sensor and LED Alert"}
+{"project_id": "235", "prompt": "Automatic Water Pump Control Using Soil Moisture Sensor"}
+{"project_id": "236", "prompt": "PCF8591 I2C ADC Value Display on 16\u00d72 LCD"}
+{"project_id": "237", "prompt": "Charlieplexed LED Control Using 4 Arduino Pins (12 LEDs)"}
+{"project_id": "238", "prompt": "NRF24L01 Wireless Communication Between Raspberry Pi and Arduino with LCD Display"}
+{"project_id": "239", "prompt": "Text to Morse Code Converter Using Arduino (Audio Output)"}
+{"project_id": "240", "prompt": "Gesture and Color Detection System Using APDS9960 with LCD"}
+{"project_id": "241", "prompt": "CAN Bus Based Temperature and Humidity Monitoring System"}
+{"project_id": "242", "prompt": "Ambient Light and Distance Measurement using VL6180X with Nokia 5110 Display"}
+{"project_id": "243", "prompt": "Contactless Infrared Thermometer using MLX90614 with OLED Display"}
+{"project_id": "244", "prompt": "MPU6050 Accelerometer-Based Servo Motor Control with LCD Display"}
+{"project_id": "245", "prompt": "LoRa-Based GPS Location Transmission and Reception System"}
+{"project_id": "246", "prompt": "Arduino Voice Alert System Using Talkie Speech Synthesis"}
+{"project_id": "247", "prompt": "Arduino\u2013Bluetooth Air Mouse Using Python and PyAutoGUI"}
+{"project_id": "248", "prompt": "Arduino DHT11 Temperature & Humidity Monitoring Using MATLAB"}
+{"project_id": "249", "prompt": "Arduino Whistle Detector Switch Using Frequency Measurement"}
+{"project_id": "250", "prompt": "Arduino BH1750 Digital Light Intensity (Lux) Meter with LCD"}
+{"project_id": "251", "prompt": "Arduino Modbus RTU Master Using MAX485 with LCD Display"}
+{"project_id": "252", "prompt": "Arduino HM-10 BLE Controlled LED"}
+{"project_id": "253", "prompt": "\u00a0Joystick-Controlled Keyboard Navigation Using Arduino"}
+{"project_id": "254", "prompt": "Color-Based Object Sorting Using Arduino and Servo Motors"}
+{"project_id": "255", "prompt": "IoT-Based Fingerprint Attendance System Using Arduino, ESP8266, and ThingsBoard"}
+{"project_id": "256", "prompt": "LED Blinking Using Arduino"}
+{"project_id": "257", "prompt": "Standalone Fingerprint Enrollment and Identification System Using Arduino"}
+{"project_id": "258", "prompt": "Multitasking and Interrupt-Based LED Control Using Arduino millis()"}
+{"project_id": "259", "prompt": "Web-Controlled LED Blinking and Brightness Using Node.js & Arduino"}
+{"project_id": "260", "prompt": "LoRa Communication Between Arduino and Raspberry Pi"}
+{"project_id": "261", "prompt": "GSM-Based Location Tracking via SMS Using SIM800"}
+{"project_id": "262", "prompt": "RS-485 Modbus Slave Control Using Arduino"}
+{"project_id": "263", "prompt": "Vibration Sensor Interfacing with Arduino"}
+{"project_id": "264", "prompt": "Raspberry Pi to Arduino Servo Control via Serial Communication"}
+{"project_id": "265", "prompt": "Four-Digit 7-Segment Digital Clock Using Arduino and RTC"}
+{"project_id": "266", "prompt": "TTP223 Capacitive Touch Sensor Interfacing with Arduino"}
+{"project_id": "267", "prompt": "OV7670 Camera Interfacing with Arduino for Image Capture"}
+{"project_id": "268", "prompt": "Home Automation Using Google Assistant and ThingSpeak"}
+{"project_id": "269", "prompt": "7.4V Lithium Two-Step Battery Charger (CC\u2013CV)"}
+{"project_id": "270", "prompt": "LoRa Point-to-Point Communication (Arduino Sender & Receiver)"}
+{"project_id": "271", "prompt": "RS-485 Serial Communication Between Two Arduinos (UNO Master & Nano Slave)"}
+{"project_id": "272", "prompt": "Serial-Based LED Control Using Arduino"}
+{"project_id": "273", "prompt": "External Interrupts with LCD Display Using Arduino"}
+{"project_id": "274", "prompt": "Arduino DAC Interface Using MCP4725 with LCD"}
+{"project_id": "275", "prompt": "Arduino Digital Taxi Meter Using Timer and Interrupts"}
+{"project_id": "276", "prompt": "Medicine Reminder System Using Arduino and RTC"}
+{"project_id": "277", "prompt": "Arduino Vehicle Speed, Distance, and Angle Calculator"}
+{"project_id": "278", "prompt": "I2C Communication Between STM32 (Master) and Arduino (Slave)"}
+{"project_id": "279", "prompt": "I2C Communication Between Two Arduinos with LCD Display"}
+{"project_id": "280", "prompt": "SPI Communication Between Two Arduinos (Master\u2013Slave)"}
+{"project_id": "281", "prompt": "OLED-Based Smart Clock with Battery and Network Status Display"}
+{"project_id": "282", "prompt": "Arduino PWM Signal Generator with Rotary Encoder and LCD"}
+{"project_id": "283", "prompt": "Bluetooth Communication Between Arduino and MATLAB (Command Window & GUI)"}
+{"project_id": "284", "prompt": "Thermal Printer Interfacing with Arduino Uno Using Push Button"}
+{"project_id": "285", "prompt": "Arduino Digital Compass using QMC5883 Sensor"}
+{"project_id": "286", "prompt": "Real-Time Temperature Monitoring using Arduino and MATLAB GUI"}
+{"project_id": "287", "prompt": "LED Control Using Arduino and MATLAB GUI via Serial Communication"}
+{"project_id": "288", "prompt": "Stepper Motor Control Using MATLAB GUI and Arduino"}
+{"project_id": "289", "prompt": "DC Motor Direction Control Using MATLAB GUI and Arduino"}
+{"project_id": "290", "prompt": "Bluetooth Controlled Mood Light with Sleep/Wake Alarm using Arduino"}
+{"project_id": "291", "prompt": "Wireless Servo Control using NRF24L01 and Arduino"}
+{"project_id": "292", "prompt": "IoT-Based Heart Rate and Temperature Monitoring System using ESP8266"}
+{"project_id": "293", "prompt": "Arduino-Based Guitar Tuner using Autocorrelation Method"}
+{"project_id": "294", "prompt": "Arduino Digital Speedometer using RPM Sensor and Stepper Motor"}
+{"project_id": "295", "prompt": "Arduino LC Meter for Measuring Inductance and Capacitance"}
+{"project_id": "296", "prompt": "Arduino Wattmeter for Solar PV System"}
+{"project_id": "297", "prompt": "Arduino Self-Balancing Robot Using MPU6050 and PID"}
+{"project_id": "298", "prompt": "LED Control (Blink & Fade) Using Python and PyFirmata"}
+{"project_id": "299", "prompt": "Arduino\u2013Python Serial Oscilloscope Using Matplotlib"}
+{"project_id": "300", "prompt": "Ultrasonic Distance-Based Load / Light Control Using MOSFET"}
+{"project_id": "301", "prompt": "Robotic Arm with Record and Play Feature Using Arduino"}
+{"project_id": "302", "prompt": "Arduino-Based Multi-DC Motor and Servo Control System"}
+{"project_id": "303", "prompt": "Arduino-Based Flame Detection and Alarm System"}
+{"project_id": "304", "prompt": "Arduino Reed Switch Based Magnetic Door Sensor"}
+{"project_id": "305", "prompt": "Interfacing Rotary Encoder with Arduino and LCD"}
+{"project_id": "306", "prompt": "ESC (Electronic Speed Controller) Control Using Arduino and Potentiometer"}
+{"project_id": "307", "prompt": "IoT-Based Energy Meter and Electricity Bill Monitoring using Arduino & NodeMCU"}
+{"project_id": "308", "prompt": "Relay Control and Switching Sequence using Arduino"}
+{"project_id": "309", "prompt": "Bluetooth Controlled 8\u00d78 LED Matrix Sign Board using MAX7219"}
+{"project_id": "310", "prompt": "RFID Based Access Control System using Arduino"}
+{"project_id": "311", "prompt": "PWM Signal Generation Using Potentiometer with Arduino"}
+{"project_id": "312", "prompt": "Bluetooth Text-Controlled LEDs Using Arduino"}
+{"project_id": "313", "prompt": "RGB Color Sensor to RGB LED Interface Using Arduino"}
+{"project_id": "314", "prompt": "Space Race Game Using Arduino and Nokia 5110 LCD"}
+{"project_id": "315", "prompt": "Push Button Controlled Blinking LEDs"}
+{"project_id": "316", "prompt": "Bluetooth Controlled Servo Motor Positioning"}
+{"project_id": "317", "prompt": "ESP8266 Based Online Weather Monitoring System with Arduino & LCD"}
+{"project_id": "318", "prompt": "Multiple Servo Motor Synchronized Sweep Using Arduino"}
+{"project_id": "319", "prompt": "LED Blinking Using Arduino Controlled via MATLAB"}
+{"project_id": "320", "prompt": "Air Quality Monitoring System Using CCS811 and LCD"}
+{"project_id": "321", "prompt": "Arduino Countdown Timer Using Keypad and LCD"}
+{"project_id": "322", "prompt": "Graphical LCD Interfacing with Arduino (ST7920 128\u00d764)"}
+{"project_id": "323", "prompt": "RTC-Based Automatic Pet Feeder using Arduino"}
+{"project_id": "324", "prompt": "Bluetooth-Based Motion Tracking System using MPU6050"}
+{"project_id": "325", "prompt": "Joystick-Controlled Directional Output with Push Button"}
+{"project_id": "326", "prompt": "Automatic Light Control Using LDR and Relay"}
+{"project_id": "327", "prompt": "Arduino Digital Ohm Meter using LCD"}
+{"project_id": "328", "prompt": "MPU6050 Interfacing with Arduino and 16\u00d72 LCD"}
+{"project_id": "329", "prompt": "Arduino Voltage Level Indicator with LCD and LED Bar"}
+{"project_id": "330", "prompt": "RTC-Based Digital Clock Using DS1307 and Multiplexed 7-Segment Display"}
+{"project_id": "331", "prompt": "Ammonia (NH\u2083) Gas Concentration Measurement Using MQ Sensor"}
+{"project_id": "332", "prompt": "Smart Blind Man Stick using Ultrasonic Sensor"}
+{"project_id": "333", "prompt": "Arduino Metal Detector"}
+{"project_id": "334", "prompt": "Arduino Relay Timer Control"}
+{"project_id": "335", "prompt": "Temperature Controlled Relay Using Thermistor"}
+{"project_id": "336", "prompt": "Thermistor Based Digital Thermometer (Kelvin, Celsius & Fahrenheit)"}
+{"project_id": "337", "prompt": "Ultrasonic Sensor Distance Measurement (Transmitter\u2013Receiver System)"}
+{"project_id": "338", "prompt": "Nokia 5110 LCD Logo Display Using Arduino"}
+{"project_id": "339", "prompt": "Bluetooth-Based AC Temperature Control Using Arduino"}
+{"project_id": "340", "prompt": "Arduino External Interrupt LED Toggle Counter"}
+{"project_id": "341", "prompt": "Arduino PWM Control Using Potentiometer"}
+{"project_id": "342", "prompt": "Gesture Controlled VLC Media Player Using Arduino and Python"}
+{"project_id": "343", "prompt": "Automatic Voice Machine Using Arduino and GSM (SIM900)"}
+{"project_id": "344", "prompt": "Ultrasonic Sensor Real-Time 3D Visualization Using Arduino and Python"}
+{"project_id": "345", "prompt": "Ultrasonic Sensor Based Obstacle Avoiding Robot Using Arduino"}
+{"project_id": "346", "prompt": "Arduino Based Digital Current Measurement Using LCD"}
+{"project_id": "347", "prompt": "LED Control Using Arduino and Python via Serial Communication"}
+{"project_id": "348", "prompt": "High-Frequency PWM Control Using Arduino Timer Register"}
+{"project_id": "349", "prompt": "DC Digital Voltmeter Using Arduino and LCD"}
+{"project_id": "350", "prompt": "Mini CNC Plotter Using Arduino and G-Code"}
+{"project_id": "351", "prompt": "Potentiometer-Controlled Stepper Motor Using Arduino"}
+{"project_id": "352", "prompt": "AC Voltage Measurement Using Arduino (Analog Method)"}
+{"project_id": "353", "prompt": "Serial Controlled Stepper Motor Using Arduino"}
+{"project_id": "354", "prompt": "Push Button Controlled LED/Buzzer Blinking"}
+{"project_id": "355", "prompt": "Fingerprint Based Attendance System with RTC & EEPROM"}
+{"project_id": "356", "prompt": "Arduino Based 3-Way Traffic Light Controller"}
+{"project_id": "357", "prompt": "Angry Bird Game Controller using Arduino"}
+{"project_id": "358", "prompt": "Fingerprint Based Electronic Voting Machine using Arduino"}
+{"project_id": "359", "prompt": "Fingerprint Based Door Lock / Security Gate System using Arduino"}
+{"project_id": "360", "prompt": "Knock Pattern Based Door Lock System using Arduino"}
+{"project_id": "361", "prompt": "Arduino Based Tap and Tone Player Using Flex Sensors"}
+{"project_id": "362", "prompt": "Arduino Based Data Logging and Visualization using SD Card, RTC & DHT11"}
+{"project_id": "363", "prompt": "Arduino Multiple Song Player Using Push Buttons"}
+{"project_id": "364", "prompt": "Arduino GSM Keypad-Based Data Upload System (SparkFun Cloud Logging)"}
+{"project_id": "365", "prompt": "Arduino Bluetooth-Based Face Tracking System"}
+{"project_id": "366", "prompt": "Arduino Accelerometer-Based Earthquake Detector"}
+{"project_id": "367", "prompt": "Arduino Timer1 Interrupt-Based LED Blinker with LCD Control"}
+{"project_id": "368", "prompt": "Bluetooth Controlled Walking and Dancing Biped Robot"}
+{"project_id": "369", "prompt": "GPS and GSM Based Accident Detection and Alert System"}
+{"project_id": "370", "prompt": "Hall Sensor Based Vehicle Speed Measurement with Bluetooth"}
+{"project_id": "371", "prompt": "Bluetooth Controlled Ultrasonic Radar using Servo Motor"}
+{"project_id": "372", "prompt": "Arduino Digital Weight Measurement System using Load Cell"}
+{"project_id": "373", "prompt": "Arduino Solar Tracker using LDR and Servo Motor"}
+{"project_id": "374", "prompt": "Arduino Smoke Detector with LCD Display and Buzzer Alert"}
+{"project_id": "375", "prompt": "Arduino Bluetooth Robot Control Using RemoteXY Joystick"}
+{"project_id": "376", "prompt": "Arduino Wi-Fi Controlled Servo Motor Using ESP8266 Web Server"}
+{"project_id": "377", "prompt": "IoT Heart Rate Monitoring System Using Pulse Sensor and ESP8266 (ThingSpeak)"}
+{"project_id": "378", "prompt": "Automatic Water Irrigation System Using Soil Moisture Sensor and GSM"}
+{"project_id": "379", "prompt": "IoT Air Pollution Monitoring System Using MQ135 and ESP8266"}
+{"project_id": "380", "prompt": "Scrolling Alphabet Display Using LED Matrix (Arduino)"}
+{"project_id": "381", "prompt": "IoT Garbage Monitoring System Using Ultrasonic Sensor"}
+{"project_id": "382", "prompt": "12V Battery Charger Voltage and Current Monitoring System"}
+{"project_id": "383", "prompt": "8\u00d78 LED Matrix Alphabet Display Using Direct Port Manipulation"}
+{"project_id": "384", "prompt": "Serial-Based Home Automation (Two Bulb Control with LCD Display)"}
+{"project_id": "385", "prompt": "Analog Sensor-Based 10-LED Bar Graph Display"}
+{"project_id": "386", "prompt": "Analog Voltage Measurement and Display using Arduino & LCD"}
+{"project_id": "387", "prompt": "Ultrasonic Distance-Based Alert System using NewPing Library"}
+{"project_id": "388", "prompt": "Obstacle Avoidance Robot Using Ultrasonic and IR Sensors"}
+{"project_id": "389", "prompt": "Bluetooth Controlled PWM Digital Button Emulator"}
+{"project_id": "390", "prompt": "Touchscreen-Based RGB LED Strip Color Controller"}
+{"project_id": "391", "prompt": "Accelerometer X-Axis Digital Filtering and Serial Transmission"}
+{"project_id": "392", "prompt": "Arduino GSM Mobile Phone with Keypad and LCD (Call & SMS System)"}
+{"project_id": "393", "prompt": "Arduino NRF24L01 Wireless Chatroom (Mega \u2194 Nano)"}
+{"project_id": "394", "prompt": "TFT Display Based Password Security System"}
+{"project_id": "395", "prompt": "Bluetooth / Serial Controlled Universal IR Remote"}
+{"project_id": "396", "prompt": "Multi-Button Controlled LED Pattern Generator"}
+{"project_id": "397", "prompt": "Arduino Based Real-Time Alarm Clock Using RTC"}
+{"project_id": "398", "prompt": "IoT Based Temperature and Humidity Monitoring Using Arduino & ThingSpeak"}
+{"project_id": "399", "prompt": "Arduino Based GPS Vehicle Tracking System Using ESP8266 Web Server"}
+{"project_id": "400", "prompt": "Arduino Based Digital Frequency Meter Using LCD"}
+{"project_id": "401", "prompt": "Arduino to Raspberry Pi Serial Communication Using Push Button"}
+{"project_id": "402", "prompt": "Arduino 16\u00d72 LCD Text Display (Hello World)"}
+{"project_id": "403", "prompt": "ESP8266 Wi-Fi Web Server using Arduino (AT Commands)"}
+{"project_id": "404", "prompt": "Servo Motor Angle Sweep using Arduino"}
+{"project_id": "405", "prompt": "PWM LED Brightness Control Using Push Buttons"}
+{"project_id": "406", "prompt": "LED Blinking Using Arduino"}
+{"project_id": "407", "prompt": "IoT-Based RGB LED Control Using Blynk and ESP8266"}
+{"project_id": "408", "prompt": "IoT-Based Robot / Motor Control Using Blynk and ESP8266"}
+{"project_id": "409", "prompt": "Capacitance Meter Using Arduino and LCD"}
+{"project_id": "410", "prompt": "Sending Email Using Arduino, ESP8266 WiFi Module, and LCD"}
+{"project_id": "411", "prompt": "MATLAB GUI Based Home Automation System Using Arduino"}
+{"project_id": "412", "prompt": "GPS Based Digital Clock Using Arduino and LCD"}
+{"project_id": "413", "prompt": "Vehicle Tracking System Using Arduino, GPS, and GSM"}
+{"project_id": "414", "prompt": "GSM Based Home Automation System Using Arduino"}
+{"project_id": "415", "prompt": "GSM Based Prepaid Energy Meter with Automatic Load Cut-Off"}
+{"project_id": "416", "prompt": "Peak Detection Using Analog Sensor and LED Toggle"}
+{"project_id": "417", "prompt": "GSM Based Wireless Notice Board"}
+{"project_id": "418", "prompt": "Arduino 3\u00d73\u00d73 LED Cube \u2013 Layer Scanning Pattern"}
+{"project_id": "419", "prompt": "IR Remote Controlled Home Automation with LCD Display"}
+{"project_id": "420", "prompt": "Serial Controlled DC Motor Robot (Forward/Backward/Left/Right)"}
+{"project_id": "421", "prompt": "Force Sensor Controlled Servo Motor"}
+{"project_id": "422", "prompt": "Wireless Data Communication Using AVR Transmitter and Arduino Receiver"}
+{"project_id": "423", "prompt": "Multi-Button PWM-Controlled Buzzer System"}
+{"project_id": "424", "prompt": "PWM Voltage Control System with Push Button Adjustment and LCD Display"}
+{"project_id": "425", "prompt": "RGB LED Set Sequencing using Arduino"}
+{"project_id": "426", "prompt": "8\u00d78 LED Matrix Text Display using Arduino"}
+{"project_id": "427", "prompt": "ADC to PWM Control using Arduino"}
+{"project_id": "428", "prompt": "Ultrasonic Water Level Indicator with Automatic Motor Control"}
+{"project_id": "429", "prompt": "Arduino Tachometer Using IR Sensor with LCD Display"}
+{"project_id": "430", "prompt": "Automatic Room Occupancy Counter with Light Control"}
+{"project_id": "431", "prompt": "Electronic Voting Machine (EVM) with Push Button Voting and Result Display"}
+{"project_id": "432", "prompt": "Analog Hall Effect Magnetic Flux Density Meter with LCD Display"}
+{"project_id": "433", "prompt": "8-Bit Binary Counter Using Shift Register with Custom Serial Output"}
+{"project_id": "434", "prompt": "Automatic Door Opener Using PIR Motion Sensor with LCD Display"}
+{"project_id": "435", "prompt": "Electronic Dice Using 7-Segment Display with Reset Button"}

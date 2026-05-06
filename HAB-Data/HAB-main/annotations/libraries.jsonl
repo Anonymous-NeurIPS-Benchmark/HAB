@@ -1,0 +1,434 @@
+{"project_id": "1", "required_libraries": "Servo.h"}
+{"project_id": "2", "required_libraries": "SPI, WiFiS3, BlynkSimpleWifi, Arduino_LED_Matrix, EEPROM"}
+{"project_id": "3", "required_libraries": "nan"}
+{"project_id": "4", "required_libraries": "ESP8266WiFi, ESP8266HTTPClient, WiFiClientSecure"}
+{"project_id": "5", "required_libraries": "PNGdec, Adafruit_NeoPixel, SPI, TFT_eSPI, AnimatedGIF, esp_sleep"}
+{"project_id": "6", "required_libraries": "Wire, Adafruit_MPU6050, Adafruit_Sensor, ArduinoBLE"}
+{"project_id": "7", "required_libraries": "nan"}
+{"project_id": "8", "required_libraries": "Servo.h"}
+{"project_id": "9", "required_libraries": "nan"}
+{"project_id": "10", "required_libraries": "SoftwareSerial, Adafruit_NeoPixel"}
+{"project_id": "11", "required_libraries": "Sipeed_ST7789, BH1750, Wire, INA219, DHT11"}
+{"project_id": "12", "required_libraries": "SoftwareSerial (Arduino), Processing Serial library, Processing Video library"}
+{"project_id": "13", "required_libraries": "LiquidCrystal"}
+{"project_id": "14", "required_libraries": "SPFD5408_Adafruit_GFX, SPFD5408_Adafruit_TFTLCD, SPFD5408_TouchScreen."}
+{"project_id": "15", "required_libraries": "TMRpcm, SD, SPI."}
+{"project_id": "16", "required_libraries": "IRremote, SPI, Wire, Adafruit_GFX, Adafruit_SSD1306, DHT"}
+{"project_id": "17", "required_libraries": "RH_ASK (RadioHead), SPI, pitches.h, themes.h."}
+{"project_id": "18", "required_libraries": "DigiKeyboard."}
+{"project_id": "19", "required_libraries": "LiquidCrystal"}
+{"project_id": "20", "required_libraries": "NeoPixel"}
+{"project_id": "21", "required_libraries": "Servo.h"}
+{"project_id": "22", "required_libraries": "nan"}
+{"project_id": "23", "required_libraries": "Adafruit"}
+{"project_id": "24", "required_libraries": "nan"}
+{"project_id": "25", "required_libraries": "nan"}
+{"project_id": "26", "required_libraries": "nan"}
+{"project_id": "27", "required_libraries": "DFRobot_PAJ7620U2"}
+{"project_id": "28", "required_libraries": "nan"}
+{"project_id": "29", "required_libraries": "ArduinoCloud"}
+{"project_id": "30", "required_libraries": "nan"}
+{"project_id": "31", "required_libraries": "nan"}
+{"project_id": "32", "required_libraries": "Adafruit_SSD1306."}
+{"project_id": "33", "required_libraries": "Adafruit_SSD1306."}
+{"project_id": "34", "required_libraries": "Arduino, MultiShiftRegister"}
+{"project_id": "35", "required_libraries": "Arduino"}
+{"project_id": "36", "required_libraries": "LiquidCrystal_I2C.h"}
+{"project_id": "37", "required_libraries": "CapacitiveSensor"}
+{"project_id": "38", "required_libraries": "nan"}
+{"project_id": "39", "required_libraries": "Blynk, Servo"}
+{"project_id": "40", "required_libraries": "Servo.h"}
+{"project_id": "41", "required_libraries": "SevSeg"}
+{"project_id": "42", "required_libraries": "Servo.h"}
+{"project_id": "43", "required_libraries": "nan"}
+{"project_id": "44", "required_libraries": "SD, SPI, TMRpcm"}
+{"project_id": "45", "required_libraries": "nan"}
+{"project_id": "46", "required_libraries": "Arduino.h, FastLED, EEPROM, IRMP, IRSND"}
+{"project_id": "47", "required_libraries": "SPI, Wire, Adafruit_GFX, Adafruit_SSD1306, dht"}
+{"project_id": "48", "required_libraries": "Servo.h"}
+{"project_id": "49", "required_libraries": "nan"}
+{"project_id": "50", "required_libraries": "Servo.h"}
+{"project_id": "51", "required_libraries": "Servo.h"}
+{"project_id": "52", "required_libraries": "nan"}
+{"project_id": "53", "required_libraries": "nan"}
+{"project_id": "54", "required_libraries": "FastLED library"}
+{"project_id": "55", "required_libraries": "FastLED library"}
+{"project_id": "56", "required_libraries": "nan"}
+{"project_id": "57", "required_libraries": "machine, time"}
+{"project_id": "58", "required_libraries": "Arduino.h, Wire.h, MPU6050_tockn, LedControl, Delay"}
+{"project_id": "59", "required_libraries": "nan"}
+{"project_id": "60", "required_libraries": "Wire.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "61", "required_libraries": "Wire.h, DHT.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "62", "required_libraries": "Keypad.h"}
+{"project_id": "63", "required_libraries": "nan"}
+{"project_id": "64", "required_libraries": "SPI, RF24, RF24Audio, printf"}
+{"project_id": "65", "required_libraries": "nan"}
+{"project_id": "66", "required_libraries": "SPI, Wire, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "67", "required_libraries": "U8g2lib, Arduino.h, EEPROM"}
+{"project_id": "68", "required_libraries": "nan"}
+{"project_id": "69", "required_libraries": "nan"}
+{"project_id": "70", "required_libraries": "RH_ASK (RadioHead), SPI"}
+{"project_id": "71", "required_libraries": "Wire, Adafruit_GFX, Adafruit_SSD1306, AccelStepper, MultiStepper"}
+{"project_id": "72", "required_libraries": "Servo.h"}
+{"project_id": "73", "required_libraries": "TinyGPSPlus, SoftwareSerial"}
+{"project_id": "74", "required_libraries": "SSD1306_minimal, avr/pgmspace"}
+{"project_id": "75", "required_libraries": "MD_Parola, MD_MAX72xx, SPI"}
+{"project_id": "76", "required_libraries": "FastLED"}
+{"project_id": "77", "required_libraries": "DEV_Config.h, TSL2591.h"}
+{"project_id": "78", "required_libraries": "nan"}
+{"project_id": "79", "required_libraries": "nan"}
+{"project_id": "80", "required_libraries": "SPI, Wire, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "81", "required_libraries": "lmic, hal/hal, SPI, DHT"}
+{"project_id": "82", "required_libraries": "NewPing"}
+{"project_id": "83", "required_libraries": "Servo.h"}
+{"project_id": "84", "required_libraries": "SoftwareSerial"}
+{"project_id": "85", "required_libraries": "ESP8266WiFi, ESPAsyncTCP, ESPAsyncWebServer, Adafruit_Sensor, DHT, ESP_EEPROM, Hash"}
+{"project_id": "86", "required_libraries": "PinChangeInterrupt"}
+{"project_id": "87", "required_libraries": "SD, SPI"}
+{"project_id": "88", "required_libraries": "LiquidCrystal"}
+{"project_id": "89", "required_libraries": "Wire, LiquidCrystal_I2C, RTClib"}
+{"project_id": "90", "required_libraries": "nan"}
+{"project_id": "91", "required_libraries": "SPI.h, MFRC522.h"}
+{"project_id": "92", "required_libraries": "Adafruit_Sensor.h, DHT.h, DHT_U.h"}
+{"project_id": "93", "required_libraries": "Adafruit_MPU6050.h, Adafruit_Sensor.h, Wire.h"}
+{"project_id": "94", "required_libraries": "nan"}
+{"project_id": "95", "required_libraries": "Wire.h, LiquidCrystal.h, RTClib.h"}
+{"project_id": "96", "required_libraries": "nan"}
+{"project_id": "97", "required_libraries": "PulseSensorPlayground"}
+{"project_id": "98", "required_libraries": "nan"}
+{"project_id": "99", "required_libraries": "DS3232RTC, TimeLib, Wire, FastLED"}
+{"project_id": "100", "required_libraries": "nan"}
+{"project_id": "101", "required_libraries": "ESP8266WiFi, FastLED, ArduinoOTA (via custom OTA.h)"}
+{"project_id": "102", "required_libraries": "nan"}
+{"project_id": "103", "required_libraries": "nan"}
+{"project_id": "104", "required_libraries": "LiquidCrystal"}
+{"project_id": "105", "required_libraries": "JC_Button, Adafruit_SSD1306, Wire"}
+{"project_id": "106", "required_libraries": "nan"}
+{"project_id": "107", "required_libraries": "nan"}
+{"project_id": "108", "required_libraries": "LiquidCrystal"}
+{"project_id": "109", "required_libraries": "nan"}
+{"project_id": "110", "required_libraries": "Wire.h, SimpleSH1106.h, math.h, limits.h"}
+{"project_id": "111", "required_libraries": "avr/io.h, avr/interrupt.h"}
+{"project_id": "112", "required_libraries": "nan"}
+{"project_id": "113", "required_libraries": "Wire.h, MAX30100_PulseOximeter.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "114", "required_libraries": "Servo.h, Wire.h, LiquidCrystal_I2C.h"}
+{"project_id": "115", "required_libraries": "ESP8266WiFi.h / WiFi.h, SinricPro.h, SinricProTV.h, IRremoteESP8266.h, IRsend.h, IRrecv.h, IRutils.h, Arduino.h"}
+{"project_id": "116", "required_libraries": "Wire.h, MAX30100_PulseOximeter.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "117", "required_libraries": "ESP8266WiFi.h, BlynkSimpleEsp8266.h"}
+{"project_id": "118", "required_libraries": "Servo.h, NewPing.h"}
+{"project_id": "119", "required_libraries": "Servo.h, NewPing.h, LIS3DHTR.h, UTFT.h, TFT_eSPI.h, Free_Fonts.h, WiFi.h, ros.h, geometry_msgs, sensor_msgs, numpy, rospy"}
+{"project_id": "120", "required_libraries": "FastLED"}
+{"project_id": "121", "required_libraries": "Servo.h"}
+{"project_id": "122", "required_libraries": "Servo.h, DHT.h, Wire.h, SPI.h, MFRC522.h"}
+{"project_id": "123", "required_libraries": "Servo.h, NewPing.h, SoftwareSerial.h"}
+{"project_id": "124", "required_libraries": "NewPing.h, LiquidCrystal_I2C.h, ESP8266WiFi.h, WiFiClientSecure.h"}
+{"project_id": "125", "required_libraries": "face_recognition, OpenCV (implicit), NumPy, pickle, RPi.GPIO, serial, LiquidCrystal_I2C.h, Adafruit_MLX90614.h, Servo.h, Wire.h"}
+{"project_id": "126", "required_libraries": "nan"}
+{"project_id": "127", "required_libraries": "Blynk, ESP8266WiFi / BlynkSimpleEsp8266, DHT, OneWire, DallasTemperature, SPI"}
+{"project_id": "128", "required_libraries": "Wire, LiquidCrystal_I2C, Keypad"}
+{"project_id": "129", "required_libraries": "RH_ASK, SPI, Wire, LIS3DHTR"}
+{"project_id": "130", "required_libraries": "EEPROM, Wire, LiquidCrystal_I2C"}
+{"project_id": "131", "required_libraries": "SD, SPI, TMRpcm"}
+{"project_id": "132", "required_libraries": "BluetoothSerial, SimpleDHT, SoftwareSerial, WiFi / ESP8266WiFi, FirebaseESP32 / FirebaseESP8266, Wire, SPI"}
+{"project_id": "133", "required_libraries": "Arduino.h, FSR.h"}
+{"project_id": "134", "required_libraries": "OpenCV, MediaPipe, PySerial (Python) | Servo, Serial (Arduino)"}
+{"project_id": "135", "required_libraries": "Adafruit_NeoPixel, CapacitiveSensor, ADCTouch, Arduino core"}
+{"project_id": "136", "required_libraries": "SoftwareSerial, JQ6500_Serial, Adafruit_NeoPixel, Arduino core"}
+{"project_id": "137", "required_libraries": "nan"}
+{"project_id": "138", "required_libraries": "Wire, BH1750"}
+{"project_id": "139", "required_libraries": "SPI, Wire, Adafruit_GFX, Adafruit_SSD1306, PIDController, MAX6675"}
+{"project_id": "140", "required_libraries": "SoftwareSerial, Wire, Adafruit_SH1106, DHT"}
+{"project_id": "141", "required_libraries": "nan"}
+{"project_id": "142", "required_libraries": "arduinoFFT, MD_MAX72xx, SPI"}
+{"project_id": "143", "required_libraries": "Edge Impulse Inferencing (hackster_neo_inferencing), Adafruit_MLX90614, Wire, Adafruit_GFX, U8x8lib, CMSIS-DSP"}
+{"project_id": "144", "required_libraries": "SPI, epd1in54_V2, epdpaint, imagedata"}
+{"project_id": "145", "required_libraries": "CapacitiveSensor, piano_tones"}
+{"project_id": "146", "required_libraries": "SoftwareSerial, String"}
+{"project_id": "147", "required_libraries": "TinyWireM, TinyOzOLED"}
+{"project_id": "148", "required_libraries": "nan"}
+{"project_id": "149", "required_libraries": "Adafruit_Fingerprint, LiquidCrystal, SoftwareSerial"}
+{"project_id": "150", "required_libraries": "RF24, SPI, RF24Audio,printf"}
+{"project_id": "151", "required_libraries": "Wire.h, Servo.h"}
+{"project_id": "152", "required_libraries": "Wire.h, MAX30100_PulseOximeter.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "153", "required_libraries": "Arduboy2 (implicit via arduboy object), custom game engine headers (Globals, Draw, Player, Enemys, Map, etc.)"}
+{"project_id": "154", "required_libraries": "HX711_ADC, EEPROM, LiquidCrystal_I2C"}
+{"project_id": "155", "required_libraries": "LiquidCrystal"}
+{"project_id": "156", "required_libraries": "ArduinoIoTCloud, Arduino_ConnectionHandler, DHT"}
+{"project_id": "157", "required_libraries": "nan"}
+{"project_id": "158", "required_libraries": "nan"}
+{"project_id": "159", "required_libraries": "SPI.h, Ethernet.h"}
+{"project_id": "160", "required_libraries": "Stepper.h"}
+{"project_id": "161", "required_libraries": "Arduino.h, SoftwareSerial.h, JQ6500_Serial.h"}
+{"project_id": "162", "required_libraries": "nan"}
+{"project_id": "163", "required_libraries": "SPI, LT8920"}
+{"project_id": "164", "required_libraries": "SPI, nRF24L01, RF24, ArduinoJson, printf"}
+{"project_id": "165", "required_libraries": "ESP8266WiFi, ESP8266HTTPClient, ArduinoJson, SPI, DMD, TimerOne, SystemFont5x7, Arial_Black_16"}
+{"project_id": "166", "required_libraries": "rdm6300"}
+{"project_id": "167", "required_libraries": "PIDController"}
+{"project_id": "168", "required_libraries": "Wire, Adafruit_SSD1306"}
+{"project_id": "169", "required_libraries": "AD9833, Wire, Adafruit_GFX, Adafruit_SSD1306, math"}
+{"project_id": "170", "required_libraries": "ESP8266WiFi, BlynkSimpleEsp8266, Stepper"}
+{"project_id": "171", "required_libraries": "TinyWireM, TinyOzOLED, math.h"}
+{"project_id": "172", "required_libraries": "nan"}
+{"project_id": "173", "required_libraries": "SPI, DMD, TimerOne, SystemFont5x7, Arial_black_16"}
+{"project_id": "174", "required_libraries": "MQ135, SPI, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "175", "required_libraries": "Adafruit_NeoPixel, SoftwareSerial, BlynkSimpleStream"}
+{"project_id": "177", "required_libraries": "nan"}
+{"project_id": "178", "required_libraries": "SDS011, SPI, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "179", "required_libraries": "SDS011, SPI, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "180", "required_libraries": "nan"}
+{"project_id": "181", "required_libraries": "SPI, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "182", "required_libraries": "Wire, Adafruit_GFX, Adafruit_SH1106, Arduino_APDS9960"}
+{"project_id": "183", "required_libraries": "SX127x.LoRa, luma.core, luma.oled, PIL (Pillow), time"}
+{"project_id": "184", "required_libraries": "SPI (Arduino), Nuvoton SDK"}
+{"project_id": "185", "required_libraries": "LiquidCrystal"}
+{"project_id": "186", "required_libraries": "Wire.h, DS3231.h, MLX90615.h, LiquidCrystal.h, SPI.h, SD.h"}
+{"project_id": "187", "required_libraries": "TinyGPS++.h, SoftwareSerial.h, Wire.h, Adafruit_SH1106.h"}
+{"project_id": "188", "required_libraries": "avr/io.h, avr/interrupt.h"}
+{"project_id": "189", "required_libraries": "SoftwareSerial"}
+{"project_id": "190", "required_libraries": "SPI.h, LoRa.h, LiquidCrystal.h, WiFi.h, HTTPClient.h, ArduinoJson.h, Wire.h, SH1106.h"}
+{"project_id": "191", "required_libraries": "Wire, MLX90615"}
+{"project_id": "192", "required_libraries": "Wire.h, Protocentral_MAX30205.h"}
+{"project_id": "193", "required_libraries": "Irremote.h"}
+{"project_id": "194", "required_libraries": "PDM, arduino_ac3121_inference, Edge Impulse SDK dependencies"}
+{"project_id": "195", "required_libraries": "PDM.h, ashish3121-project-1_inference.h, Edge Impulse SDK dependencies"}
+{"project_id": "196", "required_libraries": "nan"}
+{"project_id": "197", "required_libraries": "TinyGPS++.h, SoftwareSerial.h"}
+{"project_id": "198", "required_libraries": "Wire.h, Adafruit_MLX90614.h"}
+{"project_id": "199", "required_libraries": "Wire,PT2258,ezButton"}
+{"project_id": "200", "required_libraries": "Wire.h, LiquidCrystal_I2C.h"}
+{"project_id": "201", "required_libraries": "SoftwareSerial"}
+{"project_id": "202", "required_libraries": "Arduino_FreeRTOS.h, semphr.h"}
+{"project_id": "203", "required_libraries": "Arduino_FreeRTOS.h, queue.h, LiquidCrystal.h"}
+{"project_id": "204", "required_libraries": "LiquidCrystal"}
+{"project_id": "205", "required_libraries": "Arduino_FreeRTOS.h"}
+{"project_id": "206", "required_libraries": "WiFi.h, HTTPClient.h, ArduinoJson.h, LiquidCrystal.h"}
+{"project_id": "207", "required_libraries": "Keypad.h, LiquidCrystal.h, Servo.h"}
+{"project_id": "208", "required_libraries": "Wire.h, LiquidCrystal_I2C.h"}
+{"project_id": "209", "required_libraries": "SPI.h, LiquidCrystal.h"}
+{"project_id": "210", "required_libraries": "RH_ASK, SPI, SPFD5408_Adafruit_GFX, SPFD5408_Adafruit_TFTLCD, SPFD5408_TouchScreen, LiquidCrystal_I2C"}
+{"project_id": "211", "required_libraries": "LiquidCrystal"}
+{"project_id": "212", "required_libraries": "nan"}
+{"project_id": "213", "required_libraries": "SPI, RF24, RF24Audio, printf"}
+{"project_id": "214", "required_libraries": "SPI,MFRC522"}
+{"project_id": "215", "required_libraries": "Wire, Adafruit_Sensor, Adafruit_ADXL345_U"}
+{"project_id": "216", "required_libraries": "DHT"}
+{"project_id": "217", "required_libraries": "Wire"}
+{"project_id": "218", "required_libraries": "nan"}
+{"project_id": "219", "required_libraries": "LiquidCrystal"}
+{"project_id": "220", "required_libraries": "U8glib"}
+{"project_id": "221", "required_libraries": "Wire, SPI, Adafruit_BMP280, LiquidCrystal"}
+{"project_id": "222", "required_libraries": "SPI, RFM69, RFM69_ATC, LowPower"}
+{"project_id": "223", "required_libraries": "SPI, DMD, TimerOne, SystemFont5x7, Arial_Black_16"}
+{"project_id": "224", "required_libraries": "LiquidCrystal"}
+{"project_id": "225", "required_libraries": "PDM, Chirp SDK"}
+{"project_id": "226", "required_libraries": "Arduino_LSM9DS1, Arduino_LPS22HB, Arduino_HTS221, Arduino_APDS9960"}
+{"project_id": "227", "required_libraries": "SPI, MFRC522"}
+{"project_id": "228", "required_libraries": "Arduino.h, ESP8266WiFi, fauxmoESP"}
+{"project_id": "229", "required_libraries": "SoftwareSerial"}
+{"project_id": "230", "required_libraries": "SPI, RF24, BTLE, DHT"}
+{"project_id": "231", "required_libraries": "dht, LowPower"}
+{"project_id": "232", "required_libraries": "Stepper.h"}
+{"project_id": "233", "required_libraries": "nan"}
+{"project_id": "234", "required_libraries": "nan"}
+{"project_id": "235", "required_libraries": "nan"}
+{"project_id": "236", "required_libraries": "LiquidCrystal, Wire"}
+{"project_id": "237", "required_libraries": "nan"}
+{"project_id": "238", "required_libraries": "RPi.GPIO, spidev, lib_nrf24, time, SPI.h, RF24.h, Wire.h, LiquidCrystal_I2C.h"}
+{"project_id": "239", "required_libraries": "nan"}
+{"project_id": "240", "required_libraries": "LiquidCrystal, Wire, SparkFun_APD9960"}
+{"project_id": "241", "required_libraries": "SP1,mcp2515, DHT, LiquidCrystal"}
+{"project_id": "242", "required_libraries": "SPI, Wire, Adafruit_GFX, Adafruit_PCD8544, SparkFun_VL6180X"}
+{"project_id": "243", "required_libraries": "Wire, SPI, SparkFunMLX90614, Adafruit_GFX, Adafruit_SSD1306"}
+{"project_id": "244", "required_libraries": "Servo, LiquidCrystal, Wire"}
+{"project_id": "245", "required_libraries": "SPI, LoRa, TinyGPS++, SoftwareSerial, LiquidCrystal"}
+{"project_id": "246", "required_libraries": "Talkie, Vocab_US_Large, Vocab_Special"}
+{"project_id": "247", "required_libraries": "SoftwareSerial, pyserial, pyautogui"}
+{"project_id": "248", "required_libraries": "DHT,Serial Communiation"}
+{"project_id": "249", "required_libraries": "FreqMeasure"}
+{"project_id": "250", "required_libraries": "LiquidCrystal, Wire"}
+{"project_id": "251", "required_libraries": "ModbusMaster, LiquidCrystal"}
+{"project_id": "252", "required_libraries": "SoftwareSerial"}
+{"project_id": "253", "required_libraries": "Keyboard.h"}
+{"project_id": "254", "required_libraries": "Servo.h"}
+{"project_id": "255", "required_libraries": "FPS_GT511C3.h, SoftwareSerial.h, LiquidCrystal.h, OnePinCapSense.h, ESP8266WiFi.h, PubSubClient.h"}
+{"project_id": "256", "required_libraries": "Arduino.h"}
+{"project_id": "257", "required_libraries": "\u00a0FPS_GT511C3.h, SoftwareSerial.h, LiquidCrystal.h"}
+{"project_id": "258", "required_libraries": "nan"}
+{"project_id": "259", "required_libraries": "johnny-five, express, socket.io, serialport"}
+{"project_id": "260", "required_libraries": "SX127x, SPI.h, RH_RF95"}
+{"project_id": "261", "required_libraries": "SoftwareSerial"}
+{"project_id": "262", "required_libraries": "ModbusRtu.h, LiquidCrystal.h, Servo.h"}
+{"project_id": "263", "required_libraries": "Arduino.h, stdio.h"}
+{"project_id": "264", "required_libraries": "RPi.GPIO, serial, LiquidCrystal.h, Servo.h"}
+{"project_id": "265", "required_libraries": "Wire.h, DS3231.h"}
+{"project_id": "266", "required_libraries": "Arduino.h"}
+{"project_id": "267", "required_libraries": "avr/io.h, util/twi.h, util/delay.h, avr/pgmspace.h, stdint.h"}
+{"project_id": "268", "required_libraries": "LiquidCrystal.h, SoftwareSerial.h"}
+{"project_id": "269", "required_libraries": "LiquidCrystal"}
+{"project_id": "270", "required_libraries": "SPI.h, LoRa.h"}
+{"project_id": "271", "required_libraries": "LiquidCrystal"}
+{"project_id": "272", "required_libraries": "nan"}
+{"project_id": "273", "required_libraries": "LiquidCrystal.h"}
+{"project_id": "274", "required_libraries": "Wire,LiquidCrystal"}
+{"project_id": "275", "required_libraries": "TimerOne.h, LiquidCrystal.h"}
+{"project_id": "276", "required_libraries": "LiquidCrystal.h, Wire.h, RTClib.h, EEPROM.h"}
+{"project_id": "277", "required_libraries": "LiquidCrystal"}
+{"project_id": "278", "required_libraries": "Wire.h, SoftWire.h"}
+{"project_id": "279", "required_libraries": "Wire,LiquidCrystal"}
+{"project_id": "280", "required_libraries": "SPI"}
+{"project_id": "281", "required_libraries": "SoftwareSerial.h, SPI.h, Wire.h, Adafruit_GFX.h, Adafruit_SSD1306.h"}
+{"project_id": "282", "required_libraries": "PWM.h, LiquidCrystal.h"}
+{"project_id": "283", "required_libraries": "SoftwareSerial (Arduino), MATLAB Bluetooth I/O functions"}
+{"project_id": "284", "required_libraries": "nan"}
+{"project_id": "285", "required_libraries": "Wire.h, MechaQMC5883.h"}
+{"project_id": "286", "required_libraries": "MATLAB Arduino Support Package"}
+{"project_id": "287", "required_libraries": "Arduino Serial library (built-in), MATLAB Serial Communication functions (serial, fopen, fprintf)"}
+{"project_id": "288", "required_libraries": "MATLAB Arduino Support Package (arduino, writeDigitalPin)"}
+{"project_id": "289", "required_libraries": "MATLAB Arduino Support Package (arduino, writeDigitalPin)"}
+{"project_id": "290", "required_libraries": "SoftwareSerial, Adafruit_NeoPixel, DS3231, SPI, EEPROM"}
+{"project_id": "291", "required_libraries": "SPI, RF24, Servo"}
+{"project_id": "292", "required_libraries": "SoftwareSerial, Timer, PulseSensorPlayground"}
+{"project_id": "293", "required_libraries": "nan"}
+{"project_id": "294", "required_libraries": "LiquidCrystal.h. Stepper.h"}
+{"project_id": "295", "required_libraries": "LiquidCrystal"}
+{"project_id": "296", "required_libraries": "LiquidCrystal"}
+{"project_id": "297", "required_libraries": "I2Cdev, MPU6050_6Axis_MotionApps20, PID_v1"}
+{"project_id": "298", "required_libraries": "pyfirmata, time"}
+{"project_id": "299", "required_libraries": "pyserial, matplotlib, drawnow, time"}
+{"project_id": "300", "required_libraries": "nan"}
+{"project_id": "301", "required_libraries": "Servo.h"}
+{"project_id": "302", "required_libraries": "Servo.h"}
+{"project_id": "303", "required_libraries": "nan"}
+{"project_id": "304", "required_libraries": "nan"}
+{"project_id": "305", "required_libraries": "LiquidCrystal"}
+{"project_id": "306", "required_libraries": "Servo.h"}
+{"project_id": "307", "required_libraries": "ACS712, ESP8266WiFi, Adafruit_MQTT, Adafruit_MQTT_Client"}
+{"project_id": "308", "required_libraries": "nan"}
+{"project_id": "309", "required_libraries": "MaxMatrix, SoftwareSerial"}
+{"project_id": "310", "required_libraries": "nan"}
+{"project_id": "311", "required_libraries": "nan"}
+{"project_id": "312", "required_libraries": "SoftwareSerial"}
+{"project_id": "313", "required_libraries": "nan"}
+{"project_id": "314", "required_libraries": "SPI, Adafruit_GFX, Adafruit_PCD8544"}
+{"project_id": "315", "required_libraries": "nan"}
+{"project_id": "316", "required_libraries": "SoftwareSerial, Servo"}
+{"project_id": "317", "required_libraries": "ESP8266WiFi, ESP8266HTTPClient, ArduinoJson, SoftwareSerial, LiquidCrystal"}
+{"project_id": "318", "required_libraries": "Servo.h"}
+{"project_id": "319", "required_libraries": "MATLAB Support Package for Arduino Hardware"}
+{"project_id": "320", "required_libraries": "LiquidCrystal, Adafruit_CCS811"}
+{"project_id": "321", "required_libraries": "LiquidCrystal, Keypad"}
+{"project_id": "322", "required_libraries": "U8glib"}
+{"project_id": "323", "required_libraries": "DS3231, Servo, LiquidCrystal, Keypad"}
+{"project_id": "324", "required_libraries": "Wire, MPU6050 (Jarzebski), SoftwareSerial"}
+{"project_id": "325", "required_libraries": "nan"}
+{"project_id": "326", "required_libraries": "nan"}
+{"project_id": "327", "required_libraries": "LiquidCrystal"}
+{"project_id": "328", "required_libraries": "LiquidCrystal.h, Wire.h, MPU6050.h"}
+{"project_id": "329", "required_libraries": "LiquidCrystal"}
+{"project_id": "330", "required_libraries": "Wire.h, RTClib.h, TimerOne.h"}
+{"project_id": "331", "required_libraries": "LiquidCrystal.h, math.h (implicit for pow, log10)"}
+{"project_id": "332", "required_libraries": "nan"}
+{"project_id": "333", "required_libraries": "nan"}
+{"project_id": "334", "required_libraries": "nan"}
+{"project_id": "335", "required_libraries": "LiquidCrystal, math.h"}
+{"project_id": "336", "required_libraries": "LiquidCrystal, math.h"}
+{"project_id": "337", "required_libraries": "nan"}
+{"project_id": "338", "required_libraries": "Adafruit_GFX, Adafruit_PCD8544, SPI"}
+{"project_id": "339", "required_libraries": "IRremote, SoftwareSerial"}
+{"project_id": "340", "required_libraries": "nan"}
+{"project_id": "341", "required_libraries": "nan"}
+{"project_id": "342", "required_libraries": "Arduino core (pulseIn, Serial), Python: pyserial, pyautogui, time"}
+{"project_id": "343", "required_libraries": "sim900, SoftwareSerial, Wire"}
+{"project_id": "344", "required_libraries": "visual (vpython), serial, time"}
+{"project_id": "345", "required_libraries": "AFMotor.h"}
+{"project_id": "346", "required_libraries": "LiquidCrystal"}
+{"project_id": "347", "required_libraries": "Arduino Serial (default), Python serial (pySerial), time"}
+{"project_id": "348", "required_libraries": "nan"}
+{"project_id": "349", "required_libraries": "LiquidCrystal"}
+{"project_id": "350", "required_libraries": "Servo.h, AFMotor"}
+{"project_id": "351", "required_libraries": "Stepper"}
+{"project_id": "352", "required_libraries": "nan"}
+{"project_id": "353", "required_libraries": "Stepper"}
+{"project_id": "354", "required_libraries": "nan"}
+{"project_id": "355", "required_libraries": "EEPROM.h, LiquidCrystal.h, SoftwareSerial.h, Wire.h, RTClib.h, Adafruit_Fingerprint.h"}
+{"project_id": "356", "required_libraries": "nan"}
+{"project_id": "357", "required_libraries": "nan"}
+{"project_id": "358", "required_libraries": "EEPROM.h, LiquidCrystal.h, Adafruit_Fingerprint.h"}
+{"project_id": "359", "required_libraries": "LiquidCrystal.h, SoftwareSerial.h, Servo.h, Adafruit_Fingerprint.h"}
+{"project_id": "360", "required_libraries": "EEPROM.h, Servo.h"}
+{"project_id": "361", "required_libraries": "pitches.h (custom tone definitions)"}
+{"project_id": "362", "required_libraries": "DS3231, SPI, SD, dht"}
+{"project_id": "363", "required_libraries": "pitches.h, themes.h"}
+{"project_id": "364", "required_libraries": "SoftwareSerial, LiquidCrystal, Keypad"}
+{"project_id": "365", "required_libraries": "Servo, SoftwaresERIAL"}
+{"project_id": "366", "required_libraries": "LiquidCrystal"}
+{"project_id": "367", "required_libraries": "LiquidCrystal"}
+{"project_id": "368", "required_libraries": "Servo, SoftwaresERIAL"}
+{"project_id": "369", "required_libraries": "SoftwareSerial, LiquidCrystal"}
+{"project_id": "370", "required_libraries": "SoftwareSerial"}
+{"project_id": "371", "required_libraries": "Servo, SoftwaresSerial"}
+{"project_id": "372", "required_libraries": "LiquidCrystal"}
+{"project_id": "373", "required_libraries": "Servo.h"}
+{"project_id": "374", "required_libraries": "LiquidCrystal"}
+{"project_id": "375", "required_libraries": "SoftwareSerial, RemoteXY"}
+{"project_id": "376", "required_libraries": "SoftwareSerial, Servo"}
+{"project_id": "377", "required_libraries": "Servo, SoftwareSerial, stdlib"}
+{"project_id": "378", "required_libraries": "SoftwareSerial, LiquidCrystal"}
+{"project_id": "379", "required_libraries": "MQ135,SoftwareSerial, LiquidCrystal"}
+{"project_id": "380", "required_libraries": "nan"}
+{"project_id": "381", "required_libraries": "SoftwareSerial"}
+{"project_id": "382", "required_libraries": "LiquidCrystal"}
+{"project_id": "383", "required_libraries": "nan"}
+{"project_id": "384", "required_libraries": "LiquidCrystal"}
+{"project_id": "385", "required_libraries": "nan"}
+{"project_id": "386", "required_libraries": "LiquidCrystal"}
+{"project_id": "387", "required_libraries": "NewPing.h"}
+{"project_id": "388", "required_libraries": "nan"}
+{"project_id": "389", "required_libraries": "SoftwareSerial"}
+{"project_id": "390", "required_libraries": "Adafruit_NeoPixel, SPFD5408_Adafruit_GFX, SPFD5408_Adafruit_TFTLCD, SPFD5408_TouchScreen, math.h"}
+{"project_id": "391", "required_libraries": "nan"}
+{"project_id": "392", "required_libraries": "SoftwareSerial, LiquidCrystal, Keypad"}
+{"project_id": "393", "required_libraries": "SPI,RF24"}
+{"project_id": "394", "required_libraries": "SPFD5408_Adafruit_GFX, SPFD5408_Adafruit_TFTLCD, SPFD5408_TouchScreen"}
+{"project_id": "395", "required_libraries": "Irremote, SoftwareSerial"}
+{"project_id": "396", "required_libraries": "nan"}
+{"project_id": "397", "required_libraries": "Wire.h, EEPROM.h, RTClib.h, LiquidCrystal.h"}
+{"project_id": "398", "required_libraries": "dht.h, LiquidCrystal.h, Timer.h, SoftwareSerial.h"}
+{"project_id": "399", "required_libraries": "SoftwareSerial.h, LiquidCrystal.h"}
+{"project_id": "400", "required_libraries": "LiquidCrystal"}
+{"project_id": "401", "required_libraries": "Arduino core (built-in), Python serial (pySerial)"}
+{"project_id": "402", "required_libraries": "LiquidCrystal"}
+{"project_id": "403", "required_libraries": "Servo, SoftwaresSerial"}
+{"project_id": "404", "required_libraries": "Servo.h"}
+{"project_id": "405", "required_libraries": "nan"}
+{"project_id": "406", "required_libraries": "nan"}
+{"project_id": "407", "required_libraries": "BlynkSimpleShieldEsp8266_SoftSer.h, SoftwareSerial.h"}
+{"project_id": "408", "required_libraries": "BlynkSimpleShieldEsp8266_SoftSer.h, SoftwareSerial.h"}
+{"project_id": "409", "required_libraries": "LiquidCrystal"}
+{"project_id": "410", "required_libraries": "LiquidCrystal.h, SoftwareSerial.h"}
+{"project_id": "411", "required_libraries": "MATLAB Arduino Support Package ( arduino() ), MATLAB GUIDE GUI framework"}
+{"project_id": "412", "required_libraries": "LiquidCrystal.h, SoftwareSerial.h"}
+{"project_id": "413", "required_libraries": "LiquidCrystal.h, SoftwareSerial.h"}
+{"project_id": "414", "required_libraries": "LiquidCrystal"}
+{"project_id": "415", "required_libraries": "EEPROM.h, LiquidCrystal.h"}
+{"project_id": "416", "required_libraries": "nan"}
+{"project_id": "417", "required_libraries": "LiquidCrystal"}
+{"project_id": "418", "required_libraries": "nan"}
+{"project_id": "419", "required_libraries": "LiquidCrystal, Irremote"}
+{"project_id": "420", "required_libraries": "nan"}
+{"project_id": "421", "required_libraries": "Servo.h"}
+{"project_id": "422", "required_libraries": "<avr/io.h>, <util/delay.h>"}
+{"project_id": "423", "required_libraries": "nan"}
+{"project_id": "424", "required_libraries": "LiquidCrystal"}
+{"project_id": "425", "required_libraries": "nan"}
+{"project_id": "426", "required_libraries": "LedControlMS"}
+{"project_id": "427", "required_libraries": "nan"}
+{"project_id": "428", "required_libraries": "LiquidCrystal"}
+{"project_id": "429", "required_libraries": "LiquidCrystal"}
+{"project_id": "430", "required_libraries": "LiquidCrystal"}
+{"project_id": "431", "required_libraries": "LiquidCrystal"}
+{"project_id": "432", "required_libraries": "LiquidCrystal"}
+{"project_id": "433", "required_libraries": "nan"}
+{"project_id": "434", "required_libraries": "LiquidCrystal"}
+{"project_id": "435", "required_libraries": "nan"}

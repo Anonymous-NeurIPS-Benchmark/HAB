@@ -1,0 +1,176 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "column": "ml:column",
+    "data": {
+      "@id": "ml:data",
+      "@type": "@id"
+    },
+    "extract": "ml:extract",
+    "field": "ml:field",
+    "fileProperty": "ml:fileProperty",
+    "format": "ml:format",
+    "includes": "ml:includes",
+    "isLiveDataset": "ml:isLiveDataset",
+    "jsonPath": "ml:jsonPath",
+    "ml": "http://mlcommons.org/schema/",
+    "parentField": "ml:parentField",
+    "path": "ml:path",
+    "recordSet": "ml:recordSet",
+    "references": "ml:references",
+    "regex": "ml:regex",
+    "repeated": "ml:repeated",
+    "replace": "ml:replace",
+    "sc": "https://schema.org/",
+    "separator": "ml:separator",
+    "source": "ml:source",
+    "subField": "ml:subField",
+    "transform": "ml:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "HAB: Hardware-Grounded Arduino Benchmark",
+  "description": "A comprehensive benchmark for evaluating LLMs on their ability to generate Arduino code grounded in physical hardware constraints.",
+  "url": "ANONYMIZED_URL",
+  "license": "ANONYMIZED_LICENSE_URL",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "hab-instances-file",
+      "name": "hab_instances.jsonl",
+      "contentUrl": "metadata/hab_instances.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "PLACEHOLDER"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "hardware-dictionary-file",
+      "name": "hardware_dictionary.jsonl",
+      "contentUrl": "hardware_dictionary/hardware_dictionary.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "PLACEHOLDER"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "api-signatures-file",
+      "name": "api_signatures.jsonl",
+      "contentUrl": "hardware_dictionary/api_signatures.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "PLACEHOLDER"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "prompts-file",
+      "name": "prompts.jsonl",
+      "contentUrl": "prompts/prompts.jsonl",
+      "encodingFormat": "application/jsonl",
+      "sha256": "PLACEHOLDER"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "splits-file",
+      "name": "splits.json",
+      "contentUrl": "metadata/splits.json",
+      "encodingFormat": "application/json",
+      "sha256": "PLACEHOLDER"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "ml:RecordSet",
+      "@id": "hab-instances",
+      "name": "hab_instances",
+      "description": "Core project instances for the HAB benchmark.",
+      "field": [
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/project_id",
+          "name": "project_id",
+          "description": "Unique identifier for the project.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.project_id" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/prompt",
+          "name": "prompt",
+          "description": "Natural language prompt describing the project.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.prompt" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/target_board",
+          "name": "target_board",
+          "description": "The specific Arduino board family targeted.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.target_board" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/difficulty",
+          "name": "difficulty",
+          "description": "The complexity level of the project (Low, Medium, High).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.difficulty" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/components",
+          "name": "components",
+          "description": "List of hardware components required.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.components" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/required_libraries",
+          "name": "required_libraries",
+          "description": "Arduino libraries required for compilation.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.required_libraries" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/source_url",
+          "name": "source_url",
+          "description": "URL to the original project source.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.source_url" }
+          }
+        },
+        {
+          "@type": "ml:Field",
+          "@id": "hab-instances/redistribution_status",
+          "name": "redistribution_status",
+          "description": "Licensing status for redistribution.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": { "@id": "hab-instances-file" },
+            "extract": { "jsonPath": "$.redistribution_status" }
+          }
+        }
+      ]
+    }
+  ]
+}

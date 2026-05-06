@@ -1,0 +1,112 @@
+[
+    {
+        "project_id": "297",
+        "prompt": "Arduino Self-Balancing Robot Using MPU6050 and PID",
+        "target_board": "Arduino Uno",
+        "difficulty": "High",
+        "components": "Arduino Uno, MPU6050 IMU, DC motors, motor driver (PWM), balancing robot chassis",
+        "required_libraries": "I2Cdev, MPU6050_6Axis_MotionApps20, PID_v1",
+        "reference_sketch_path": "./data/organized_data/codes/Project297.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "187",
+        "prompt": "GPS-Based Digital Speedometer Using Arduino and OLED Display",
+        "target_board": "Arduino Nano",
+        "difficulty": "Medium",
+        "components": "Arduino, GPS module (UART), SH1106 OLED display (I2C), SoftwareSerial",
+        "required_libraries": "TinyGPS++.h, SoftwareSerial.h, Wire.h, Adafruit_SH1106.h",
+        "reference_sketch_path": "./data/organized_data/codes/Project187.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "318",
+        "prompt": "Multiple Servo Motor Synchronized Sweep Using Arduino",
+        "target_board": "Arduino Uno",
+        "difficulty": "Low",
+        "components": "Arduino Uno, 4\u00d7 Servo motors, external power supply (recommended), jumper wires",
+        "required_libraries": "Servo.h",
+        "reference_sketch_path": "./data/organized_data/codes/Project318.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "323",
+        "prompt": "RTC-Based Automatic Pet Feeder using Arduino",
+        "target_board": "Arduino Uno",
+        "difficulty": "Medium",
+        "components": "Arduino board, DS3231 RTC module, servo motor, 16\u00d72 LCD, 4\u00d74 keypad, push button, connecting wires, power supply",
+        "required_libraries": "DS3231, Servo, LiquidCrystal, Keypad",
+        "reference_sketch_path": "./data/organized_data/codes/Project322.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "151",
+        "prompt": "Gesture Controlled Robotic Arm using Arduino Nano & MPU6050",
+        "target_board": "Arduino Nano",
+        "difficulty": "High",
+        "components": "Arduino Nano, MPU6050 accelerometer-gyroscope, 4\u00d7 servo motors, flex sensor, robotic arm, connecting wires",
+        "required_libraries": "Wire.h, Servo.h",
+        "reference_sketch_path": "./data/organized_data/codes/Project151.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "284",
+        "prompt": "Thermal Printer Interfacing with Arduino Uno Using Push Button",
+        "target_board": "Arduino Uno",
+        "difficulty": "Low",
+        "components": "Arduino Uno, thermal printer, push button, LED",
+        "required_libraries": "nan",
+        "reference_sketch_path": "./data/organized_data/codes/Project284.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "41",
+        "prompt": "Single-Digit 7-Segment Display Counter using Arduino",
+        "target_board": "Arduino Uno",
+        "difficulty": "Low",
+        "components": "Arduino Uno, single-digit 7-segment display, current-limiting resistors, jumper wires",
+        "required_libraries": "SevSeg",
+        "reference_sketch_path": "./data/organized_data/codes/Project41.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "195",
+        "prompt": "Cough Detection System Using Edge Impulse and PDM Microphone",
+        "target_board": "Arduino Nano",
+        "difficulty": "High",
+        "components": "Arduino with PDM microphone, Edge Impulse ML inference model, audio signal processing, LED alarm indicator",
+        "required_libraries": "PDM.h, ashish3121-project-1_inference.h, Edge Impulse SDK dependencies",
+        "reference_sketch_path": "./data/organized_data/codes/Project195.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "64",
+        "prompt": "Wireless Audio Transmission Using nRF24L01 (Transmitter & Receiver)",
+        "target_board": "Arduino Uno",
+        "difficulty": "Medium",
+        "components": "Arduino microcontroller, nRF24L01 RF module, SPI interface, audio input/output circuitry",
+        "required_libraries": "SPI, RF24, RF24Audio, printf",
+        "reference_sketch_path": "./data/organized_data/codes/Project64.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    },
+    {
+        "project_id": "276",
+        "prompt": "Medicine Reminder System Using Arduino and RTC",
+        "target_board": "Arduino UNO",
+        "difficulty": "High",
+        "components": "nan",
+        "required_libraries": "LiquidCrystal.h, Wire.h, RTClib.h, EEPROM.h",
+        "reference_sketch_path": "./data/organized_data/codes/Project276.txt",
+        "source_url": "unknown",
+        "redistribution_status": "unknown"
+    }
+]
