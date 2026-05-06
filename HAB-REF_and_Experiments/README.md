@@ -14,9 +14,6 @@ This package is an anonymized review artifact for **HAB: Benchmarking Hardware-G
 - `LICENSE.md`: license and access restrictions.
 - `PROVENANCE_AND_ACCESS.md`: source and redistribution notes.
 
-## Important reviewer note
-
-The original development notebooks referenced a local `data/` directory containing raw project metadata, component dictionaries, and ground-truth files. The uploaded artifact used to build this anonymized package did not include that directory. This package therefore preserves the submitted JSON outputs and sanitized notebooks, and the Croissant metadata describes the review package plus the intended canonical HAB dataset structure. Before final OpenReview submission, the hosted artifact should include the canonical raw dataset files referenced by the paper and notebooks.
 
 ## License
 
